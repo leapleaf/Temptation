@@ -1,7 +1,17 @@
 # create_alliance
+API編碼:2.0.0
+
+> 
+
 更新日期:
+
+> 
+
 SVN版本:
-發布版本:
+
+> 
+
+發布版本:2.0.0
 ### 1.路徑:alliance/create_alliance
 
 ### 2. 說明
