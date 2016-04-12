@@ -25,15 +25,18 @@ SVN版本:
 | -- | -- | -- | -- | -- | -- |
 | name | 聯盟名稱 | string | 18 | 不得重複 |
 | shortname | 聯盟短名稱 | string | 15 | 聯盟縮寫 |
-| lang | 語系 | string | 15 |  |
-| introduction | 聯盟簡介 | string |  | 顯示在聯盟資訊 |
+| lang | 語系 | string | 15 | -- |
+| introduction | 聯盟簡介 | string | -- | 顯示在聯盟資訊 |
 | character_id | 盟主 | int | 4 | 可由token取得 |
 
 ### 4. 回傳參數說明
 | 參數 | 意義 | 型別 | 說明 |
 | -- | -- | -- | -- | -- |
-| err_code | 回傳參數碼 | -- | -- | -- |
-| err_desc | 回傳參數碼說明 | -- | 不得重複 |
+| err_code | 回傳參數碼 | -- |  |
+| err_desc | 回傳參數碼說明 | -- | -- |
+
+回傳訊息代碼說明
+
 
 ### 5. 錯誤代碼說明
 
