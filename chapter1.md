@@ -1,3 +1,27 @@
-# First Chapter
+# create_alliance
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+### 1.路徑:alliance/create_alliance
+
+### 2. 說明
+
+建立聯盟,會先判斷該腳色有無聯盟,聯盟名稱需小於18,並不得重複
+
+### 3. 輸入參數說明
+
+
+| 0:0 | 1:0 | 2:0 | 3:0 | 4:0 |
+| -- | -- | -- | -- | -- |
+| 0:2 | 1:2 | 2:2 | 3:2 | 4:2 |
+| 0:3 | 1:3 | 2:3 | 3:3 | 4:3 |
+| 0:4 | 1:4 | 2:4 | 3:4 | 4:4 |
+| 0:5 | 1:5 | 2:5 | 3:5 | 4:5 |
+| 0:6 | 1:6 | 2:6 | 3:6 | 4:6 |
+
+
+
+
+
+
+
+>
+
