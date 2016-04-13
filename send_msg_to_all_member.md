@@ -3,6 +3,9 @@
 
 
 
+### AllianceInfoModify靜態表對應之後要改成寄聯盟信專屬
+
+
 
 API編碼:2.0.11
 
