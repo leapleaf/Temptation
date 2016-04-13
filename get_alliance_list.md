@@ -38,38 +38,20 @@ SVN版本:15004
 
 
 ### 6.回傳格式範例
+```array (size=3)
 
-array (size=12
-> 
-
-
-  0 => 
-> 
-
-
-    array (size=2)
-> 
-
-
-      'leader' => string 'win' (length=3)
-> 
-
-
-      'alliance_name' => string '988' (length=3)
-> 
-
-
-  1 => 
-> 
-
-
-    array (size=2)
-> 
-
-
-      'leader' => string 'pimp' (length=4)
-> 
-
-
-      'alliance_name' => string '977' (length=3)
-
+  'err_code' => string '000' (length=3)
+  
+  'err_desc' => string 'success' (length=7)
+  
+  'alliance_list' => 
+  
+    array (size=12)
+      0 => 
+        array (size=2)
+          'leader' => string 'win' (length=3)
+          'alliance_name' => string '988' (length=3)
+      1 => 
+        array (size=2)
+          'leader' => string 'pimp' (length=4)
+          'alliance_name' => string '977' (length=3)```
