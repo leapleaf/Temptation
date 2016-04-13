@@ -14,6 +14,5 @@
    * [驅逐聯盟成員 dismiss_member](dismiss_member.md)
    * [退出聯盟 quit_alliance](quit_alliance.md)
    * [*寄聯盟邀請信 send_alliance_invitation.php](send_alliance_invitation.md)
-   * [接受聯盟邀請  send_alliance_invitation.php](send_alliance_invitation.md)
-   * 聯盟廣播 send_msg_to_all_member
+   * [聯盟廣播 send_msg_to_all_member](send_msg_to_all_member.md)
 
