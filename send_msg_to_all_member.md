@@ -28,7 +28,8 @@ SVN版本:
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
 |character_id |角色ID|int|4|可由token取得(clinet可不用輸入|
-|nickname|受邀者|string|--|角色暱稱|
+|accept|處理郵件|var|1|(0:reject & delete, 1:accept)|
+|mail_id|郵件id|var|--|--|
 
 
 
