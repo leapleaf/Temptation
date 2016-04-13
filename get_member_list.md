@@ -4,6 +4,9 @@
 API編碼:2.0.5
 
 > 
+# 要更換經驗值為戰力
+
+
 
 更新日期:
 
@@ -33,6 +36,12 @@ SVN版本:
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
+|members|聯盟成員|array|--|
+|nickname|成員暱稱|string|--|
+|position|職位|string|--|
+|model|角色模組|string|--|
+|power|戰力|string|--|
+|is_online|是否在線|bool|--|
 
 
 ### 5. 錯誤代碼說明
@@ -61,12 +70,12 @@ array (size=3)
           'nickname' => string 'wade' (length=4)
           'position' => string '1' (length=1)
           'model' => string '1' (length=1)
-          'exp' => string '30622' (length=5)
+          'power' => string '30622' (length=5)
           'is_online' => boolean true
       1 => 
         array (size=5)
           'nickname' => string 'mongo' (length=5)
           'position' => string '6' (length=1)
           'model' => string '1' (length=1)
-          'exp' => string '122' (length=3)
+          'power' => string '122' (length=3)
           'is_online' => boolean false
