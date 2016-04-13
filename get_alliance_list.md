@@ -18,8 +18,7 @@ SVN版本:15004
 ### 1.路徑:alliance/get_alliance_list
 
 ### 2. 說明
-
-設立聯盟旗幟,只有rank2以上才可以設旗幟
+取得所有已建立的聯盟,關聯資料庫:world_map,alliance
 ### 3. 輸入參數說明
 無須輸入
 
