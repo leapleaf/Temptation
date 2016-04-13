@@ -17,12 +17,12 @@ SVN版本:
 > 
 
 發布版本:2.0.0
-### 1.路徑:alliance/get_member_list
+### 1.路徑:alliance/join_alliance
 
 ### 2. 說明
 
-取得聯盟成員清單,會依據token或character_id取得所有聯盟成員的
-暱稱、位階、角色模組、經驗值、是否在線
+取得聯盟成員清單,加入聯盟,會先判斷該腳色是否有無聯盟,並依聯盟名稱加入聯盟,
+新加入者職位(position)一律為6
 ### 3. 輸入參數說明
 
 
@@ -36,46 +36,19 @@ SVN版本:
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
-|members|聯盟成員|array|--|
-|nickname|成員暱稱|string|--|
-|position|職位|string|--|
-|model|角色模組|string|--|
-|power|戰力|string|--|
-|is_online|是否在線|bool|--|
+
+
 
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
 |--|--|
-|602|不屬於任何聯盟|
-
+|603|找不到此聯盟|
+|604|你已有所屬聯盟|
 ### 6.回傳格式範例
 
-array (size=3)
+```array (size=3)
+
   'err_code' => string '000' (length=3)
-> 
-
-
-  'err_desc' => string 'success' (length=7)
-> 
-
-
-  'members' => 
-> 
-
-
-    array (size=2)
-      0 => 
-        array (size=5)
-          'nickname' => string 'wade' (length=4)
-          'position' => string '1' (length=1)
-          'model' => string '1' (length=1)
-          'power' => string '30622' (length=5)
-          'is_online' => boolean true
-      1 => 
-        array (size=5)
-          'nickname' => string 'mongo' (length=5)
-          'position' => string '6' (length=1)
-          'model' => string '1' (length=1)
-          'power' => string '122' (length=3)
-          'is_online' => boolean false
+  
+  'err_desc' => string 'success' (length=7)```
