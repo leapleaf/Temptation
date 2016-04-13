@@ -8,5 +8,5 @@
    * [*取得聯盟資訊 get_alliance_info](get_alliance_info.md)
    * [聯盟地圖 get_alliance_list](get_alliance_list.md)
    * [*取得聯盟成員資訊 get_member_list](get_member_list.md)
-   * 加入聯盟 join_alliance
+   * [加入聯盟 join_alliance](join_alliance.md)
 
