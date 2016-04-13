@@ -1,13 +1,6 @@
 # 搜尋聯盟 search_alliance
 
 
-258.alliance/search_alliance(Done) 分鏡22
-搜尋聯盟
-P:type (0:模糊 1:精確)
-   name
-R:alliances[ {name,lang,shortname,introduction
-              flag,createtime,person_num}]
-E:603
 
 
 API編碼:2.0.9
