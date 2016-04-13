@@ -7,4 +7,5 @@
    * [設定聯盟旗幟 set_alliance_flag](3.md)
    * [*取得聯盟資訊 get_alliance_info](get_alliance_info.md)
    * [聯盟地圖 get_alliance_list](get_alliance_list.md)
+   * 取得聯盟成員資訊 get_member_list
 
