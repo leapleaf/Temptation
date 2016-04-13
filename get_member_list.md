@@ -18,13 +18,13 @@ SVN版本:
 
 ### 2. 說明
 
-設立聯盟旗幟,只有rank2以上才可以設旗幟
+取得聯盟成員清單,會依據token或character_id取得所有聯盟成員的
+暱稱、位階、角色模組、經驗值、是否在線
 ### 3. 輸入參數說明
 
 
 | 參數 | 意義 | 型別 | 長度限制 | 說明 |
 | -- | -- | -- | -- | -- | -- |
-| flag | 聯盟旗幟 | int | -- |  |
 | character_id | 改旗者 | int | 4 | 可由token取得 |
 
 ### 4. 回傳參數說明
@@ -37,18 +37,35 @@ SVN版本:
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
 |--|--|
-|601|無此權限|
 |602|不屬於任何聯盟|
 
 ### 6.回傳格式範例
 
-*array (size=2)
-> 
-
-
+array (size=3)
   'err_code' => string '000' (length=3)
 > 
 
 
-  'err_desc' => string 'success' (length=7)*
+  'err_desc' => string 'success' (length=7)
+> 
 
+
+  'characters' => 
+> 
+
+
+    array (size=2)
+      0 => 
+        array (size=5)
+          'nickname' => string 'wade' (length=4)
+          'position' => string '1' (length=1)
+          'model' => string '1' (length=1)
+          'exp' => string '30622' (length=5)
+          'is_online' => boolean true
+      1 => 
+        array (size=5)
+          'nickname' => string 'mongo' (length=5)
+          'position' => string '6' (length=1)
+          'model' => string '1' (length=1)
+          'exp' => string '122' (length=3)
+          'is_online' => boolean false
