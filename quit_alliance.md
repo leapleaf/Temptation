@@ -28,7 +28,6 @@ SVN版本:
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
 |character_id |角色ID|int|4|可由token取得(clinet可不用輸入|
-|outcast|被驅逐者|string|--|暱稱|
 
 
 
