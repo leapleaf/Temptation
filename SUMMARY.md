@@ -12,5 +12,5 @@
    * [搜尋無聯盟玩家 search_character_without_alliance](search_character_with.md)
    * [搜尋聯盟 search_alliance](search_alliance.md)
    * [驅逐聯盟成員 dismiss_member](dismiss_member.md)
-   * 解散聯盟 quit_alliance
+   * [解散聯盟 quit_alliance](quit_alliance.md)
 
