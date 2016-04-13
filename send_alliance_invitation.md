@@ -4,6 +4,9 @@
 
 
 
+### sendMailAlliance($ValueControl, $Localization, $character_id, $findid->id, $reward, 640024, 630014, 8, 0)[下午 06:21:59] Magus: //640024 630014 為好友邀請 聯盟要換
+
+
 
 API編碼:2.0.11
 
