@@ -9,5 +9,5 @@
    * [聯盟地圖 get_alliance_list](get_alliance_list.md)
    * [*取得聯盟成員資訊 get_member_list](get_member_list.md)
    * [加入聯盟 join_alliance](join_alliance.md)
-   * 搜尋無聯盟玩家 search_character_without_alliance
+   * [搜尋無聯盟玩家 search_character_without_alliance](search_character_with.md)
 
