@@ -22,7 +22,7 @@ SVN版本:
 ### 2. 說明
 
 取得聯盟成員清單,會依據token或character_id取得所有聯盟成員的
-暱稱、位階、角色模組、經驗值、是否在線
+暱稱、位階、角色模組、經驗值、是否在線、戰力
 ### 3. 輸入參數說明
 
 
@@ -42,6 +42,7 @@ SVN版本:
 |model|角色模組|string|--|
 |power|戰力|string|--|
 |is_online|是否在線|bool|--|
+|power|成員戰力|string|--|
 
 
 ### 5. 錯誤代碼說明
@@ -51,31 +52,28 @@ SVN版本:
 
 ### 6.回傳格式範例
 
-array (size=3)
+```array (size=3)
+
   'err_code' => string '000' (length=3)
-> 
-
-
+  
   'err_desc' => string 'success' (length=7)
-> 
-
-
+  
   'members' => 
-> 
-
-
+  
     array (size=2)
       0 => 
-        array (size=5)
+        array (size=6)
           'nickname' => string 'wade' (length=4)
           'position' => string '1' (length=1)
           'model' => string '1' (length=1)
-          'power' => string '30622' (length=5)
+          'exp' => string '30622' (length=5)
           'is_online' => boolean true
+          'power' => string '67192' (length=5)
       1 => 
-        array (size=5)
-          'nickname' => string 'mongo' (length=5)
+        array (size=6)
+          'nickname' => string 'Rocky' (length=5)
           'position' => string '6' (length=1)
           'model' => string '1' (length=1)
-          'power' => string '122' (length=3)
+          'exp' => string '-1' (length=2)
           'is_online' => boolean false
+          'power' => string '10660' (length=5)```
