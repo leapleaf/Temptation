@@ -1,6 +1,5 @@
 # 取得聯盟資訊 get_alliance_info
 
-# 設定聯盟旗幟 set_alliance_flag
 
 
 API編碼:2.0.2
@@ -16,7 +15,7 @@ SVN版本:
 > 
 
 發布版本:2.0.0
-### 1.路徑:alliance/set_alliance_flag
+### 1.路徑:alliance/get_alliance_info
 
 ### 2. 說明
 
