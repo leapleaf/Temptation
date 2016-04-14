@@ -5,6 +5,8 @@
 API編碼:2.0.3
 
 > 
+[下午 05:02:47] Magus: GetAllianceAllInfo GetAllianceSimpleInfo
+[下午 05:03:05] Magus: 這有甚麼差別
 
 更新日期:
 
