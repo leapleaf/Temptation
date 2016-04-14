@@ -22,6 +22,7 @@
    * [聯盟權限](alliance_rank.md)
        * +聯盟提權 alliance_promote_position
        * +聯盟降權 alliance_demote_position
+       * +盟主轉讓 alliance_leader_transit
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
        * 新增聯盟聊天 chat
