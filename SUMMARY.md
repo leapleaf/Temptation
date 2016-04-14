@@ -20,5 +20,5 @@
    * *取得聯盟日誌 get_alliance_log
    * *加入聯盟日誌 add_alliance_log
 * [舊系統更新](ver_upgrade.md)
-   * ver 2.0.0
+   * [ver 2.0.0](ver_200.md)
 
