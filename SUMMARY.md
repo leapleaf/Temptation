@@ -18,4 +18,5 @@
    * +取得無聯盟者清單 search_character_without_alliance_default
    * *接受聯盟邀請 accept_alliance_invitation
    * *取得聯盟日誌 get_alliance_log
+   * *加入聯盟日誌 add_alliance_log
 
