@@ -27,7 +27,7 @@ SVN版本:
 
 | 參數 | 意義 | 型別 | 長度限制 | 說明 |
 | -- | -- | -- | -- | -- | -- |
-| character_id | 聯盟成員 | int | 4 | 可由token取得 |
+| character_id | 聯盟成員 | int | 4 | 不得由token取 |
 |alliance_name|聯盟名稱|string|18|若無角色id則取聯盟名稱|
 
 ### 4. 回傳參數說明
