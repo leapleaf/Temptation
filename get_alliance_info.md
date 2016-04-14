@@ -2,7 +2,7 @@
 
 
 
-API編碼:2.0.2
+API編碼:2.0.3
 
 > 
 
@@ -19,20 +19,29 @@ SVN版本:
 
 ### 2. 說明
 
-設立聯盟旗幟,只有rank2以上才可以設旗幟
+取得聯盟資訊
 ### 3. 輸入參數說明
 
 
 | 參數 | 意義 | 型別 | 長度限制 | 說明 |
 | -- | -- | -- | -- | -- | -- |
-| flag | 聯盟旗幟 | int | -- |  |
-| character_id | 改旗者 | int | 4 | 可由token取得 |
+| character_id | 聯盟成員 | int | 4 | 可由token取得 |
+|alliance_name|聯盟名稱|string|18|若無角色id則取聯盟名稱|
 
 ### 4. 回傳參數說明
 | 參數 | 意義 | 型別 | 說明 |
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
+|alliance_name|聯盟名稱|string|--|
+|shortname|聯盟短名稱|string|--|
+|lang|語系|string|--|
+|introduction|聯盟簡介|string|--|
+|flag|聯盟旗幟|int|--|
+|createtime|創立時間|string|--|
+|member_count|成員人數|int|--|
+|leader_name|盟主|string|--|
+|total_power|聯盟戰力|string|--|
 
 
 ### 5. 錯誤代碼說明
@@ -43,13 +52,27 @@ SVN版本:
 
 ### 6.回傳格式範例
 
-*array (size=2)
-> 
-
+```array (size=11)
 
   'err_code' => string '000' (length=3)
-> 
-
-
-  'err_desc' => string 'success' (length=7)*
+  
+  'err_desc' => string 'success' (length=7)
+  
+  'alliance_name' => string '123' (length=3)
+  
+  'shortname' => string 'en' (length=2)
+  
+  'lang' => string 'A' (length=1)
+  
+  'introduction' => string 'introduction' (length=12)
+  
+  'flag' => int 1
+  
+  'createtime' => string '2016-04-13 09:47:07' (length=19)
+  
+  'member_count' => int 2
+  
+  'leader_name' => string 'wade' (length=4)
+  
+  'total_power' => string '77852' (length=5)```
 
