@@ -21,4 +21,5 @@
    * *加入聯盟日誌 add_alliance_log
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
+       * 新增聯盟聊天 chat
 
