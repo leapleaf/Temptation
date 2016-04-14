@@ -15,7 +15,7 @@ promote、demote、transit加暱稱
 alliance_power_rank 輸入 筆數(int) 0給50 吐名稱 盟主 戰力
 get_alliance_list +吐flag
 get_member_list 輸入多一筆數目 多吐duty、lv 0吐全部並指兔有上線的
-get_alliance_info 沒有錯誤代碼
+get_alliance_info 刪除錯誤代碼、權限取消並多吐最大成員數
 
 
 *character_id client不用帶
