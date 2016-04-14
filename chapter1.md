@@ -14,7 +14,8 @@ quit_alliance:err_code 60X 聯盟解散失敗
 promote、demote、transit加暱稱
 alliance_power_rank 輸入 筆數(int) 0給50 吐名稱 盟主 戰力
 get_alliance_list +吐flag
-
+get_member_list 輸入多一筆數目 多吐duty、lv 0吐全部並指兔有上線的
+get_alliance_info 沒有錯誤代碼
 
 
 *character_id client不用帶
@@ -25,6 +26,8 @@ create_alliance 缺flag_id[靜態表]
 
 send_msg_to_all_member要注意type '資料庫'
 
+
+++寫一之聯盟成員清單吐status=1的卡片,用token取
 
 
 
