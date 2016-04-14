@@ -20,12 +20,12 @@
    * *取得聯盟日誌 get_alliance_log
    * *加入聯盟日誌 add_alliance_log
    * +搜尋無聯盟玩家預設 search_character_without_alliance_default
+   * [聯盟排名](alliance_rank.md)
+       * alliance_power_rank
    * [聯盟權限](alliance_position.md)
        * +聯盟提權 alliance_promote_position
        * +聯盟降權 alliance_demote_position
        * +盟主轉讓 alliance_leader_transit
-* [聯盟排名](alliance_rank.md)
-   * alliance_power_rank
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
        * 新增聯盟聊天 chat
