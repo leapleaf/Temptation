@@ -19,7 +19,7 @@
    * *接受聯盟邀請 accept_alliance_invitation
    * *取得聯盟日誌 get_alliance_log
    * *加入聯盟日誌 add_alliance_log
-   * [聯盟權限](alliance_rank.md)
+   * [聯盟權限](alliance_position.md)
        * +聯盟提權 alliance_promote_position
        * +聯盟降權 alliance_demote_position
        * +盟主轉讓 alliance_leader_transit
