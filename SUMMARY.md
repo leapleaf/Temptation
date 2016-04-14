@@ -26,6 +26,7 @@
        * +盟主轉讓 alliance_leader_transit
    * [聯盟排名](alliance_rank.md)
        * alliance_power_rank
+   * +搜尋聯盟預設 search_alliance_default
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
        * 新增聯盟聊天 chat
