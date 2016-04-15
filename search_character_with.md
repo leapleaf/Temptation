@@ -33,6 +33,13 @@ SVN版本:
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
+|characters|角色|array|純key|
+|nickname|暱稱|string|--|
+|lv|等級|string|--|
+|model|角色模組|string|--|
+|duty|職能|string|--|
+|power|戰力|string|--|
+|lang|語系|string|--|
 
 
 
