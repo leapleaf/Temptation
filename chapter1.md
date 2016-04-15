@@ -1,8 +1,10 @@
 # 此處處理聯盟相關API
-*表示未完成
+*表示未完成 
 
 ```
 聯盟人數限制從50開始
+
+
 
 !!!???search_alliance_character character用nickname模糊 取消type (問清楚再做)
 V search_character_without_alliance多吐duty(職能)、語系、取幾名(int) 0給50
@@ -26,6 +28,16 @@ get_alliance_info 刪除錯誤代碼、權限取消並多吐最大成員數
 send_msg_to_all_member要注意type '資料庫'
 
 
+
+
+資料庫
+---
+alliance 新增 flag 
+alliance_member新增 join_time (UTC+0)
+
+
+
+---
 ++寫一之聯盟成員清單吐status=1的卡片,用token取
 
 
