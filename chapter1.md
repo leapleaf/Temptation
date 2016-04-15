@@ -9,8 +9,7 @@ V search_character_without_alliance多吐duty(職能)、語系、取幾名(int) 
 v 聯盟名稱改為限制12(最大11)
 search_alliance_default取幾名(int) 0給50 其他同search_alliance
 v quit_alliance:err_code 620 聯盟解散失敗
-604:刪你
-606:無法寄信給自己
+V sendAllianceInvitation 604:刪你 606:無法寄信給自己
 promote、demote、transit加暱稱
 alliance_power_rank 輸入 筆數(int) 0給50 吐名稱 盟主 戰力
 get_alliance_list +吐flag
