@@ -6,7 +6,7 @@
 
 
 
-!!!???search_alliance_character character用nickname模糊 取消type (問清楚再做)
+!!!???search_alliance_character_without_allince_byname character用nickname模糊 取消type (問清楚再做)
 V search_character_without_alliance多吐duty(職能)、語系、取幾名(int) 0給50
 v 聯盟名稱改為限制12(最大11)
 v quit_alliance:err_code 620 聯盟解散失敗
