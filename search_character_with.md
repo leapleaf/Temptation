@@ -22,9 +22,11 @@ SVN版本:
 
 ### 2. 說明
 
-搜尋無聯盟玩家,亂數排序50名
+搜尋無聯盟玩家,預設亂數排序50名,output_num給0為預設
 ### 3. 輸入參數說明
-無須輸入
+| 參數 | 意義 | 型別 |長度限制| 說明 |
+| -- | -- | -- | -- |--| -- |
+|output_num|筆數|int|--|給client的筆數|
 
 ### 4. 回傳參數說明
 | 參數 | 意義 | 型別 | 說明 |
@@ -38,29 +40,21 @@ SVN版本:
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
 |--|--|
-|603|找不到此聯盟|
-|604|你已有所屬聯盟|
+
 ### 6.回傳格式範例
 
-```array (size=3)
-
+```
+array (size=3)
   'err_code' => string '000' (length=3)
-  
   'err_desc' => string 'success' (length=7)
-  
   'characters' => 
-  
-    array (size=50)
-    
+    array (size=1)
       0 => 
-        array (size=4)
-          'nickname' => string 'A83C172A1ACE98897DFA' (length=20)
-          'lv' => string '1' (length=1)
-          'model' => string '-1' (length=2)
-          'exp' => string '0' (length=1)
-      1 => 
-        array (size=4)
-          'nickname' => string 'test016' (length=7)
+        array (size=6)
+          'nickname' => string 'QQ18號' (length=7)
           'lv' => string '1' (length=1)
           'model' => string '0' (length=1)
-          'exp' => string '0' (length=1)```
+          'duty' => string '3' (length=1)
+          'power' => string '0' (length=1)
+          'lang' => string 'tw' (length=2)
+```
