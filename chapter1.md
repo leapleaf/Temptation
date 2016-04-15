@@ -4,7 +4,7 @@
 ```
 聯盟人數限制從50開始
 
-search_character_without_alliance多吐duty(職能)、語系、取幾名(int) 0給50
+V search_character_without_alliance多吐duty(職能)、語系、取幾名(int) 0給50
 search_character_character用nickname模糊 取消type
 聯盟名稱改為限制12
 search_alliance_default取幾名(int) 0給50 其他同search_alliance
