@@ -13,9 +13,10 @@ v quit_alliance:err_code 620 聯盟解散失敗
 V sendAllianceInvitation 604:刪你 606:無法寄信給自己
 V create_alliance 缺flag_id[靜態表] 602..說明刪除
 V get_alliance_list +吐flag
+promote、demote、transit加暱稱
 search_alliance_default取幾名(int) 0給50 其他同search_alliance
 get_member_list 輸入多一筆數目 多吐duty、lv 0吐全部並指兔有上線的
-promote、demote、transit加暱稱
+
 alliance_power_rank 輸入 筆數(int) 0給50 吐名稱 盟主 戰力
 get_alliance_info 刪除錯誤代碼、權限取消並多吐最大成員數
 
