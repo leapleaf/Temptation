@@ -6,7 +6,7 @@
 
 V search_character_without_alliance多吐duty(職能)、語系、取幾名(int) 0給50
 !!!???search_alliance_character character用nickname模糊 取消type (問清楚再做)
-聯盟名稱改為限制12(最大11)
+v 聯盟名稱改為限制12(最大11)
 search_alliance_default取幾名(int) 0給50 其他同search_alliance
 quit_alliance:err_code 60X 聯盟解散失敗
 604:刪你
