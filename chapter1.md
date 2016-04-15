@@ -32,3 +32,27 @@ send_msg_to_all_member要注意type '資料庫'
 
 
 ```
+```
+       $inalli = ORM::for_table('alliance_member')->select('character_id')->find_array();
+    //var_dump($inalli);
+    //$test = merge2DArray($inalli);
+    //var_dump($test);
+    foreach ($inalli as &$arr) {
+        foreach ($arr as &$v) {
+            $arr = $v;
+        }
+    }
+    //shuffle($inalli['characters']);
+    //var_dump($inalli);
+
+    $ninalli = ORM::for_table('character')->select('nickname')
+                            //->right_outer_join('character', 'world_map.character_id = character.id')
+
+            ->right_outer_join("account",'account.id = character.account_id')            
+            ->select('lv')
+            ->select("model")
+            ->select('duty')
+            ->where_not_in('character.id', $inalli)
+            ->select('account.lang')
+            ->find_array();
+            ```
