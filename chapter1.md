@@ -6,14 +6,14 @@
 
 
 
-!!!???search_alliance_character_without_allince_byname character用nickname模糊 取消type (問清楚再做)
++search_character_without_allince_by_name character用nickname模糊 取消type (問清楚再做)同下
 V search_character_without_alliance多吐duty(職能)、語系、取幾名(int) 0給50
 v 聯盟名稱改為限制12(最大11)
 v quit_alliance:err_code 620 聯盟解散失敗
 V sendAllianceInvitation 604:刪你 606:無法寄信給自己
 V create_alliance 缺flag_id[靜態表] 602..說明刪除
 V get_alliance_list +吐flag
-promote、demote、transit加暱稱
+Vpromote、demote、transit加暱稱
 search_alliance_default取幾名(int) 0給50 其他同search_alliance
 get_member_list 輸入多一筆數目 多吐duty、lv 0吐全部並指兔有上線的
 
