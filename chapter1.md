@@ -2,7 +2,7 @@
 *表示未完成 
 
 ```
-### 聯盟人數限制50開始,資料庫要有現在最大人數
+### 聯盟人數限制50開始,資料庫要有現在最大人數 
 
 
 
@@ -37,7 +37,7 @@ Vsend_msg_to_all_member要注意type '資料庫' type=8,subtype=2
 alliance 新增 flag 
 alliance_member新增 join_time (UTC+0)
 alliance_log 增加name type
-allaiance 新增max_member
+allaiance 新增max_member int 長度4
 
 
 ---
