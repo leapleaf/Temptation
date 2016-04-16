@@ -1,6 +1,6 @@
 # 取得無聯盟者清單 search_character_without_alliance_default
 
-API編碼:2.0.0
+API編碼:2.0.12
 
 > 
 
