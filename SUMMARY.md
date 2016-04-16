@@ -20,7 +20,7 @@
    * [*記錄聯盟日誌 add_alliance_log](add_alliance_log.md)
    * [聯盟權限](alliance_position.md)
        * [+聯盟提權 alliance_promote_position](alliance_promote_position.md)
-       * +聯盟降權 alliance_demote_position
+       * [+聯盟降權 alliance_demote_position](alliance_demote_position.md)
        * +盟主轉讓 alliance_leader_transit
    * [聯盟排名](alliance_rank.md)
        * alliance_power_rank
