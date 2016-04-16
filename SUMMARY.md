@@ -15,7 +15,7 @@
    * [退出聯盟 quit_alliance](quit_alliance.md)
    * [*寄聯盟邀請信 send_alliance_invitation.php](send_alliance_invitation.md)
    * [聯盟廣播 send_msg_to_all_member](send_msg_to_all_member.md)
-   * *接受聯盟邀請 accept_alliance_invitation
+   * [*接受聯盟邀請 accept_alliance_invitation](accept_alliance_invitation.md)
    * *取得聯盟日誌 get_alliance_log
    * [*記錄聯盟日誌 add_alliance_log](add_alliance_log.md)
    * +搜尋無聯盟玩家預設 search_character_without_alliance_default
