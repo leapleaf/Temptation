@@ -30,6 +30,7 @@ SVN版本:15004
 |alliance_list|聯盟清單|array|--|
 |leader|盟主|string|--|
 |alliance_name|聯盟名稱|string|--|
+|flag|聯盟旗幟|string|--|
 
 
 ### 5. 錯誤代碼說明
