@@ -26,7 +26,7 @@ V*++改名稱、旗幟加上花金幣
 
 
 
-send_msg_to_all_member要注意type '資料庫'
+send_msg_to_all_member要注意type '資料庫' type=8,subtype=2
 
 
 
