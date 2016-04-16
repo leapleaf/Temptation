@@ -16,7 +16,7 @@ SVN版本:
 > 
 
 發布版本:2.0.0
-### 1.路徑:alliance/create_alliance
+### 1.路徑:alliance/search_character_without_alliance_default
 
 ### 2. 說明
 
