@@ -18,7 +18,6 @@
    * [*接受聯盟邀請 accept_alliance_invitation](accept_alliance_invitation.md)
    * [*取得聯盟日誌 get_alliance_log](get_alliance_log.md)
    * [*記錄聯盟日誌 add_alliance_log](add_alliance_log.md)
-   * +搜尋無聯盟玩家預設 search_character_without_alliance_default
    * [聯盟權限](alliance_position.md)
        * +聯盟提權 alliance_promote_position
        * +聯盟降權 alliance_demote_position
