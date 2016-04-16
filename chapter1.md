@@ -6,7 +6,8 @@
 
 
 
-+search_character_without_allince_by_name character用nickname模糊  (問清楚再做)同下 併入search_character_without_allince
+V *search_character_without_allince_by_name character用nickname模糊  (問清楚再做)同下 
+  併入search_character_without_allince
 V search_character_without_alliance多吐duty(職能)、語系、取幾名(int) 0給50
 v 聯盟名稱改為限制12(最大11)
 v quit_alliance:err_code 620 聯盟解散失敗
@@ -35,6 +36,7 @@ Vsend_msg_to_all_member要注意type '資料庫' type=8,subtype=2
 ---
 alliance 新增 flag 
 alliance_member新增 join_time (UTC+0)
+alliance_log 增加name type
 
 
 
