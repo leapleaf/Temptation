@@ -22,7 +22,7 @@ V*get_alliance_info 刪除錯誤代碼、權限取消並多吐最大成員數
 
 *character_id client不用帶
 
-++改名稱、旗幟加上花金幣
+V*++改名稱、旗幟加上花金幣
 
 
 
