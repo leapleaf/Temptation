@@ -1,2 +1,2 @@
-# alliance_power_rank
+# 聯盟戰力排名 alliance_power_rank
 
