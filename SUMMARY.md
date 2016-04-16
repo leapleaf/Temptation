@@ -23,7 +23,7 @@
        * [+聯盟降權 alliance_demote_position](alliance_demote_position.md)
        * [+盟主轉讓 alliance_leader_transit](alliance_leader_transit.md)
    * [聯盟排名](alliance_rank.md)
-       * [聯盟戰力排名 alliance_power_rank](聯盟戰力排名 alliancepower_rank.md)
+       * [聯盟戰力排名 alliance_power_rank](alliancepower_rank.md)
    * +搜尋聯盟預設 search_alliance_default
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
