@@ -67,4 +67,10 @@ alliance_member新增 join_time (UTC+0)
             ->where_not_in('character.id', $inalli)
             ->select('account.lang')
             ->find_array();
+            
+            
+            
+               while (sizeof($ninalli) > $output_num) {
+        array_pop($ninalli);
+    }
             ```
