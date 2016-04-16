@@ -27,7 +27,6 @@ SVN版本:
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
 |character_id |角色ID|int|4|可以不輸入|
-|type|搜尋模式|int|1|0:精確1:模糊|
 |alliance_name|聯盟名稱|string|18|--|
 
 
