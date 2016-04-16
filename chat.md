@@ -89,7 +89,7 @@ SVN版本:
 |channel |聊天頻道|var|--|0=公開;1=公會|
 |channelNo|聊天子頻道|var|--|公會id|
 |alliance_id|公會ID|var|--|--|
-|receive_name|收話者|var|--|--|
+|receive_name|收話者|var|--|0為公頻|
 |content|聊天內容|var|--|--|
 
 
