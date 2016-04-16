@@ -4,8 +4,6 @@
 ```
 ### 聯盟人數限制50開始,資料庫要有現在最大人數 修改join_alliance
 
-
-
 V *search_character_without_allince_by_name character用nickname模糊  (問清楚再做)同下 
   併入search_character_without_allince
 V search_character_without_alliance多吐duty(職能)、語系、取幾名(int) 0給50
