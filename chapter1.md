@@ -17,7 +17,7 @@ V promote、demote、transit加暱稱
 + search_alliance_default取幾名(int) 0給50 其他同search_alliance
 V get_member_list 輸入多一筆數目 多吐duty、lv 0吐全部並指兔有上線的 power
 
-alliance_power_rank 輸入 筆數(int) 0給50 吐名稱 盟主 戰力
+V*alliance_power_rank 輸入 筆數(int) 0給50 吐名稱 盟主 戰力
 get_alliance_info 刪除錯誤代碼、權限取消並多吐最大成員數
 
 *character_id client不用帶
