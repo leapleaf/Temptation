@@ -13,7 +13,7 @@ V sendAllianceInvitation 604:刪你 606:無法寄信給自己
 V create_alliance 缺flag_id[靜態表] 602..說明刪除
 V get_alliance_list +吐flag
 V promote、demote、transit加暱稱
-V search_alliance_default取幾名(int) 0給50 其他同search_alliance
+V+ search_alliance_default取幾名(int) 0給50 其他同search_alliance
 V get_member_list 輸入多一筆數目 多吐duty、lv 0吐全部並指兔有上線的 power
 
 V*alliance_power_rank 輸入 筆數(int) 0給50 吐名稱 盟主 戰力
