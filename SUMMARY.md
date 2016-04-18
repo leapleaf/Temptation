@@ -13,6 +13,7 @@
    * [搜尋聯盟 search_alliance](search_alliance.md)
    * [驅逐聯盟成員 dismiss_member](dismiss_member.md)
    * [退出聯盟 quit_alliance](quit_alliance.md)
+   * 解散聯盟 dismiss_alliance
    * [*寄聯盟邀請信 send_alliance_invitation.php](send_alliance_invitation.md)
    * [聯盟廣播 send_msg_to_all_member](send_msg_to_all_member.md)
    * [*接受聯盟邀請 accept_alliance_invitation](accept_alliance_invitation.md)
@@ -25,7 +26,6 @@
    * [聯盟排名](alliance_rank.md)
        * [聯盟戰力排名 alliance_power_rank](alliancepower_rank.md)
    * [+搜尋聯盟預設 search_alliance_default](search_alliance_default.md)
-   * 解散聯盟 dismiss_alliance
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
        * [新增聯盟聊天 chat](chat.md)
