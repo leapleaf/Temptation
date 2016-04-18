@@ -7,11 +7,12 @@ API編碼:2.0.5
 
 
 
-更新日期:
+更新日期:2016/04/18
 
 > 
 
-SVN版本:
+SVN版本:Committed revision 15054.
+
 
 > 
 
@@ -22,13 +23,15 @@ SVN版本:
 
 取得聯盟成員清單,會依據token或character_id取得所有聯盟成員的
 暱稱、位階、角色模組、經驗值、是否在線、戰力,
+輸入限制:0為取預設50,顯示所有成員,其他則依限制筆數顯示(依職位排序)
+
 err_code 602為自己未加入聯盟中,故看不到自己的聯盟
 ### 3. 輸入參數說明
 
 
 | 參數 | 意義 | 型別 | 長度限制 | 說明 |
 | -- | -- | -- | -- | -- | -- |
-|alliance_name|聯盟名稱|string|18|未輸入則取token|
+|alliance_name|聯盟名稱|string|12|未輸入則取token|
 |limit|限制筆數|
 
 ### 4. 回傳參數說明
@@ -37,10 +40,12 @@ err_code 602為自己未加入聯盟中,故看不到自己的聯盟
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
 |members|聯盟成員|array|--|
+|alliance_name|聯盟名稱|string|--|
 |nickname|成員暱稱|string|--|
 |position|職位|string|--|
 |model|角色模組|string|--|
-|power|戰力|string|--|
+|duty|職能|stiring|--|
+|lv|等級|string|--|
 |is_online|是否在線|bool|--|
 |power|成員戰力|string|--|
 
