@@ -1,8 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * [聯盟科技](lian_meng_ke_ji.md)
-       * 聯盟科技捐獻研發 alliance_tech_research
 * [聯盟](chapter1.md)
    * [建立聯盟 create_alliance](1.md)
    * [設定聯盟名稱 set_alliance_name](2.md)
@@ -28,6 +26,8 @@
    * [聯盟排名](alliance_rank.md)
        * [聯盟戰力排名 alliance_power_rank](alliancepower_rank.md)
    * [+搜尋聯盟預設 search_alliance_default](search_alliance_default.md)
+* [聯盟科技](lian_meng_ke_ji.md)
+   * 聯盟科技捐獻研發 alliance_tech_research
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
        * [新增聯盟聊天 chat](chat.md)
