@@ -52,3 +52,10 @@ SVN版本:
 
 *
 
+```
+array (size=4)
+  'err_code' => string '000' (length=3)
+  'err_desc' => string 'success' (length=7)
+  'remaining_time' => int 0
+  'score' => int 4400
+```
