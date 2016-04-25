@@ -1,4 +1,5 @@
 # 搜尋聯盟 search_alliance
+可用get_alliance_info取代
 
 
 
