@@ -54,27 +54,18 @@ SVN版本:15349.
 
 ### 6.回傳格式範例
 
-```array (size=11)
-
+```
+array (size=11)
   'err_code' => string '000' (length=3)
-  
   'err_desc' => string 'success' (length=7)
-  
   'alliance_name' => string '123' (length=3)
-  
   'shortname' => string 'en' (length=2)
-  
   'lang' => string 'A' (length=1)
-  
   'introduction' => string 'introduction' (length=12)
-  
   'flag' => int 1
-  
   'createtime' => string '2016-04-13 09:47:07' (length=19)
-  
-  'member_count' => int 2
-  
+  'member_count' => int 35
   'leader_name' => string 'wade' (length=4)
-  
-  'total_power' => string '77852' (length=5)```
+  'total_power' => string '548818' (length=6)
+```
 
