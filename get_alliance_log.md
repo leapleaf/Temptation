@@ -1,4 +1,4 @@
-# *取得聯盟日誌 get_alliance_log
+# 取得聯盟日誌 get_alliance_log
 
 
 
@@ -28,12 +28,12 @@ SVN版本:
 
 
 ### 2. 說明
-取得聯盟日誌,筆數限制
+取得聯盟日誌,筆數限制 未輸入則給50筆
 ### 3. 輸入參數說明
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
 |limit |處理動作|var|--|0:拒絕並刪除郵件,1:接受|
-|mail_id|郵件id|var|--|郵件id|
+|type|型態|int--|--|
 
 
 
@@ -59,11 +59,25 @@ SVN版本:
 
 ### 6.回傳格式範例
 
-```array (size=2)
-
+```
+array (size=3)
   'err_code' => string '000' (length=3)
-  
-  'err_desc' => string 'success' (length=7)```
+  'err_desc' => string 'success' (length=7)
+  'characters' => 
+    array (size=7)
+      0 => 
+        array (size=4)
+          'name' => string '' (length=0)
+          'type' => int 0
+          'log' => string '222' (length=3)
+          'createtime' => string '2016-03-04 07:34:56.498788' (length=26)
+      1 => 
+        array (size=4)
+          'name' => string '' (length=0)
+          'type' => int 0
+          'log' => string '222' (length=3)
+          'createtime' => string '2016-03-04 07:30:27.851808' (length=26)
+```
 
 
 
