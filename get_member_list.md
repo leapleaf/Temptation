@@ -7,11 +7,11 @@ API編碼:2.0.5
 
 
 
-更新日期:2016/04/18
+更新日期:2016/04/18,2016/04/25
 
 > 
 
-SVN版本:Committed revision 15054.
+SVN版本:Committed revision 15054.15353.
 
 
 > 
