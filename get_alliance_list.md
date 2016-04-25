@@ -43,20 +43,29 @@ SVN版本:15004
 
 
 ### 6.回傳格式範例
-```array (size=3)
-
+```
+array (size=3)
   'err_code' => string '000' (length=3)
-  
   'err_desc' => string 'success' (length=7)
-  
   'alliance_list' => 
-  
-    array (size=12)
+    array (size=15)
       0 => 
-        array (size=2)
-          'leader' => string 'win' (length=3)
-          'alliance_name' => string '988' (length=3)
+        array (size=4)
+          'leader' => string '123' (length=3)
+          'alliance_name' => string 'goddamn' (length=7)
+          'flag' => string '1111111' (length=7)
+          'total_power' => string '0' (length=1)
       1 => 
-        array (size=2)
-          'leader' => string 'pimp' (length=4)
-          'alliance_name' => string '977' (length=3)```
+        array (size=4)
+          'leader' => string 'E566A8604B794AF49735' (length=20)
+          'alliance_name' => string 'goddamn8888' (length=11)
+          'flag' => string '1111111' (length=7)
+          'total_power' => string '0' (length=1)
+      2 => 
+        array (size=4)
+          'leader' => string 'Fff' (length=3)
+          'alliance_name' => string '333' (length=3)
+          'flag' => string '1' (length=1)
+          'total_power' => string '0' (length=1)
+
+```
