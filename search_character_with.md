@@ -9,13 +9,13 @@ API編碼:2.0.8
 
 
 
-更新日期:
+更新日期:2016/04/25
 
 > 
 
-SVN版本:
+SVN版本:15356.
 
-> 
+>  
 
 發布版本:2.0.0
 ### 1.路徑:alliance/search_character_without_alliance
