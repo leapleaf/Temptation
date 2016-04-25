@@ -1,6 +1,6 @@
 # *加入聯盟日誌 add_alliance_log
 
-API編碼:2.0.11
+API編碼:2.0.17
 
 目前信件 type = 8, subtype = 2
 
