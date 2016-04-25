@@ -44,15 +44,17 @@ SVN版本:
 
 ### 6.回傳格式範例
 
-*array (size=2)
-> 
+```
+array (size=2)
+
 
 
   'err_code' => string '000' (length=3)
-> 
+ 
 
 
   'err_desc' => string 'success' (length=7)*
 
 
 
+```
