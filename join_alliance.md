@@ -18,7 +18,7 @@ SVN版本:
 > 
 
 發布版本:2.0.0
-### 1.路徑:alliance/join_alliance
+### 1.路徑:alliance_member/join_alliance
 
 ### 2. 說明
 
