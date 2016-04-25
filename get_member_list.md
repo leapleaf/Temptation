@@ -60,24 +60,20 @@ err_code 602為自己未加入聯盟中,故看不到自己的聯盟
 ### 6.回傳格式範例
 
 ```
-  0 => 
-    array (size=8)
-      'nickname' => string 'wade' (length=4)
-      'position' => string '1' (length=1)
-      'model' => string '1' (length=1)
-      'duty' => string '1' (length=1)
-      'lv' => string '24' (length=2)
-      'stage_no' => string '2000004' (length=7)
-      'is_online' => string '2' (length=1)
-      'power' => string '67462' (length=5)
-  1 => 
-    array (size=8)
-      'nickname' => string 'Rocky' (length=5)
-      'position' => string '6' (length=1)
-      'model' => string '1' (length=1)
-      'duty' => string '3' (length=1)
-      'lv' => string '2' (length=1)
-      'stage_no' => string '1000301' (length=7)
-      'is_online' => string '10' (length=2)
-      'power' => string '11740' (length=5)
+array (size=3)
+  'err_code' => string '000' (length=3)
+  'err_desc' => string 'success' (length=7)
+  'members' => 
+    array (size=1)
+      0 => 
+        array (size=9)
+          'alliance_name' => string '123' (length=3)
+          'nickname' => string 'wade' (length=4)
+          'position' => string '1' (length=1)
+          'model' => string '1' (length=1)
+          'duty' => string '1' (length=1)
+          'lv' => string '24' (length=2)
+          'stage_no' => string '2000004' (length=7)
+          'is_online' => boolean true
+          'power' => string '17954' (length=5)
       ```
