@@ -17,7 +17,7 @@ SVN版本:Committed revision 15054.
 > 
 
 發布版本:2.0.0
-### 1.路徑:alliance/get_member_list
+### 1.路徑:alliance_member/get_member_list
 
 ### 2. 說明
 
