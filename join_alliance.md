@@ -49,8 +49,10 @@ SVN版本:
 |621|超過聯盟人數上限|
 ### 6.回傳格式範例
 
-```array (size=3)
+```
+array (size=3)
 
   'err_code' => string '000' (length=3)
   
-  'err_desc' => string 'success' (length=7)```
+  'err_desc' => string 'success' (length=7)
+  ```
