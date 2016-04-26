@@ -66,15 +66,15 @@ array (size=3)
   'err_desc' => string 'success' (length=7)
   'members' => 
     array (size=1)
-      0 => 
-        array (size=9)
-          'alliance_name' => string '123' (length=3)
-          'nickname' => string 'wade' (length=4)
-          'position' => string '1' (length=1)
-          'model' => string '1' (length=1)
-          'duty' => string '1' (length=1)
-          'lv' => string '24' (length=2)
-          'stage_no' => string '2000004' (length=7)
-          'is_online' => boolean true
-          'power' => string '17954' (length=5)
+    0=>
+      array (size=9)
+        'alliance_name' => string '123' (length=3)
+        'nickname' => string 'wade' (length=4)
+        'position' => int 1
+        'model' => int 1
+        'duty' => int 1
+        'lv' => int 24
+        'stage_no' => int 2000004
+        'is_online' => boolean true
+        'power' => int 79374
       ```
