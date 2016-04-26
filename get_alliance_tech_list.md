@@ -20,13 +20,13 @@ SVN版本:
 
 ### 2. 說明
 
-取得聯盟資訊,先判斷有無輸入聯盟名稱,若無則搜尋自身聯盟.
+取得聯盟科技資訊,取得的是可研發科技清單
 ### 3. 輸入參數說明
 
 
 | 參數 | 意義 | 型別 | 長度限制 | 說明 |
 | -- | -- | -- | -- | -- | -- |
-|alliance_name|聯盟名稱|string|12|若未輸入帶入token(名稱一致)|
+|character_id|聯盟名稱|string|12|取token,client不須輸入|
 
 
 ### 4. 回傳參數說明
@@ -34,37 +34,33 @@ SVN版本:
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
-|alliance_name|聯盟名稱|string|--|
+|alliance_tech_id|聯盟科技id|int|--|
 |shortname|聯盟短名稱|string|--|
-|lang|語系|string|--|
-|introduction|聯盟簡介|string|--|
-|flag|聯盟旗幟|int|--|
-|createtime|創立時間|string|--|
-|member_count|成員人數|int|--|
-|leader_name|盟主|string|--|
-|total_power|聯盟戰力|string|--|
+|exp|現在科技研發值|int|--|
+|threshold|此科技升級閥值|int|--|
+|remiaining_time|升級剩餘時間|int|--|
 
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
 |--|--|
-|602|不屬於任何聯盟|
-|603|找不到此聯盟|
+|601|權限不足|
 
 ### 6.回傳格式範例
 
 ```
-array (size=11)
-  'err_code' => string '000' (length=3)
-  'err_desc' => string 'success' (length=7)
-  'alliance_name' => string '123' (length=3)
-  'shortname' => string 'en' (length=2)
-  'lang' => string 'A' (length=1)
-  'introduction' => string 'introduction' (length=12)
-  'flag' => int 1
-  'createtime' => string '2016-04-13 09:47:07' (length=19)
-  'member_count' => int 35
-  'leader_name' => string 'wade' (length=4)
-  'total_power' => string '548818' (length=6)
+array (size=12)
+  0 => 
+    array (size=4)
+      'alliance_tech_id' => int 100001
+      'exp' => int 10
+      'threshold' => int 1000
+      'remaining_time' => int 0
+  1 => 
+    array (size=4)
+      'alliance_tech_id' => int 100100
+      'exp' => int 0
+      'threshold' => int 0
+      'remiaining_time' => int 0
 ```
 
