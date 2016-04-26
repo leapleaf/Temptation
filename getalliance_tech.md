@@ -1,2 +1,2 @@
-# get_alliance_tech
+# 取得聯盟科技 get_alliance_tech
 
