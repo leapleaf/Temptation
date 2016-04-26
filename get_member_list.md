@@ -11,7 +11,7 @@ API編碼:2.0.5
 
 > 
 
-SVN版本:Committed revision 15054.15353.15370.15371.
+SVN版本:Committed revision 15054.15353.15372.
 
 
 > 
