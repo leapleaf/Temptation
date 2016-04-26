@@ -27,7 +27,8 @@ SVN版本:
 
 | 參數 | 意義 | 型別 | 長度限制 | 說明 |
 | -- | -- | -- | -- | -- | -- |
-|character_id|聯盟名稱|string|12|取token,client不須輸入|
+|character_id|聯盟名稱|int|12|取token,client不須輸入|
+|alliance_tech_id|聯盟科技id|int|請代入資料庫有的id|
 
 
 ### 4. 回傳參數說明
