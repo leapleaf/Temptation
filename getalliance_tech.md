@@ -36,11 +36,11 @@ SVN版本:
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
-|alliance_tech_id|聯盟科技id|int|--|
-|shortname|聯盟短名稱|string|--|
-|exp|現在科技研發值|int|--|
-|threshold|此科技升級閥值|int|--|
-|remiaining_time|升級剩餘時間|int|--|
+|exp|科技研究值|int|目前|
+|threshold|科技升級所需|int|--|
+|benefit|現在科技效果|int|Value1|
+|next_benefit|下一科技效果|int|若無則吐0|
+|remiaining_time|升級剩餘時間|int|低於0吐0|
 
 
 ### 5. 錯誤代碼說明
@@ -52,18 +52,13 @@ SVN版本:
 ### 6.回傳格式範例
 
 ```
-array (size=12)
-  0 => 
-    array (size=4)
-      'alliance_tech_id' => int 100001
-      'exp' => int 10
-      'threshold' => int 1000
-      'remaining_time' => int 0
-  1 => 
-    array (size=4)
-      'alliance_tech_id' => int 100100
-      'exp' => int 0
-      'threshold' => int 0
-      'remiaining_time' => int 0
+array (size=7)
+  'err_code' => string '000' (length=3)
+  'err_desc' => string 'success' (length=7)
+  'exp' => int 0
+  'threshold' => int 0
+  'benefit' => int 0
+  'next_benefit' => int 0
+  'remaining_time' => int 0
 ```
 
