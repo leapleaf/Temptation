@@ -31,6 +31,7 @@ SVN版本:15004,15350.
 | err_code | 回傳參數碼 | string |--|
 | err_desc | 回傳參數碼說明 | string | -- |
 |alliance_list|聯盟清單|array|--|
+|world_map_id|世界地圖id|string|--|
 |leader|盟主|string|--|
 |alliance_name|聯盟名稱|string|--|
 |flag|聯盟旗幟|string|--|
