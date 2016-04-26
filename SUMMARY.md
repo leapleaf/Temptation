@@ -29,7 +29,7 @@
 * [聯盟科技](lian_meng_ke_ji.md)
    * [聯盟科技捐獻研發 alliance_tech_research](alliance_tech_research.md)
    * [取得聯盟科技清單 get_alliance_tech_list](get_alliance_tech_list.md)
-   * get_alliance_tech
+   * [get_alliance_tech](getalliance_tech.md)
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
        * [新增聯盟聊天 chat](chat.md)
