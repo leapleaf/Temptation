@@ -42,13 +42,13 @@ err_code 602為自己未加入聯盟中,故看不到自己的聯盟
 |members|聯盟成員|array|--|
 |alliance_name|聯盟名稱|string|--|
 |nickname|成員暱稱|string|--|
-|position|職位|string|--|
-|model|角色模組|string|--|
-|duty|職能|stiring|--|
-|lv|等級|string|--|
-|stage_no|關卡|string|目前突破關卡
+|position|職位|int|--|
+|model|角色模組|int|--|
+|duty|職能|int|--|
+|lv|等級|int|--|
+|stage_no|關卡|int|目前突破關卡
 |is_online|是否在線|bool|--|
-|power|成員戰力|string|--|
+|power|成員戰力|int|--|
 
 
 ### 5. 錯誤代碼說明
