@@ -21,7 +21,8 @@ SVN版本:15373.
 
 ### 2. 說明
 
-取得公開聯盟資訊,client一次取完,依序播放,播完再call這支api
+取得公開聯盟資訊,會先判斷有無聯盟,有則604,client一次取完,依序播放,播完再call這支api,
+
 ### 3. 輸入參數說明
 
 
@@ -37,20 +38,13 @@ SVN版本:15373.
 | err_desc | 回傳參數碼說明 | string | -- |
 |alliance_name|聯盟名稱|string|--|
 |shortname|聯盟短名稱|string|--|
-|lang|語系|string|--|
-|introduction|聯盟簡介|string|--|
-|flag|聯盟旗幟|int|--|
-|createtime|創立時間|string|--|
-|member_count|成員人數|int|--|
-|leader_name|盟主|string|--|
-|total_power|聯盟戰力|string|--|
+
 
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
 |--|--|
-|602|不屬於任何聯盟|
-|603|找不到此聯盟|
+|604|已有所屬聯盟|
 
 ### 6.回傳格式範例
 
