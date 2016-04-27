@@ -27,6 +27,7 @@
        * [聯盟戰力排名 alliance_power_rank](alliancepower_rank.md)
    * [+搜尋聯盟預設 search_alliance_default](search_alliance_default.md)
    * [公開聯盟輪播 alliance_carousel_recruit](alliancecarousel_recruit.md)
+   * alliance_change_bulletin
 * [聯盟科技](lian_meng_ke_ji.md)
    * [聯盟科技捐獻研發 alliance_tech_research](alliance_tech_research.md)
    * [取得聯盟科技清單 get_alliance_tech_list](get_alliance_tech_list.md)
