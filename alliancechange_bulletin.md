@@ -38,9 +38,7 @@ SVN版本:153??.
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
-|alliances|聯盟|array|key|
-|alliance_name|聯盟名稱|string|--|
-|shortname|聯盟短名稱|string|--|
+
 
 
 
