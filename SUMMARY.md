@@ -29,7 +29,7 @@
    * [公開聯盟輪播 alliance_carousel_recruit](alliancecarousel_recruit.md)
    * [聯盟變更內部布告 alliance_change_bulletin](alliancechange_bulletin.md)
    * [聯盟變更語系 alliance_change_lang](alliancechange_lang.md)
-   * alliance_change_intro
+   * [alliance_change_intro](alliancechange_intro.md)
 * [聯盟科技](lian_meng_ke_ji.md)
    * [聯盟科技捐獻研發 alliance_tech_research](alliance_tech_research.md)
    * [取得聯盟科技清單 get_alliance_tech_list](get_alliance_tech_list.md)
