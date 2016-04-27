@@ -52,17 +52,9 @@ SVN版本:153??.
 
 ```
 array (size=3)
+
   'err_code' => string '000' (length=3)
+  
   'err_desc' => string 'success' (length=7)
-  'alliances' => 
-    array (size=14)
-      0 => 
-        array (size=2)
-          'name' => string 'ABC' (length=3)
-          'shortname' => string 'A' (length=1)
-      1 => 
-        array (size=2)
-          'name' => string 'goddamn333' (length=10)
-          'shortname' => string 'A' (length=1)
 ```
 
