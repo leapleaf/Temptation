@@ -35,7 +35,6 @@ SVN版本:
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
 |alliance_tech_id|聯盟科技id|int|--|
-|shortname|聯盟短名稱|string|--|
 |exp|現在科技研發值|int|--|
 |threshold|此科技升級閥值|int|--|
 |remiaining_time|升級剩餘時間|int|--|
