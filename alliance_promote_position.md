@@ -1,6 +1,6 @@
 # +聯盟提權 alliance_promote_position
 
-API編碼:2.0.0
+API編碼:2.3.0
 
 > 
 
