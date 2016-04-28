@@ -1,7 +1,7 @@
 # +聯盟降權 alliance_demote_position
 
 
-API編碼:2.0.0
+API編碼:2.3.1
 
 > 
 
