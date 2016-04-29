@@ -51,16 +51,12 @@ SVN版本:
 ```
 array (size=12)
   0 => 
-    array (size=4)
-      'alliance_tech_id' => int 100001
-      'exp' => int 10
-      'threshold' => int 1000
-      'remaining_time' => int 0
-  1 => 
-    array (size=4)
-      'alliance_tech_id' => int 100100
+    array (size=6)
+      'alliance_tech_id' => int 100000
       'exp' => int 0
-      'threshold' => int 0
+      'threshold' => int 1000
       'remiaining_time' => int 0
+      'project' => int 1
+      'tectype' => int 1
 ```
 
