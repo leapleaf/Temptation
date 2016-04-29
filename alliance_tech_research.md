@@ -47,6 +47,7 @@ SVN版本:
 |601|權限不足|
 |623|無此可研發科技|
 |622|此科技正在升級，無法捐獻(加吐remaining_time)|
+|624|無法捐獻此道具|
 |403|物品資源不夠|
 
 ### 6.回傳格式範例
@@ -54,9 +55,11 @@ SVN版本:
 *
 
 ```
-array (size=4)
+array (size=6)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'remaining_time' => int 0
-  'score' => int 4400
+  'alliance_tech_id' => string '100100' (length=6)
+  'remaining_time' => string '30' (length=2)
+  'alliance_score' => int 690
+  'personal_score' => int 690
 ```
