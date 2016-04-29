@@ -5,11 +5,11 @@ API編碼:2.1.0
 > 
 
 
-更新日期:
+更新日期:2016/04/29
 
 > 
 
-SVN版本:
+SVN版本:15427.
 
 > 
 
@@ -59,7 +59,7 @@ array (size=6)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
   'alliance_tech_id' => string '100100' (length=6)
-  'remaining_time' => string '30' (length=2)
+  'remaining_time' => int '0' (length=2)
   'alliance_score' => int 690
   'personal_score' => int 690
   
