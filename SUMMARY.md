@@ -25,6 +25,7 @@
        * [+盟主轉讓 alliance_leader_transit](alliance_leader_transit.md)
    * [聯盟排名](alliance_rank.md)
        * [聯盟戰力排名 alliance_power_rank](alliancepower_rank.md)
+       * 捐獻排名
    * [+搜尋聯盟預設 search_alliance_default](search_alliance_default.md)
    * [公開聯盟輪播 alliance_carousel_recruit](alliancecarousel_recruit.md)
    * [聯盟變更內部布告 alliance_change_bulletin](alliancechange_bulletin.md)
