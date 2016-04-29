@@ -64,5 +64,8 @@ array (size=6)
   'personal_score' => int 690
   
 升級中
-
+array (size=3)
+  'err_code' => string '622' (length=3)
+  'err_desc' => string '此科技正在升級，無法捐獻' (length=36)
+  'remaining_time' => int 29
 ```
