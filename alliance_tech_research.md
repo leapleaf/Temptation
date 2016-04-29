@@ -62,4 +62,7 @@ array (size=6)
   'remaining_time' => string '30' (length=2)
   'alliance_score' => int 690
   'personal_score' => int 690
+  
+升級中
+
 ```
