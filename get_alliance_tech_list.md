@@ -38,6 +38,8 @@ SVN版本:
 |exp|現在科技研發值|int|--|
 |threshold|此科技升級閥值|int|--|
 |remiaining_time|升級剩餘時間|int|--|
+|project|--|int|--|
+|tectype|--|int|--|
 
 
 ### 5. 錯誤代碼說明
