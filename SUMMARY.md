@@ -10,7 +10,7 @@
    * [取得聯盟成員資訊 get_member_list](get_member_list.md)
    * [加入聯盟 join_alliance](join_alliance.md)
    * [搜尋無聯盟玩家 search_character_without_alliance](search_character_with.md)
-   * [-搜尋聯盟 search_alliance](search_alliance.md)
+   * [- 搜尋聯盟 search_alliance(不使用)](search_alliance.md)
    * [驅逐聯盟成員 dismiss_member](dismiss_member.md)
    * [退出聯盟 quit_alliance](quit_alliance.md)
    * [解散聯盟 dismiss_alliance](dismiss_alliance.md)
