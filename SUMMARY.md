@@ -38,7 +38,7 @@
 * [聯盟商店](alliance_store.md)
    * [取得聯盟商店清單 get_alliance_storeitem_list](getalliance_storeitem_list.md)
    * [取得聯盟商店上游清單 get_alliance_upper_storeitem_list](getalliance_upper_storeitem_list.md)
-   * [buy_alliance_upper_storeitem](buyalliance_upper_storeitem.md)
+   * [購買聯盟上游道具 buy_alliance_upper_storeitem](buyalliance_upper_storeitem.md)
    * [buy_alliance_storeitem](buyalliance_storeitem.md)
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
