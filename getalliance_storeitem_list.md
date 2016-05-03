@@ -39,18 +39,18 @@ SVN版本:
 |name|道具名稱|string|依語系調整|
 |description|道具說明|string|依語系調整|
 |type|型別|int|1.素材 2.道具 3.特殊 4.熱賣|
+|price|兌換價格|int|--|
+|num|剩餘數量|int|--|
+|icon_id|--|int|--|
 |member_point|成員積分|int|查詢者本人|
 |alliance_point|聯盟積分|int|--|
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
 |--|--|
+|910|版本已過期，需更新APP資料|
 |602|不屬於任何聯盟|
-|601|權限不足|
-|623|無此可研發科技|
-|622|此科技正在升級，無法捐獻(加吐remaining_time)|
-|624|無法捐獻此道具|
-|403|物品資源不夠|
+
 
 ### 6.回傳格式範例
 
@@ -62,16 +62,16 @@ array (size=5)
   'err_desc' => string 'success' (length=7)
   'items' => 
     array (size=1)
-      0 => 
+      0 => &
         array (size=7)
-          'item_id' => string '100001' (length=6)
+          'item_id' => int 100001
           'name' => string 'Jasper' (length=6)
           'description' => string 'Troops Summoning Item.' (length=22)
-          'type' => string '1' (length=1)
-          'price' => string '100' (length=3)
-          'num' => string '2' (length=1)
-          'icon_id' => string '501001' (length=6)
-  'member_point' => string '4930' (length=4)
-  'alliance_point' => string '280' (length=3)
+          'type' => int 1
+          'price' => int 100
+          'num' => int 2
+          'icon_id' => int 501001
+  'member_point' => int 4930
+  'alliance_point' => int 280
 
 ```
