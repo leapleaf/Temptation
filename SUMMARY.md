@@ -31,12 +31,12 @@
    * [聯盟變更內部布告 alliance_change_bulletin](alliancechange_bulletin.md)
    * [聯盟變更語系 alliance_change_lang](alliancechange_lang.md)
    * [聯盟變更公開宣言 alliance_change_intro](alliancechange_intro.md)
-* [聯盟商店](alliance_store.md)
-   * get_alliance_store_list
 * [聯盟科技](lian_meng_ke_ji.md)
    * [聯盟科技捐獻研發 alliance_tech_research](alliance_tech_research.md)
    * [取得聯盟科技清單 get_alliance_tech_list](get_alliance_tech_list.md)
    * [取得聯盟科技 get_alliance_tech](getalliance_tech.md)
+* [聯盟商店](alliance_store.md)
+   * get_alliance_store_list
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
        * [新增聯盟聊天 chat](chat.md)
