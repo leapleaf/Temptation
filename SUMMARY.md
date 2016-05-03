@@ -37,6 +37,7 @@
    * [取得聯盟科技 get_alliance_tech](getalliance_tech.md)
 * [聯盟商店](alliance_store.md)
    * [get_alliance_storeitem_list](getalliance_storeitem_list.md)
+   * get_alliance_upper_storeitem_list
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
        * [新增聯盟聊天 chat](chat.md)
