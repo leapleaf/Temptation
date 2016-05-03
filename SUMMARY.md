@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * [聯盟幫助](alliancehelp.md)
 * [聯盟](chapter1.md)
    * [建立聯盟 create_alliance](1.md)
    * [設定聯盟名稱 set_alliance_name](2.md)
@@ -41,6 +40,7 @@
    * [取得聯盟商店上游清單 get_alliance_upper_storeitem_list](getalliance_upper_storeitem_list.md)
    * [購買聯盟上游道具 buy_alliance_upper_storeitem](buyalliance_upper_storeitem.md)
    * [購買聯盟道具 buy_alliance_storeitem](buyalliance_storeitem.md)
+* [聯盟幫助](alliancehelp.md)
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
        * [新增聯盟聊天 chat](chat.md)
