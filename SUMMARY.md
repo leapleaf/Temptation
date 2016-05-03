@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
    * [聯盟商店](alliance_store.md)
+       * get_alliance_store_list
 * [聯盟](chapter1.md)
    * [建立聯盟 create_alliance](1.md)
    * [設定聯盟名稱 set_alliance_name](2.md)
