@@ -42,7 +42,7 @@
    * [購買聯盟道具 buy_alliance_storeitem](buyalliance_storeitem.md)
 * [聯盟幫助](alliancehelp.md)
    * [裝備合成幫助 character_compose_help](charactercompose_help.md)
-   * [合成飽食幫助 collect_gem_help](collectgem_help.md)
+   * [合成寶石幫助 collect_gem_help](collectgem_help.md)
    * [取得聯盟幫助清單 get_alliance_needhelp_list](getalliance_needhelp_list.md)
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
