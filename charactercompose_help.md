@@ -1,7 +1,7 @@
 #裝備合成幫助 character_compose_help
 
 
-API編碼:2.2.2
+API編碼:2.3.1
 
 > 
 
