@@ -1,8 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * [聯盟商店](alliance_store.md)
-       * get_alliance_store_list
 * [聯盟](chapter1.md)
    * [建立聯盟 create_alliance](1.md)
    * [設定聯盟名稱 set_alliance_name](2.md)
@@ -33,6 +31,8 @@
    * [聯盟變更內部布告 alliance_change_bulletin](alliancechange_bulletin.md)
    * [聯盟變更語系 alliance_change_lang](alliancechange_lang.md)
    * [聯盟變更公開宣言 alliance_change_intro](alliancechange_intro.md)
+* [聯盟商店](alliance_store.md)
+   * get_alliance_store_list
 * [聯盟科技](lian_meng_ke_ji.md)
    * [聯盟科技捐獻研發 alliance_tech_research](alliance_tech_research.md)
    * [取得聯盟科技清單 get_alliance_tech_list](get_alliance_tech_list.md)
