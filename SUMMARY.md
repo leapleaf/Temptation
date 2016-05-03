@@ -39,7 +39,7 @@
    * [get_alliance_storeitem_list](getalliance_storeitem_list.md)
    * get_alliance_upper_storeitem_list
    * [buy_alliance_upper_storeitem](buyalliance_upper_storeitem.md)
-   * buy_alliance_storeitem
+   * [buy_alliance_storeitem](buyalliance_storeitem.md)
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
        * [新增聯盟聊天 chat](chat.md)
