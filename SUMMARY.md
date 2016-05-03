@@ -37,7 +37,7 @@
    * [取得聯盟科技 get_alliance_tech](getalliance_tech.md)
 * [聯盟商店](alliance_store.md)
    * [取得聯盟商店清單 get_alliance_storeitem_list](getalliance_storeitem_list.md)
-   * [get_alliance_upper_storeitem_list](getalliance_upper_storeitem_list.md)
+   * [取得聯盟商店上游清單 get_alliance_upper_storeitem_list](getalliance_upper_storeitem_list.md)
    * [buy_alliance_upper_storeitem](buyalliance_upper_storeitem.md)
    * [buy_alliance_storeitem](buyalliance_storeitem.md)
 * [舊系統更新](ver_upgrade.md)
