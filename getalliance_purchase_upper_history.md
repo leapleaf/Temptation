@@ -1,0 +1,2 @@
+# get_alliance_purchase_upper_history
+
