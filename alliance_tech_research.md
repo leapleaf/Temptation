@@ -28,8 +28,8 @@ SVN版本:15427.
 
 | 參數 | 意義 | 型別 | 長度限制 | 說明 |
 | -- | -- | -- | -- | -- | -- |
-| alliance_tech_id | 聯盟科技 | string | -- | -- |
-| item_id | 道具id | string | 15 | -- |
+| alliance_tech_id | 聯盟科技 | int | -- | -- |
+| item_id | 道具id | int | -- | -- |
 
 ### 4. 回傳參數說明
 | 參數 | 意義 | 型別 | 說明 |
