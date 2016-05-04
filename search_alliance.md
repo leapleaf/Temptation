@@ -39,12 +39,16 @@ SVN版本:
 | err_code | 回傳參數碼 | string |--|
 | err_desc | 回傳參數碼說明 | string | -- |
 |alliance|聯盟|array|--|
-| name | 聯盟名稱 | string |--|
+|leader|盟主|string|--|
 | lang | 語系 | string | -- |
+|name|聯盟名稱|string|--|
 |shortname|聯盟短名稱|string|--|
-|flag|聯盟旗幟|string|--|
+|total_power|聯盟戰力|int|--|
+|flag|聯盟旗幟|int|--|
+|introduction|聯盟宣言|string|--|
 |createtime|創立時間|string|--|
-|member_count|成員人數|string|--|
+|member_count|成員人數|int|--|
+|max_member|成員最大數|int|--|
 
 
 
@@ -55,29 +59,35 @@ SVN版本:
 |603|找不到此聯盟|--|
 ### 6.回傳格式範例
 
-```array (size=3)
+```
+array (size=3)
   'err_code' => string '000' (length=3)
-  
   'err_desc' => string 'success' (length=7)
-  
   'alliance' => 
-  
     array (size=2)
       0 => 
-        array (size=7)
-          'name' => string 'magus_ship' (length=10)
+        array (size=10)
+          'alliance_name' => string '123' (length=3)
+          'alliance_short_name' => string 'A' (length=1)
+          'leader' => string 'wade' (length=4)
+          'power' => int 548818
           'lang' => string 'en' (length=2)
-          'shortname' => string 'MS' (length=2)
           'introduction' => string 'introduction' (length=12)
-          'flag' => string '1' (length=1)
-          'createtime' => string '2016-03-21 09:21:55' (length=19)
-          'members_count' => string '1' (length=1)
+          'flag' => int 1
+          'createtime' => string '2016-04-13 09:47:07' (length=19)
+          'max_member' => int 50
+          'members_count' => int 37
       1 => 
-        array (size=7)
-          'name' => string 'Magus_Land' (length=10)
+        array (size=10)
+          'alliance_name' => string 'godda112' (length=8)
+          'alliance_short_name' => string 'A' (length=1)
+          'leader' => string '吃飯了' (length=9)
+          'power' => int 82872
           'lang' => string 'en' (length=2)
-          'shortname' => string 'A' (length=1)
           'introduction' => string 'introduction' (length=12)
-          'flag' => string '1' (length=1)
-          'createtime' => string '2016-03-23 06:22:59' (length=19)
-          'members_count' => string '6' (length=1)```
+          'flag' => int 1
+          'createtime' => string '2016-04-29 07:17:58' (length=19)
+          'max_member' => int 50
+          'members_count' => int 5
+          
+          ```
