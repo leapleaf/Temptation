@@ -27,7 +27,7 @@
 * [聯盟權限](alliance_position.md)
    * [聯盟提權 alliance_promote_position](alliance_promote_position.md)
    * [聯盟降權 alliance_demote_position](alliance_demote_position.md)
-   * [+盟主轉讓 alliance_leader_transit](alliance_leader_transit.md)
+   * [盟主轉讓 alliance_leader_transit](alliance_leader_transit.md)
 * [聯盟排名](alliance_rank.md)
    * [聯盟戰力排名 alliance_power_rank](alliancepower_rank.md)
    * [捐獻排名 get_alliance_donate_rank](getalliance_donate_rank.md)
