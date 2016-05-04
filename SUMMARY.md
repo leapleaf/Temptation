@@ -2,6 +2,10 @@
 
 * [Introduction](README.md)
 * [聯盟](chapter1.md)
+   * [聯盟權限](alliance_position.md)
+       * [+聯盟提權 alliance_promote_position](alliance_promote_position.md)
+       * [+聯盟降權 alliance_demote_position](alliance_demote_position.md)
+       * [+盟主轉讓 alliance_leader_transit](alliance_leader_transit.md)
    * [建立聯盟 create_alliance](1.md)
    * [設定聯盟名稱 set_alliance_name](2.md)
    * [設定聯盟旗幟 set_alliance_flag](3.md)
@@ -19,10 +23,6 @@
    * [*接受聯盟邀請 accept_alliance_invitation](accept_alliance_invitation.md)
    * [*取得聯盟日誌 get_alliance_log](get_alliance_log.md)
    * [*記錄聯盟日誌 add_alliance_log](add_alliance_log.md)
-   * [聯盟權限](alliance_position.md)
-       * [+聯盟提權 alliance_promote_position](alliance_promote_position.md)
-       * [+聯盟降權 alliance_demote_position](alliance_demote_position.md)
-       * [+盟主轉讓 alliance_leader_transit](alliance_leader_transit.md)
    * [聯盟排名](alliance_rank.md)
        * [聯盟戰力排名 alliance_power_rank](alliancepower_rank.md)
        * 捐獻排名
