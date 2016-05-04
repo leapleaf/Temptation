@@ -41,6 +41,7 @@
    * [購買聯盟上游道具 buy_alliance_upper_storeitem](buyalliance_upper_storeitem.md)
    * [購買聯盟道具 buy_alliance_storeitem](buyalliance_storeitem.md)
    * get_alliance_purchase_history
+   * get_alliance_purchase_upper_history
 * [聯盟幫助](alliancehelp.md)
    * [取得聯盟幫助清單 get_alliance_needhelp_list](getalliance_needhelp_list.md)
    * [裝備合成幫助 character_compose_help](charactercompose_help.md)
