@@ -59,7 +59,7 @@ SVN版本:15427.
 array (size=6)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'alliance_tech_id' => string '100100' (length=6)
+  'alliance_tech_id' => int '100100' (length=6)
   'remaining_time' => int 0
   'alliance_score' => int 690
   'personal_score' => int 690
