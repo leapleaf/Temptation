@@ -1,6 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
+* [聯盟權限](alliance_position.md)
+   * [+聯盟提權 alliance_promote_position](alliance_promote_position.md)
+   * [+聯盟降權 alliance_demote_position](alliance_demote_position.md)
+   * [+盟主轉讓 alliance_leader_transit](alliance_leader_transit.md)
 * [聯盟](chapter1.md)
    * [聯盟權限](alliance_position.md)
        * [+聯盟提權 alliance_promote_position](alliance_promote_position.md)
