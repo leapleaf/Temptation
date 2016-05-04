@@ -36,6 +36,7 @@ SVN版本:15427.
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
+|alliance_tech_id|捐獻科技id|int|--|
 | remaining_time|剩餘升級時間|int|--|
 |alliance_score|現在聯盟積分|int|--|
 |personal_score|現在個人積分|int|--|
