@@ -55,19 +55,7 @@ SVN版本:
 array (size=5)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'items' => 
-    array (size=1)
-      0 => &
-        array (size=7)
-          'item_id' => int 100001
-          'name' => string 'Jasper' (length=6)
-          'description' => string 'Troops Summoning Item.' (length=22)
-          'type' => int 1
-          'price' => int 100
-          'num' => int 2
-          'icon_id' => int 501001
-  'member_point' => int 4930
-  'alliance_point' => int 280
+
 
 ```
 
