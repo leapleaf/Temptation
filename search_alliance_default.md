@@ -44,6 +44,18 @@ SVN版本:
 |createtime|創立時間|string|--|
 |member_count|成員人數|string|--|
 
+|alliance|聯盟|array|--|
+|leader|盟主|string|--|
+| lang | 語系 | string | -- |
+|name|聯盟名稱|string|--|
+|shortname|聯盟短名稱|string|--|
+|total_power|聯盟戰力|int|--|
+|flag|聯盟旗幟|int|--|
+|introduction|聯盟宣言|string|--|
+|createtime|創立時間|string|--|
+|member_count|成員人數|int|--|
+|max_member|成員最大數|int|--|
+
 
 
 ### 5. 錯誤代碼說明
