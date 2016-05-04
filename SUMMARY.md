@@ -30,7 +30,7 @@
    * [+盟主轉讓 alliance_leader_transit](alliance_leader_transit.md)
 * [聯盟排名](alliance_rank.md)
    * [聯盟戰力排名 alliance_power_rank](alliancepower_rank.md)
-   * [get_alliance_donate_rank](getalliance_donate_rank.md)
+   * [捐獻排名 get_alliance_donate_rank](getalliance_donate_rank.md)
 * [聯盟科技](lian_meng_ke_ji.md)
    * [聯盟科技捐獻研發 alliance_tech_research](alliance_tech_research.md)
    * [取得聯盟科技清單 get_alliance_tech_list](get_alliance_tech_list.md)
