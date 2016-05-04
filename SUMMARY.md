@@ -26,7 +26,7 @@
    * [聯盟變更公開宣言 alliance_change_intro](alliancechange_intro.md)
 * [聯盟權限](alliance_position.md)
    * [聯盟提權 alliance_promote_position](alliance_promote_position.md)
-   * [+聯盟降權 alliance_demote_position](alliance_demote_position.md)
+   * [聯盟降權 alliance_demote_position](alliance_demote_position.md)
    * [+盟主轉讓 alliance_leader_transit](alliance_leader_transit.md)
 * [聯盟排名](alliance_rank.md)
    * [聯盟戰力排名 alliance_power_rank](alliancepower_rank.md)
