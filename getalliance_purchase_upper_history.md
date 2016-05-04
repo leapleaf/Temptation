@@ -1,15 +1,15 @@
 # 取得聯盟上游購買紀錄 get_alliance_purchase_upper_history
 
-API編碼:2.2.0
+API編碼:2.2.4
 
 > 
 
 
-更新日期:2016/05/03
+更新日期:2016/05/04
 
 > 
 
-SVN版本:15458
+SVN版本:
 
 > 
 
