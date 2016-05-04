@@ -64,20 +64,20 @@ SVN版本:15358.15503.
 array (size=3)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'characters' => 
-    array (size=7)
+  'logs' => 
+    array (size=2)
       0 => 
         array (size=4)
           'name' => string '' (length=0)
           'type' => int 0
-          'log' => string '222' (length=3)
-          'createtime' => string '2016-03-04 07:34:56.498788' (length=26)
+          'log' => string 'test' (length=4)
+          'createtime' => string '2016-03-04 08:13:23.591755' (length=26)
       1 => 
         array (size=4)
           'name' => string '' (length=0)
           'type' => int 0
-          'log' => string '222' (length=3)
-          'createtime' => string '2016-03-04 07:30:27.851808' (length=26)
+          'log' => string 'test 2' (length=6)
+          'createtime' => string '2016-03-04 08:13:23.330000' (length=26)
 ```
 
 
