@@ -30,6 +30,7 @@ SVN版本:15458
 | -- | -- | -- | -- | -- | -- |
 | character_id | 腳色id | int | -- | 由token取得 |
 | storeitem_id | 道具id | int | 6 | -- |
+|num|購買道具數|int|
 
 ### 4. 回傳參數說明
 | 參數 | 意義 | 型別 | 說明 |
