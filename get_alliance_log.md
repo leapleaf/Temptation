@@ -42,6 +42,7 @@ SVN版本:15358.
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |--|
 | err_desc | 回傳參數碼說明 | string | -- |
+|logs|日誌|array|key|
 |name|日誌名稱|string|--|
 |type|型別|int|--|
 |log|日誌|string|--|
