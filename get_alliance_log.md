@@ -45,7 +45,12 @@ SVN版本:15358.15503. 15509
 |logs|日誌|array|key|
 |nickname|暱稱|string|--|
 |type|型別|int|--|
-|value|日誌|string|--|
+|value|值|int||client定義|
+|valuestring|日誌|text||client定義|
+
+
+
+
 |createtime|建立時間|string|--|
 
 
