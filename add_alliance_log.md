@@ -22,9 +22,9 @@ SVN版本:15358.
 ### 3. 輸入參數說明
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
-|name|紀錄名稱|string|--|--|
-|type|型別|int|8|--|
-|log|廣播文字|text|255|--|
+|nickname|暱稱|string|--|--|
+|type|型別|int|8|client定義|
+|value|值|text|--|client定義|
 
 
 
