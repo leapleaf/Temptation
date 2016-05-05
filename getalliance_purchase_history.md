@@ -15,7 +15,7 @@ SVN版本:15466
 > 
 
 發布版本:2.0.0
-### 1.路徑:alliance_store/get_alliance_purchase_upper_history
+### 1.路徑:alliance_store/get_alliance_purchase_history
 
 ### 2. 說明
 
