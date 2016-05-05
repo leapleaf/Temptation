@@ -34,13 +34,15 @@ SVN版本:
 
 | 參數 | 意義 | 型別 | 長度限制 | 說明 |
 | -- | -- | -- | -- | -- | -- |
-| nickname | 繼位者 | string | 11 | 暱稱 |
+| limit | 筆數 | string | 11 | 未帶入則為50筆 |
 
 ### 4. 回傳參數說明
 | 參數 | 意義 | 型別 | 說明 |
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
+|ranks|排名|array|key|
+
 
 
 ### 5. 錯誤代碼說明
@@ -48,18 +50,23 @@ SVN版本:
 |--|--|
 |601|無此權限|
 |605|該玩家不屬於此聯盟|
+|power|聯盟戰力|int|--|
+|alliance_name|聯盟名稱|string|--|
+|alliance_short_name|聯盟短名稱|string|--|
+|leader|盟主|string|--|
 
 ### 6.回傳格式範例
 
-*array (size=2)
-> 
+*```
+array (size=10)
+  0 => 
+    array (size=4)
+      'power' => int 548818
+      'alliance_name' => string '123' (length=3)
+      'alliance_short_name' => string 'A' (length=1)
+      'leader' => string 'wade' (length=4)
 
-
-  'err_code' => string '000' (length=3)
-> 
-
-
-  'err_desc' => string 'success' (length=7)*
+```
 
 
 
