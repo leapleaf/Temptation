@@ -15,10 +15,10 @@ API編碼:2.0.16
 
 
 
-更新日期:2016/4/25 2016/5/4
+更新日期:2016/4/25 2016/5/4 2016/5/5
 
 
-SVN版本:15358.15503.
+SVN版本:15358.15503. 15507
 
 > 
 
@@ -43,12 +43,10 @@ SVN版本:15358.15503.
 | err_code | 回傳參數碼 | string |--|
 | err_desc | 回傳參數碼說明 | string | -- |
 |logs|日誌|array|key|
-|name|日誌名稱|string|--|
+|nickname|暱稱|string|--|
 |type|型別|int|--|
-|log|日誌|string|--|
+|value|日誌|string|--|
 |createtime|建立時間|string|--|
-
-
 
 
 
@@ -68,15 +66,15 @@ array (size=3)
     array (size=2)
       0 => 
         array (size=4)
-          'name' => string '' (length=0)
+          'nickname' => string '' (length=0)
           'type' => int 0
-          'log' => string 'test' (length=4)
+          'value' => string 'test' (length=4)
           'createtime' => string '2016-03-04 08:13:23.591755' (length=26)
       1 => 
         array (size=4)
-          'name' => string '' (length=0)
+          'nickname' => string '' (length=0)
           'type' => int 0
-          'log' => string 'test 2' (length=6)
+          'value' => string 'test 2' (length=6)
           'createtime' => string '2016-03-04 08:13:23.330000' (length=26)
 ```
 
