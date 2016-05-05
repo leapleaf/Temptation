@@ -35,6 +35,7 @@ SVN版本:
 | power | 戰力 | int |--|
 | alliance_name | 聯盟名稱 | string | -- |
 | alliance_short_name | 聯盟名稱 | string | -- |
+|position|職位|int|--|
 
 
 
