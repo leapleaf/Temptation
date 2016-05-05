@@ -37,7 +37,7 @@ SVN版本:15536
 |compose_queued_list|裝備陣列|array|key|
 | collect_gem_queue|寶石陣列|array|key|
 |nickname|玩家暱稱|string|--|
-|queue_id|製作序列|string|依語系調整|
+|queue_id|製作序列|int|--|
 
 
 ### 5. 錯誤代碼說明
