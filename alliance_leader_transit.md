@@ -4,21 +4,15 @@
 
 API編碼:2.3.2
 
-```
-    if (!$permission) {//暫時寫入mem 等規格開後刪掉
-        $Leaderpermision = [10001 => 1, 10002 => 0, 10003 => 0, 10004 => 0, 10005 => 0, 10006 => 0, 10007 => 0];
-        addAlliancePermisiontoMem('LeaderChange', $Leaderpermision);
-    }
-
-```
 
 
 
-更新日期:
+
+更新日期:2016/05/03
 
 > 
 
-SVN版本:
+SVN版本:15458.
 
 > 
 
