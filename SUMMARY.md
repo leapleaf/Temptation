@@ -35,7 +35,7 @@
    * [聯盟科技捐獻研發 alliance_tech_research](alliance_tech_research.md)
    * [取得聯盟科技清單 get_alliance_tech_list](get_alliance_tech_list.md)
    * [取得聯盟科技 get_alliance_tech](getalliance_tech.md)
-   * alliance_tech_level_up
+   * [alliance_tech_level_up](alliancetech_level_up.md)
 * [聯盟商店](alliance_store.md)
    * [取得聯盟商店清單 get_alliance_storeitem_list](getalliance_storeitem_list.md)
    * [取得聯盟商店上游清單 get_alliance_upper_storeitem_list](getalliance_upper_storeitem_list.md)
