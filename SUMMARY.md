@@ -44,7 +44,7 @@
    * [取得聯盟購買紀錄 get_alliance_purchase_history](getalliance_purchase_history.md)
 * [聯盟幫助](alliancehelp.md)
    * [取得聯盟幫助清單 get_alliance_needhelp_list](getalliance_needhelp_list.md)
-   * [聯盟幫助 alliance_help](charactercompose_help.md)
+   * [X 裝備合成幫助 character_compose_help](charactercompose_help.md)
    * [合成寶石幫助 collect_gem_help](collectgem_help.md)
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
