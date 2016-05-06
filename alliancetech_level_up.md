@@ -1,2 +1,2 @@
-# alliance_tech_level_up
+#聯盟科技升級 alliance_tech_level_up
 
