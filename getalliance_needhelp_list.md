@@ -43,6 +43,8 @@ SVN版本:15536,15556
 |limit|幫助限制|int|--|
 |type|幫助種類|int|--|
 |recvie_times|已幫助次數|int|--|
+|item_id|道具id|int|--|
+|gem_id|寶石id|int|--|
 
 
 ### 5. 錯誤代碼說明
@@ -62,59 +64,66 @@ array (size=3)
   'alliance_need_helip_list' => 
     array (size=7)
       0 => 
-        array (size=6)
+        array (size=7)
           'nickname' => string 'wade' (length=4)
           'queue_id' => int 144
           'model' => int 1
           'limit' => int 7
+          'item_id' => int 200002
           'type' => int 1
           'recvie_times' => int 3
       1 => 
-        array (size=6)
+        array (size=7)
           'nickname' => string 'wade' (length=4)
           'queue_id' => int 145
           'model' => int 1
           'limit' => int 7
+          'item_id' => int 200002
           'type' => int 1
           'recvie_times' => int 1
       2 => 
-        array (size=6)
+        array (size=7)
           'nickname' => string 'wade' (length=4)
           'queue_id' => int 146
           'model' => int 1
           'limit' => int 7
+          'item_id' => int 200002
           'type' => int 1
           'recvie_times' => int 0
       3 => 
-        array (size=6)
+        array (size=7)
           'nickname' => string 'Rocky' (length=5)
           'queue_id' => int 147
           'model' => int 1
           'limit' => int 5
+          'item_id' => int 200002
           'type' => int 1
           'recvie_times' => int 0
       4 => 
-        array (size=6)
+        array (size=7)
           'nickname' => string 'Rocky' (length=5)
           'queue_id' => int 131
           'model' => int 1
           'limit' => int 5
+          'gem_id' => int 100001
           'type' => int 2
           'recvie_times' => int 0
       5 => 
-        array (size=6)
+        array (size=7)
           'nickname' => string 'Rocky' (length=5)
           'queue_id' => int 287
           'model' => int 1
           'limit' => int 5
+          'gem_id' => int 100001
           'type' => int 2
           'recvie_times' => int 3
       6 => 
-        array (size=6)
+        array (size=7)
           'nickname' => string 'Rocky' (length=5)
           'queue_id' => int 288
           'model' => int 1
           'limit' => int 5
+          'gem_id' => int 100001
           'type' => int 2
           'recvie_times' => int 2
 
