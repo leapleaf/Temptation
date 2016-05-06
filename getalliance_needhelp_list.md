@@ -44,7 +44,6 @@ SVN版本:15536,15556
 |type|幫助種類|int|--|
 |recvie_times|已幫助次數|int|--|
 |item_id|道具id|int|--|
-|gem_id|寶石id|int|--|
 
 
 ### 5. 錯誤代碼說明
