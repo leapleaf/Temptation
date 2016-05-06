@@ -46,7 +46,7 @@
    * [取得聯盟幫助清單 get_alliance_needhelp_list](getalliance_needhelp_list.md)
    * [X 裝備合成幫助 character_compose_help](charactercompose_help.md)
    * [X 合成寶石幫助 collect_gem_help](collectgem_help.md)
-   * alliance_help
+   * [alliance_help](alliance_help.md)
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
        * [新增聯盟聊天 chat](chat.md)
