@@ -19,7 +19,7 @@ SVN版本:15359.
 > 
 
 發布版本:2.0.0
-### 1.路徑:alliance/quit_alliance
+### 1.路徑:alliance_member/quit_alliance
 
 ### 2. 說明
 
