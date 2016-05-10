@@ -20,11 +20,11 @@
    * [*接受聯盟邀請 accept_alliance_invitation](accept_alliance_invitation.md)
    * [*取得聯盟日誌 get_alliance_log](get_alliance_log.md)
    * [*記錄聯盟日誌 add_alliance_log](add_alliance_log.md)
-   * [聯盟變更公開宣言 alliance_change_intro](alliancechange_intro.md)
-       * alliance_change_recruit
    * [公開聯盟輪播 alliance_carousel_recruit](alliancecarousel_recruit.md)
    * [聯盟變更內部布告 alliance_change_bulletin](alliancechange_bulletin.md)
    * [聯盟變更語系 alliance_change_lang](alliancechange_lang.md)
+* [聯盟變更公開宣言 alliance_change_intro](alliancechange_intro.md)
+   * alliance_change_recruit
 * [聯盟權限](alliance_position.md)
    * [聯盟提權 alliance_promote_position](alliance_promote_position.md)
    * [聯盟降權 alliance_demote_position](alliance_demote_position.md)
