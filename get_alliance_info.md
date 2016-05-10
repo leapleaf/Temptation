@@ -42,7 +42,7 @@ SVN版本:15355.
 |createtime|創立時間|string|--|
 |member_count|成員人數|int|--|
 |leader_name|盟主|string|--|
-|total_power|聯盟戰力|string|--|
+|total_power|聯盟戰力|int|--|
 
 
 ### 5. 錯誤代碼說明
