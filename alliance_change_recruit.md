@@ -30,7 +30,7 @@ recuit
 | 參數 | 意義 | 型別 | 長度限制 | 說明 |
 | -- | -- | -- | -- | -- | -- |
 |character_id|角色id|int|4|帶入token|
-|recuit|公開招募|int|1:公開,0:限制招募|
+|recruit|公開招募|int|1:公開,0:限制招募|
 |level|等級|int|限制招募等級,|
 |power|戰力|int|限制招募戰力|
 
