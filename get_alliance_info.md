@@ -44,6 +44,9 @@ SVN版本:15355.
 |max_member|成員最大數|int|--|
 |leader_name|盟主|string|--|
 |total_power|聯盟戰力|int|--|
+|stint_level|限制等級|int|--|
+|stint_power|限制戰力|int|--|
+|recuit|公開招募|int|1為公開|
 
 
 ### 5. 錯誤代碼說明
