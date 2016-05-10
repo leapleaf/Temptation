@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [聯盟](chapter1.md)
-   * [聯盟變更公開宣言 alliance_change_intro](alliancechange_intro.md)
    * [建立聯盟 create_alliance](1.md)
    * [設定聯盟名稱 set_alliance_name](2.md)
    * [設定聯盟旗幟 set_alliance_flag](3.md)
@@ -23,6 +22,7 @@
    * [*記錄聯盟日誌 add_alliance_log](add_alliance_log.md)
    * [公開聯盟輪播 alliance_carousel_recruit](alliancecarousel_recruit.md)
    * [聯盟變更內部布告 alliance_change_bulletin](alliancechange_bulletin.md)
+   * [聯盟變更公開宣言 alliance_change_intro](alliancechange_intro.md)
    * [聯盟變更語系 alliance_change_lang](alliancechange_lang.md)
 * [修改聯盟招募 alliance_change_recruit](alliance_change_recruit.md)
 * [聯盟權限](alliance_position.md)
