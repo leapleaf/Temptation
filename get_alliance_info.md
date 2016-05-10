@@ -41,6 +41,7 @@ SVN版本:15355.
 |flag|聯盟旗幟|int|--|
 |createtime|創立時間|string|--|
 |member_count|成員人數|int|--|
+|max_member|成員最大數|int|--|
 |leader_name|盟主|string|--|
 |total_power|聯盟戰力|int|--|
 
