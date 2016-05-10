@@ -2,9 +2,8 @@
 
 * [Introduction](README.md)
 * [聯盟](chapter1.md)
-   * [alliance_change_recruit](alliance_change_recruit.md)
+   * [修改聯盟招募 alliance_change_recruit](alliance_change_recruit.md)
    * [聯盟變更公開宣言 alliance_change_intro](alliancechange_intro.md)
-       * [alliance_change_recruit](alliance_change_recruit.md)
    * [建立聯盟 create_alliance](1.md)
    * [設定聯盟名稱 set_alliance_name](2.md)
    * [設定聯盟旗幟 set_alliance_flag](3.md)
