@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [聯盟](chapter1.md)
-   * [修改聯盟招募 alliance_change_recruit](alliance_change_recruit.md)
    * [聯盟變更公開宣言 alliance_change_intro](alliancechange_intro.md)
    * [建立聯盟 create_alliance](1.md)
    * [設定聯盟名稱 set_alliance_name](2.md)
@@ -17,6 +16,7 @@
    * [驅逐聯盟成員 dismiss_member](dismiss_member.md)
    * [退出聯盟 quit_alliance](quit_alliance.md)
    * [解散聯盟 dismiss_alliance](dismiss_alliance.md)
+   * [修改聯盟招募 alliance_change_recruit](alliance_change_recruit.md)
    * [*寄聯盟邀請信 send_alliance_invitation.php](send_alliance_invitation.md)
    * [聯盟廣播 send_msg_to_all_member](send_msg_to_all_member.md)
    * [*接受聯盟邀請 accept_alliance_invitation](accept_alliance_invitation.md)
