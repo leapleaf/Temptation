@@ -37,6 +37,7 @@ SVN版本:15356.
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
+|position|職位|int|==6 or 7|
 
 
 
