@@ -33,7 +33,6 @@ SVN版本:15435..
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
-|position|職位|int|==1|
 
 
 ### 5. 錯誤代碼說明
