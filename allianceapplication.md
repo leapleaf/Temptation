@@ -1,5 +1,5 @@
 # 申請加入聯盟 alliance_application
-API編碼:2.4.0
+API編碼:2.6.0
 
 > 
 
