@@ -37,6 +37,8 @@ SVN版本:15427.
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
 | remaining_time|剩餘升級時間|int|--|
+|alliance_score|聯盟積分|int|--|
+|personal_score|個人積分|int|--|
 
 
 ### 5. 錯誤代碼說明
