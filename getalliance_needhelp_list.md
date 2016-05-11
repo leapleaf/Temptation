@@ -1,7 +1,7 @@
 #取得聯盟幫助清單 get_alliance_needhelp_list
 
 
-API編碼:2.3.0
+API編碼:2.5.0
 
 > 
 
