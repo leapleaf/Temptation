@@ -40,6 +40,7 @@ SVN版本:15445..
 |remiaining_time|升級剩餘時間|int|--|
 |project|--|int|--|
 |tectype|--|int|--|
+|can_levleup|可升級|int
 |member_score|個人積分|int|--|
 
 
