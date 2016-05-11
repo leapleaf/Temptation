@@ -42,7 +42,7 @@ SVN版本:15445..
 |tectype|--|int|--|
 |can_levleup|可升級|boolean|--|
 |member_score|個人積分|int|--|
-|donate_cdtime|個人捐獻|int|--|
+|donate_cdtime|個人捐獻cd|int|--|
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
