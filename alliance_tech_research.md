@@ -42,6 +42,7 @@ SVN版本:15427.
 | remaining_time|剩餘升級時間|int|--|
 |alliance_score|現在聯盟積分|int|--|
 |personal_score|現在個人積分|int|--|
+|donate_cdtime|個人捐獻|int|--|
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
