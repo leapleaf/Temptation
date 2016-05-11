@@ -53,13 +53,14 @@ SVN版本:
 ### 6.回傳格式範例
 
 ```
-array (size=7)
+array (size=8)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
   'exp' => int 0
-  'threshold' => int 0
+  'threshold' => int 100
   'benefit' => int 0
-  'next_benefit' => int 0
+  'next_benefit' => int 2
   'remaining_time' => int 0
+  'can_levelup' => int 0
 ```
 
