@@ -41,7 +41,7 @@ SVN版本:
 |benefit|現在科技效果|int|Value1|
 |next_benefit|下一科技效果|int|若無則吐0|
 |remiaining_time|升級剩餘時間|int|低於0吐0|
-|can_levelup|可以升級|int|1可升級|
+|can_levelup|可以升級|boolean|1可升級|
 
 
 ### 5. 錯誤代碼說明
