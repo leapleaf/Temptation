@@ -48,6 +48,7 @@ SVN版本:15511
 |alliance_name|聯盟名稱|string|--|
 |alliance_short_name|聯盟短名稱|string|--|
 |leader|盟主|string|--|
+|flag|旗幟|int|--|
 
 ### 6.回傳格式範例
 
