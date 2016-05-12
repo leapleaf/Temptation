@@ -49,6 +49,7 @@ SVN版本:
 |createtime|創立時間|string|--|
 |member_count|成員人數|int|--|
 |max_member|成員最大數|int|--|
+|recruit|公開招募|int|--|
 
 
 
