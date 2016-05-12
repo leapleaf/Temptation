@@ -53,6 +53,7 @@
    * [X 裝備合成幫助 character_compose_help](charactercompose_help.md)
    * [X 合成寶石幫助 collect_gem_help](collectgem_help.md)
    * [alliance_help](alliance_help.md)
+       * help_all_alliance_member
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
        * [新增聯盟聊天 chat](chat.md)
