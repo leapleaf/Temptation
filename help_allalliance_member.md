@@ -1,9 +1,9 @@
-# 幫助所有玩家 alliance_help
+# 幫助所有玩家 help_all_alliance_member
 
 
 
 
-API編碼:2.5.1
+API編碼:2.5.2
 
 > 
 
@@ -17,7 +17,7 @@ SVN版本:15458 15537.
 > 
 
 發布版本:2.0.0
-### 1.路徑:alliance_help/alliance_help
+### 1.路徑:alliance_help/help_all_alliance_member
 
 ### 2. 說明
 聯盟幫助,依type分類要幫助的項目,先判斷有無可幫助序列,再判斷玩家是否同一聯盟,同一玩家同一序列僅能幫助一次
