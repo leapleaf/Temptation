@@ -27,7 +27,7 @@
    * [修改聯盟招募 alliance_change_recruit](alliance_change_recruit.md)
    * [聯盟新人專區](alliancenewbie.md)
        * [alliance_application](allianceapplication.md)
-       * [get_alliance_application.php](get_alliance_application.md)
+       * [get_alliance_application](get_alliance_application.md)
        * [apply_alliance_application](apply_alliance_application.md)
 * [聯盟權限](alliance_position.md)
    * [聯盟提權 alliance_promote_position](alliance_promote_position.md)
