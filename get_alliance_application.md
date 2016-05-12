@@ -1,7 +1,7 @@
 
 
 # 取得申請聯盟清單 get_alliance_application
-API編碼:2.4.1
+API編碼:2.6.1
 
 > 
 
@@ -34,6 +34,12 @@ SVN版本:15435..
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |  |
 | err_desc | 回傳參數碼說明 | string | -- |
+|applications|申請清單|array|key|
+|nickname|暱稱|string|--|
+|power|戰力|int|--|
+|model|模組|int|--|
+|lv|等級|int|--|
+|duty|責任|int|--|
 
 
 ### 5. 錯誤代碼說明
