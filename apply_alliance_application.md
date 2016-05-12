@@ -1,6 +1,6 @@
 
 
-# 取得申請聯盟清單 get_alliance_application
+# 核可聯盟新人 apply_alliance_application
 API編碼:2.4.2
 
 > 
@@ -16,11 +16,11 @@ SVN版本:15435..
 > 
 
 發布版本:2.0.0
-### 1.路徑:alliance_member/get_alliance_application
+### 1.路徑:alliance_member/apply_alliance_application
 
 ### 2. 說明
 
-取得申請聯盟清單,先判斷有無'Allow'權限,再取得相對應玩家的資料
+核可聯盟新人,先判斷有無'Allow'權限,
 
 ### 3. 輸入參數說明
 
@@ -43,6 +43,7 @@ SVN版本:15435..
 |--|--|
 |601|無此權限|
 |603|找不到此聯盟(client本人沒有聯盟|
+|604|已有所屬聯盟|
 
 ### 6.回傳格式範例
 
