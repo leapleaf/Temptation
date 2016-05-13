@@ -20,7 +20,7 @@ SVN版本:15355.
 
 ### 2. 說明
 
-取得聯盟資訊,先判斷有無輸入聯盟名稱,若無則搜尋自身聯盟.
+取得聯盟資訊,先判斷有無輸入聯盟名稱,若無則搜尋自身聯盟.未輸入alliance_member多吐position
 ### 3. 輸入參數說明
 
 
@@ -47,6 +47,7 @@ SVN版本:15355.
 |stint_level|限制等級|int|--|
 |stint_power|限制戰力|int|--|
 |recuit|公開招募|int|1為公開|
+|position|職位|int|未輸入alliance_member吐|
 
 
 ### 5. 錯誤代碼說明
