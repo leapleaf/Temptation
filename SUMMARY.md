@@ -61,4 +61,5 @@
        * [角色情報](get_character.md)
    * [ver 1.4.0](ver_140.md)
    * [競技場](jing_ji_chang.md)
+       * 比牌 card_versus
 
