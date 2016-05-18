@@ -44,10 +44,8 @@ SVN版本:
 |can_levelup|可以升級|boolean|1可升級|--|
 |donate_cdtime|個人捐獻cd|int|--|--|
 |donate_lock|捐獻鎖定|boolean|true為鎖住|--|
-|item1|可捐獻項目1|array|key|2.0.1|
-|item2|可捐獻項目2|array|key|2.0.1|
-|item_id|可捐獻道具id|int|2.0.1|
-|quantity|可捐獻道具必須數量|int|2.0.1|
+|item_id1|可捐獻道具id|int|2.0.1|
+|item_id2|可捐獻道具id|int|2.0.1|
 |goldleaf|可捐獻金葉|int|2.0.1|
 |open|是否開啟|boolean|2.0.1|
 
