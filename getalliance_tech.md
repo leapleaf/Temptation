@@ -61,14 +61,30 @@ SVN版本:
 ### 6.回傳格式範例
 
 ```
-array (size=8)
+array (size=14)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
   'exp' => int 0
-  'threshold' => int 100
-  'benefit' => int 0
-  'next_benefit' => int 2
+  'threshold' => int 13000
+  'benefit' => int 50
+  'next_benefit' => int 60
   'remaining_time' => int 0
-  'can_levelup' => int 0
+  'can_levelup' => boolean false
+  'donate_cdtime' => int 0
+  'item1' => 
+    array (size=1)
+      0 => 
+        array (size=2)
+          'item_id' => int 123
+          'quantity' => int 3
+  'item2' => 
+    array (size=1)
+      0 => 
+        array (size=2)
+          'item_id' => int 321
+          'quantity' => int 5
+  'goladleaf' => int 999
+  'open' => boolean true
+  'donate_lock' => boolean false
 ```
 
