@@ -32,19 +32,24 @@ SVN版本:
 
 
 ### 4. 回傳參數說明
-| 參數 | 意義 | 型別 | 說明 |
-| -- | -- | -- | -- | -- |
-| err_code | 回傳參數碼 | string |  |
-| err_desc | 回傳參數碼說明 | string | -- |
-|exp|科技研究值|int|目前|
-|threshold|科技升級所需|int|--|
-|benefit|現在科技效果|int|Value1|
-|next_benefit|下一科技效果|int|若無則吐0|
-|remiaining_time|升級剩餘時間|int|低於0吐0|
-|can_levelup|可以升級|boolean|1可升級|
-|donate_cdtime|個人捐獻cd|int|--|
-|donate_lock|捐獻鎖定|boolean|true為鎖住|
-
+| 參數 | 意義 | 型別 | 說明 |版本|
+| -- | -- | -- | -- | -- |--|
+| err_code | 回傳參數碼 | string |  |--|
+| err_desc | 回傳參數碼說明 | string | -- |--|
+|exp|科技研究值|int|目前|--|
+|threshold|科技升級所需|int|--|--|
+|benefit|現在科技效果|int|Value1|--|
+|next_benefit|下一科技效果|int|若無則吐0|--|
+|remiaining_time|升級剩餘時間|int|低於0吐0|--|
+|can_levelup|可以升級|boolean|1可升級|--|
+|donate_cdtime|個人捐獻cd|int|--|--|
+|donate_lock|捐獻鎖定|boolean|true為鎖住|--|
+|item1|可捐獻項目1|array|key|2.0.1|
+|item2|可捐獻項目2|array|key|2.0.1|
+|item_id|可捐獻道具id|int|2.0.1|
+|quantity|可捐獻道具必須數量|int|2.0.1|
+|goldleaf|可捐獻金葉|int|2.0.1|
+|open|是否開啟|boolean|2.0.1|
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
