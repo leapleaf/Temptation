@@ -43,7 +43,7 @@ SVN版本:
 |remiaining_time|升級剩餘時間|int|低於0吐0|
 |can_levelup|可以升級|boolean|1可升級|
 |donate_cdtime|個人捐獻cd|int|--|
-|donate_lock|捐獻鎖定|boolean|1為鎖住|
+|donate_lock|捐獻鎖定|boolean|true為鎖住|
 
 
 ### 5. 錯誤代碼說明
