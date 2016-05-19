@@ -43,7 +43,6 @@ SVN版本:
 |remiaining_time|升級剩餘時間|int|低於0吐0|--|
 |can_levelup|可以升級|boolean|1可升級|--|
 |donate_cdtime|個人捐獻cd|int|--|--|
-|donate_lock|捐獻鎖定|boolean|true為鎖住|--|
 |item_id1|可捐獻道具id|int|--|2.0.1|
 |item_id2|可捐獻道具id|int|--|2.0.1|
 |goldleaf|可捐獻金葉|int|--|2.0.1|
@@ -52,6 +51,8 @@ SVN版本:
 |in_stock2|腳色所持item_id2數量|int|--|2.0.1|
 |goldleaf腳色金葉|int|--|2.0.1|
 |open|是否開啟|boolean|--|2.0.1|
+|donate_lock|捐獻鎖定|boolean|true為鎖住|--|
+
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
