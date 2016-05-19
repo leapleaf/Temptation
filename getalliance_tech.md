@@ -77,7 +77,6 @@ array (size=14)
   'item_id1' => int 100001
   'item_id2' => int 100002
   'goladleaf' => int 999
-
   'character' => 
     array (size=1)
       0 => 
