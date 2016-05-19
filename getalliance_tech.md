@@ -44,10 +44,13 @@ SVN版本:
 |can_levelup|可以升級|boolean|1可升級|--|
 |donate_cdtime|個人捐獻cd|int|--|--|
 |donate_lock|捐獻鎖定|boolean|true為鎖住|--|
-|item_id1|可捐獻道具id|int|2.0.1|
+|item_id1|可捐獻道具id|int|--|2.0.1|
 |item_id2|可捐獻道具id|int|2.0.1|
-|goldleaf|可捐獻金葉|int|2.0.1|
-|open|是否開啟|boolean|2.0.1|
+|character|腳色資訊|array|key|2.0.1|
+|item_id1|可捐獻道具id|int|--|2.0.1|
+|item_id2|可捐獻道具id|int|--|2.0.1|
+|goldleaf|可捐獻金葉|int|--|2.0.1|
+|open|是否開啟|boolean|--|2.0.1|
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
