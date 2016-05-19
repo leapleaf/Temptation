@@ -64,27 +64,30 @@ SVN版本:
 ### 6.回傳格式範例
 
 ```
-array (size=14)
+array (size=13)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'exp' => int 0
+  'exp' => int 12999
   'threshold' => int 13000
   'benefit' => int 50
   'next_benefit' => int 60
   'remaining_time' => int 0
   'can_levelup' => boolean false
   'donate_cdtime' => int 0
-  'item_id1' => int 100001
-  'item_id2' => int 100002
-  'goladleaf' => int 999
+  'can_donate_item' => 
+    array (size=7)
+      'item_id1' => int 100014
+      'item_id1_can_donate' => boolean true
+      'quantity1' => int 10
+      'item_id2' => int 100014
+      'quantity2' => int 15
+      'item_id2_can_donate' => boolean false
+      'goladleaf' => int 0
   'character' => 
-    array (size=1)
-      0 => 
-        array (size=3)
-          'in_stock1' => int 123
-          'in_stock2' => int 3
-          'goladleaf' => int 9999
- 
+    array (size=3)
+      'in_stock1' => int 110
+      'in_stock2' => int 0
+      'goldleaf' => int 28
   'open' => boolean true
   'donate_lock' => boolean false
 ```
