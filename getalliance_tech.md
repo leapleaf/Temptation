@@ -74,14 +74,18 @@ array (size=14)
   'remaining_time' => int 0
   'can_levelup' => boolean false
   'donate_cdtime' => int 0
+  'item_id1' => int 100001
+  'item_id2' => int 100002
+  'goladleaf' => int 999
+
   'character' => 
     array (size=1)
       0 => 
         array (size=3)
-          'item_id' => int 123
-          'quantity' => int 3
+          'in_stock1' => int 123
+          'in_stock2' => int 3
+          'goladleaf' => int 9999
  
-  'goladleaf' => int 999
   'open' => boolean true
   'donate_lock' => boolean false
 ```
