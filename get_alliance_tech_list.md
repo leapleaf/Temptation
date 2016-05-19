@@ -44,6 +44,7 @@ SVN版本:15445..
 |member_score|個人積分|int|--|
 |donate_cdtime|個人捐獻cd|int|--|
 |donate_lock|捐獻鎖定|int|1為鎖住|
+|open|
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
