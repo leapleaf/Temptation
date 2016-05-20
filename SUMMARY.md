@@ -56,9 +56,9 @@
    * [X 合成寶石幫助 collect_gem_help](collectgem_help.md)
    * [alliance_help](alliance_help.md)
    * [help_all_alliance_member](help_allalliance_member.md)
-* [戰鬥](zhan_dou.md)
-   * 競技場
 * [舊系統更新](ver_upgrade.md)
+   * [戰鬥](zhan_dou.md)
+       * 競技場
    * [ver 2.0.0](ver_200.md)
        * [新增聯盟聊天 chat](chat.md)
        * [取得聯盟聊天 get_chat](get_chat.md)
