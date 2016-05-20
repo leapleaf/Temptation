@@ -1,8 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * [戰鬥](zhan_dou.md)
-       * 競技場
 * [聯盟](chapter1.md)
    * [建立聯盟 create_alliance](1.md)
    * [設定聯盟名稱 set_alliance_name](2.md)
@@ -58,6 +56,8 @@
    * [X 合成寶石幫助 collect_gem_help](collectgem_help.md)
    * [alliance_help](alliance_help.md)
    * [help_all_alliance_member](help_allalliance_member.md)
+* [戰鬥](zhan_dou.md)
+   * 競技場
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.0](ver_200.md)
        * [新增聯盟聊天 chat](chat.md)
