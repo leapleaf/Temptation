@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
    * [聯盟祭壇](lian_meng_ji_tan.md)
+       * 取得聯盟祭壇 get_alliance_altar
 * [聯盟](chapter1.md)
    * [建立聯盟 create_alliance](1.md)
    * [設定聯盟名稱 set_alliance_name](2.md)
