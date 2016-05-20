@@ -43,14 +43,14 @@ SVN版本:15427.
 |alliance_score|現在聯盟積分|int|--|
 |personal_score|現在個人積分|int|--|
 |donate_cdtime|個人捐獻|int|--|
-|can_donate_item|可捐獻物資|2.0.1|
+|donate_cdtime|個人捐獻cd|int|--|--|
 |item_id1|可捐獻道具id|int|--|2.0.1|
 |item_id2|可捐獻道具id|int|--|2.0.1|
 |goldleaf|可捐獻金葉|int|--|2.0.1|
 |character|腳色資訊|array|key|2.0.1|
 |in_stock1|腳色所持item_id1數量|int|--|2.0.1|
 |in_stock2|腳色所持item_id2數量|int|--|2.0.1|
-|goldleaf腳色金葉|int|--|2.0.1|
+|goldleaf|腳色金葉|int|--|2.0.1|
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
