@@ -50,7 +50,7 @@ SVN版本:
 |character|腳色資訊|array|key|2.0.1|
 |in_stock1|腳色所持item_id1數量|int|--|2.0.1|
 |in_stock2|腳色所持item_id2數量|int|--|2.0.1|
-|goldleaf腳色金葉|int|--|2.0.1|
+|goldleaf|腳色金葉|int|--|2.0.1|
 |open|是否開啟|boolean|--|2.0.1|
 |donate_lock|捐獻鎖定|boolean|true為鎖住|--|
 
