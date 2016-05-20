@@ -38,19 +38,12 @@ SVN版本:15445..
 |exp|現在科技研發值|int|--|--|
 |threshold|此科技升級閥值|int|--|--|
 |remiaining_time|升級剩餘時間|int|--|--|
+|can_levleup|可升級|boolean|--|--|
+|open|是否開啟|boolean|--|2.0.1|
 |project|--|int|--|--|
 |tectype|--|int|--|--|
-|can_levleup|可升級|boolean|--|--|
 |member_score|個人積分|int|--|--|
 |donate_cdtime|個人捐獻cd|int|--|--|
-|item_id1|可捐獻道具id|int|--|2.0.1|
-|item_id2|可捐獻道具id|int|--|2.0.1|
-|goldleaf|可捐獻金葉|int|--|2.0.1|
-|character|腳色資訊|array|key|2.0.1|
-|in_stock1|腳色所持item_id1數量|int|--|2.0.1|
-|in_stock2|腳色所持item_id2數量|int|--|2.0.1|
-|goldleaf腳色金葉|int|--|2.0.1|
-|open|是否開啟|boolean|--|2.0.1|
 |donate_lock|捐獻鎖定|int|1為鎖住|--|
 
 ### 5. 錯誤代碼說明
