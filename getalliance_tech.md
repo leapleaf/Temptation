@@ -43,6 +43,7 @@ SVN版本:
 |remiaining_time|升級剩餘時間|int|低於0吐0|--|
 |can_levelup|可以升級|boolean|1可升級|--|
 |donate_cdtime|個人捐獻cd|int|--|--|
+|can_donate_item|可捐獻物資|2.0.1|
 |item_id1|可捐獻道具id|int|--|2.0.1|
 |item_id2|可捐獻道具id|int|--|2.0.1|
 |goldleaf|可捐獻金葉|int|--|2.0.1|
