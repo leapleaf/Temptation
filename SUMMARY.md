@@ -1,8 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * [聯盟祭壇](lian_meng_ji_tan.md)
-       * 取得聯盟祭壇 get_alliance_altar
 * [聯盟](chapter1.md)
    * [建立聯盟 create_alliance](1.md)
    * [設定聯盟名稱 set_alliance_name](2.md)
@@ -38,6 +36,8 @@
 * [聯盟排名](alliance_rank.md)
    * [聯盟戰力排名 alliance_power_rank](alliancepower_rank.md)
    * [捐獻排名 get_alliance_donate_rank](getalliance_donate_rank.md)
+* [聯盟祭壇](lian_meng_ji_tan.md)
+   * 取得聯盟祭壇 get_alliance_altar
 * [聯盟科技](lian_meng_ke_ji.md)
    * [聯盟科技捐獻研發 alliance_tech_research](alliance_tech_research.md)
    * [取得聯盟科技清單 get_alliance_tech_list](get_alliance_tech_list.md)
