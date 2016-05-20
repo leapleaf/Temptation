@@ -33,8 +33,8 @@ SVN版本:15427.
 | -- | -- | -- | -- | -- |--|
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
-|alliance_tech_id|捐獻科技id|int|--|2.0.1|
-| remaining_time|剩餘升級時間|int|--|2.0.1|
+|total_altar_lv|目前祭壇科技等級|int|--|2.0.1|
+| picture_id|剩餘升級時間|int|--|2.0.1|
 
 
 ### 5. 錯誤代碼說明
