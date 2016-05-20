@@ -36,7 +36,7 @@ SVN版本:
 | -- | -- | -- | -- | -- |--|
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
-|attacker_score|挑戰者分數|int|目前|--|
+|attacker_score|挑戰者分數|int||--|
 |defender_score|防禦者分數|int|--|--|
 |win|挑戰結果|boolean||--|
 
@@ -44,9 +44,9 @@ SVN版本:
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
 |--|--|
-|601|權限不足|
-|602|不屬於任何聯盟|
-|642|科技尚未開放|
+|196|競技場尚未開啟|
+|113|action point is not enough|
+
 
 ### 6.回傳格式範例
 
