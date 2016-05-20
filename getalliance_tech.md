@@ -28,7 +28,7 @@ SVN版本:
 | 參數 | 意義 | 型別 | 長度限制 | 說明 |
 | -- | -- | -- | -- | -- | -- |
 |character_id|聯盟名稱|int|12|取token,client不須輸入|
-|alliance_tech_id|聯盟科技id|int|請代入資料庫有的id|
+|alliance_tech_id|聯盟科技id|int|--|請代入資料庫有的id|
 
 
 ### 4. 回傳參數說明
@@ -43,7 +43,7 @@ SVN版本:
 |remiaining_time|升級剩餘時間|int|低於0吐0|--|
 |can_levelup|可以升級|boolean|1可升級|--|
 |donate_cdtime|個人捐獻cd|int|--|--|
-|can_donate_item|可捐獻物資|2.0.1|
+|can_donate_item|可捐獻物資|array|key|2.0.1|
 |item_id1|可捐獻道具id|int|--|2.0.1|
 |item_id2|可捐獻道具id|int|--|2.0.1|
 |goldleaf|可捐獻金葉|int|--|2.0.1|
