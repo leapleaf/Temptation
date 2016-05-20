@@ -62,30 +62,33 @@ SVN版本:15445..
 ### 6.回傳格式範例
 
 ```
-array (size=4)
+array (size=6)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
   'tech_list' => 
-    array (size=31)
+    array (size=19)
       0 => 
-        array (size=7)
+        array (size=8)
           'alliance_tech_id' => int 100000
           'exp' => int 0
-          'threshold' => int 100
+          'threshold' => int 1000
           'remaining_time' => int 0
-          'can_levelup' => int 0
+          'can_levelup' => boolean false
+          'open' => boolean false
           'project' => int 1
           'tectype' => int 1
-........
-      30 => 
-        array (size=7)
-          'alliance_tech_id' => int 103000
+      1 => 
+        array (size=8)
+          'alliance_tech_id' => int 100100
           'exp' => int 0
-          'threshold' => int 10500
+          'threshold' => int 1000
           'remaining_time' => int 0
-          'can_levelup' => int 0
-          'project' => int 11
-          'tectype' => int 1
-  'member_score' => int 3770
-```
+          'can_levelup' => boolean false
+          'open' => boolean false
+          'project' => int 1
+          'tectype' => int 2
+............          
+  'member_score' => int 1460
+  'donate_cdtime' => int 0
+  'donate_lock' => boolean false```
 
