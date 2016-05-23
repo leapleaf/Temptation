@@ -52,11 +52,51 @@ SVN版本:
 ### 6.回傳格式範例
 
 ```
-array("err_code" => '000',
-            "err_desc" => 'success',
-            "attacker_score" => $Me->attacker_score,
-            "defender_score" => $Enemy->attacker_score,
-            "win" => (boolean)$win
-        )
+array (size=5)
+  'err_code' => string '000' (length=3)
+  'err_desc' => string 'success' (length=7)
+  'attacker' => 
+    array (size=13)
+      'attacker_score' => int 65
+      'lv' => int 100
+      'duty' => int 3
+      'theology' => int 0
+      'belief' => int 0
+      'versus_rate' => float 0.75
+      'troop_rate' => float 1.2
+      'hp' => int 270
+      'def' => int 385
+      'atk' => int 415
+      'skill_rate' => float 1.25
+      'skill_power' => int 0
+      'equip_plus' => 
+        array (size=5)
+          'hp' => int 0
+          'atk' => int 0
+          'def' => int 0
+          'theology' => int 0
+          'belief' => int 0
+  'deffender' => 
+    array (size=13)
+      'defender_score' => int 33
+      'lv' => int 24
+      'duty' => int 1
+      'theology' => int 20
+      'belief' => int 20
+      'versus_rate' => float 1.5
+      'troop_rate' => float 0
+      'hp' => int 310
+      'def' => int 25
+      'atk' => int 5
+      'skill_rate' => float 0
+      'skill_power' => int 0
+      'equip_plus' => 
+        array (size=5)
+          'hp' => int 300
+          'atk' => int 0
+          'def' => int 20
+          'theology' => int 0
+          'belief' => int 0
+  'win' => boolean true
 ```
 
