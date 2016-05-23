@@ -47,6 +47,7 @@ SVN版本:
 |196|競技場尚未開啟|
 |112|not found character|
 |113|action point is not enough|
+|173|敵方免戰中|
 
 
 ### 6.回傳格式範例
