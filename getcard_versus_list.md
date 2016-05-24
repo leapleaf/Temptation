@@ -15,7 +15,7 @@ SVN版本:
 
 發布版本:2.0.2
 
-### 1.路徑:rank/get_card_versus_record
+### 1.路徑:rank/get_card_versus_list
 
 ### 2. 說明
 查詢競技場排名,type==0為歷史,==1為今日,==2為本周
