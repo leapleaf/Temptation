@@ -58,6 +58,8 @@
    * [alliance_help](alliance_help.md)
    * [help_all_alliance_member](help_allalliance_member.md)
 * [舊系統更新](ver_upgrade.md)
+   * [ver 2.0.2](ver_202.md)
+       * [get_chat](getchat.md)
    * [戰鬥](zhan_dou.md)
        * [競技場](jing_ji_chang2.md)
            * [比牌 card_versus](cardversus.md)
@@ -67,6 +69,4 @@
        * [取得聯盟聊天 get_chat](get_chat.md)
        * [角色情報](get_character.md)
    * [ver 1.4.0](ver_140.md)
-   * [ver 2.0.2](ver_202.md)
-       * [get_chat](getchat.md)
 
