@@ -58,7 +58,7 @@ array (size=5)
   'err_desc' => string 'success' (length=7)
   'attacker' => 
     array (size=13)
-      'attacker_score' => int 65
+      'score' => int 65
       'lv' => int 100
       'duty' => int 3
       'theology' => int 0
@@ -79,7 +79,7 @@ array (size=5)
           'belief' => int 0
   'deffender' => 
     array (size=13)
-      'defender_score' => int 33
+      'score' => int 33
       'lv' => int 24
       'duty' => int 1
       'theology' => int 20
@@ -98,6 +98,6 @@ array (size=5)
           'def' => int 20
           'theology' => int 0
           'belief' => int 0
-  'win' => boolean true
+  'win' => int 1
 ```
 
