@@ -38,7 +38,7 @@ SVN版本:
 | err_desc | 回傳參數碼說明 | string | -- |--|
 |attacker_score|挑戰者分數|int||--|
 |defender_score|防禦者分數|int|--|--|
-|win|挑戰結果|boolean||--|
+|win|挑戰結果|int||1:win,0:lose,-1:draw|
 
 
 ### 5. 錯誤代碼說明
