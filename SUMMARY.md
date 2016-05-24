@@ -69,5 +69,5 @@
    * [ver 1.4.0](ver_140.md)
    * [競技場](jing_ji_chang.md)
        * [比牌 card_versus](bi_pai_card_versus.md)
-   * ver 2.0.2
+   * [ver 2.0.2](ver_202.md)
 
