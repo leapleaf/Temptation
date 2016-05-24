@@ -32,27 +32,13 @@ SVN版本:
 | -- | -- | -- | -- | -- |--|
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
-|attacker|挑戰者|array|key|--|
-|deffender|防禦者|array|key|--|
-|score|分數|int|--|--|
+|nickname|暱稱|string|--|--|
+|alliance_name|聯盟|string|--|--|
 |lv|等級|int|--|--|
-|duty|職能|int|--|--|
-|theology|虔誠|int|--|--|
-|belief|信仰|int|--|--|
-|versus_rate|職能加成|float|--|--|
-|troop_rate|部隊加成|float|--|--|
-|hp|血量|int|--|--|
-|def|防禦|int|--|--|
-|atk|攻擊力|int|--|--|
-|skill_rate|技能加成|float|--|--|
-|skill_power|技能強度|int|--|--|
-|equip_plus|裝備加成|array|key|--|
-|hp|血量|int|--|--|
-|def|防禦|int|--|--|
-|atk|攻擊力|int|--|--|
-|theology|虔誠|int|--|--|
-|belief|信仰|int|--|--|
-|win|挑戰結果|int|1:win,0:lose,-1:draw|--|
+|power|戰力|int|--|--|
+|victory_rate|勝率|int|--|--|
+|total_pk|總場次|int|不含平手|--|
+|avert_endtime|免戰剩餘時間|int|秒數|--|
 
 
 ### 5. 錯誤代碼說明
