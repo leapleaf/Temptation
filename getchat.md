@@ -1,6 +1,5 @@
 # get_chat
 
-# 競技場排名 get_card_versus_record
 
 
 API編碼:2.9.1
@@ -17,11 +16,10 @@ SVN版本:
 
 發布版本:2.0.2
 
-### 1.路徑:rank/get_card_versus_record
+### 1.路徑:character_chat/get_chat
 
 ### 2. 說明
-依據開放時間開放競技場,啟動後挑戰者扣減行動值,挑戰者勝利可獲的道具獎勵
-
+增加回傳參數 chat_info
 ### 3. 輸入參數說明
 
 
@@ -35,12 +33,12 @@ SVN版本:
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
 |chat_content|聊天內容|array|key|--|
-|chat_info|聊天資訊|array|key|--|
-|nickname|暱稱|string|--|--|
-|model|外型|int|--|--|
-|duty|職能|int|--|--|
-|alliance_name|聯盟名稱|string|--|--|
-|is_online|是否上線|boolean|--|--|
+|chat_info|聊天資訊|array|key|2.0.2|
+|nickname|暱稱|string|--|2.0.2|
+|model|外型|int|--|2.0.2|
+|duty|職能|int|--|2.0.2|
+|alliance_name|聯盟名稱|string|--|2.0.2|
+|is_online|是否上線|boolean|--|2.0.2|
 
 
 
