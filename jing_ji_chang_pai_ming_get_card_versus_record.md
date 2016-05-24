@@ -12,7 +12,7 @@ API編碼:2.9.1
 
 SVN版本:
 
-> 
+
 發布版本:2.0.2
 
 ### 1.路徑:rank/get_card_versus_record
