@@ -1,4 +1,58 @@
-# get_card_versus_list
+# 取得競技人員清單 get_card_versus_list
+
+
+API編碼:2.9.2
+
+> 
+
+
+更新日期:
+
+> 
+
+SVN版本:
+
+
+發布版本:2.0.2
+
+### 1.路徑:rank/get_card_versus_record
+
+### 2. 說明
+查詢競技場排名,type==0為歷史,==1為今日,==2為本周
+### 3. 輸入參數說明
+
+
+| 參數 | 意義 | 型別 | 長度限制 | 說明 |
+| -- | -- | -- | -- | -- | -- |
+|type|種類|int|--|--|
+
+
+### 4. 回傳參數說明
+| 參數 | 意義 | 型別 | 說明 |版本|
+| -- | -- | -- | -- | -- |--|
+| err_code | 回傳參數碼 | string |  |--|
+| err_desc | 回傳參數碼說明 | string | -- |--|
+|nickname|暱稱|string|--|--|
+|alliance_name|聯盟|string|--|--|
+|lv|等級|int|--|--|
+|power|戰力|int|--|--|
+|victory_rate|勝率|int|--|--|
+|total_pk|總場次|int|不含平手|--|
+|win_count|勝場數|int|--|--|
+|lose_count|敗場數|int|--|--|
+|exclude_pk_count_down|免戰剩餘時間|int|秒數|--|
+|exp|經驗值|int|--|--|
+|rank|經驗值排名|int|--|--|
+
+### 5. 錯誤代碼說明
+|錯誤代碼|意義|
+|--|--|
+
+
+
+### 6.回傳格式範例
+
+
 
 ```
 array (size=10)
