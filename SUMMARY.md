@@ -64,6 +64,7 @@
        * [競技場](jing_ji_chang2.md)
            * [比牌 card_versus](cardversus.md)
            * [競技場排名 get_card_versus_record](jing_ji_chang_pai_ming_get_card_versus_record.md)
+           * get_card_versus_list
    * [ver 2.0.0](ver_200.md)
        * [新增聯盟聊天 chat](chat.md)
        * [取得聯盟聊天 get_chat](get_chat.md)
