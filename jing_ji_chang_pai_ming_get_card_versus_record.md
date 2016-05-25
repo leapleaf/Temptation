@@ -42,6 +42,10 @@ SVN版本:
 |victory_rate|勝率|int|--|--|
 |total_pk|總場次|int|不含平手|--|
 |avert_endtime|免戰剩餘時間|int|秒數|--|
+|rank|排名|int|--|--|
+|model|模型|int|--|--|
+|duty|職能|int|--|--|
+
 
 
 ### 5. 錯誤代碼說明
