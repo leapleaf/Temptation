@@ -60,7 +60,7 @@
 * [舊系統更新](ver_upgrade.md)
    * [ver 2.0.2](ver_202.md)
        * [get_chat](getchat.md)
-       * 取得開放活動清單
+       * [取得開放活動清單](qu_de_kai_fang_huo_dong_qing_dan.md)
    * [戰鬥](zhan_dou.md)
        * [競技場](jing_ji_chang2.md)
            * [比牌 card_versus](cardversus.md)
