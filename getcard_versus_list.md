@@ -34,9 +34,17 @@ SVN版本:
 | -- | -- | -- | -- | -- |--|
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
+|character_exp_rank|腳色經驗值排名|int|本人|--|
+|event|card_versus活動資訊|array|key|--|
+|activity_id|活動id|string|--|--|
+|type|活動類型|int|--|--|
+|description|活動描述|string|--|--|
+|reward|活動獎勵|string|--|--|
+|remaining_time|活動剩餘時間|--|--|
+|result|結果|array|key|--|
 |nickname|暱稱|string|--|--|
-|alliance_name|聯盟|string|--|--|
-|alliance_short_name|聯盟|string|--|--|
+|alliance_name|聯盟名稱|string|--|--|
+|alliance_short_name|聯盟短名稱|string|--|--|
 |lv|等級|int|--|--|
 |power|戰力|int|--|--|
 |victory_rate|勝率|int|--|--|
