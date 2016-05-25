@@ -90,6 +90,5 @@ array (size=5)
           'model' => int 0
           'duty' => int 1
           'exp_rank' => int 237
-          'fightable' => int -2
 
 ```
