@@ -54,7 +54,8 @@ SVN版本:
 |exclude_pk_count_down|免戰剩餘時間|int|秒數|--|
 |exp|經驗值|int|--|--|
 |model|模型|int|--|--|
-|rank|經驗值排名|int|--|--|
+|exp_rank|經驗值排名|int|--|--|
+|fightable|可否攻擊|int|-2沒打過 -1平手 勝利 失敗|--|
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
