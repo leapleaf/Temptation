@@ -66,6 +66,7 @@ SVN版本:
 |112|not found character|
 |113|action point is not enough|
 |173|敵方免戰中|
+|170|對手 vs 挑戰者 PK冷卻中|
 
 
 ### 6.回傳格式範例
