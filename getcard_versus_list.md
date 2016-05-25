@@ -70,13 +70,14 @@ array (size=5)
           'type' => int 1
           'description' => string '0' (length=1)
           'reward' => string '' (length=0)
-          'remaining_time' => int 23700
+          'remaining_time' => int 23606
   'result' => 
     array (size=20)
       0 => 
-        array (size=15)
+        array (size=16)
           'nickname' => string 'eee000' (length=6)
           'alliance_name' => string '' (length=0)
+          'alliance_short_name' => string '' (length=0)
           'lv' => int 1
           'power' => int 2647
           'victory_rate' => float 0
@@ -89,23 +90,6 @@ array (size=5)
           'model' => int 0
           'duty' => int 1
           'exp_rank' => int 237
-          'fightable' => int -2
-      1 => 
-        array (size=15)
-          'nickname' => string 'm0316' (length=5)
-          'alliance_name' => string '' (length=0)
-          'lv' => int 1
-          'power' => int 3946
-          'victory_rate' => float 0
-          'total_pk' => int 0
-          'win_count' => int 0
-          'lose_count' => int 0
-          'online' => boolean false
-          'exclude_pk_count_down' => int 0
-          'exp' => int 112
-          'model' => int 0
-          'duty' => int 1
-          'exp_rank' => int 238
           'fightable' => int -2
 
 ```
