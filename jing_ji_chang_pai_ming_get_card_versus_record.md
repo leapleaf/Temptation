@@ -55,6 +55,7 @@ SVN版本:
 |112|not found character|
 |113|action point is not enough|
 |173|敵方免戰中|
+|197|你沒有分身術,不能打自己|
 
 
 ### 6.回傳格式範例
