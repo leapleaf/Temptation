@@ -44,6 +44,7 @@ SVN版本:
 |lose_count|敗場數|int|--|--|
 |exclude_pk_count_down|免戰剩餘時間|int|秒數|--|
 |exp|經驗值|int|--|--|
+|model|模型|int|--|--|
 |rank|經驗值排名|int|--|--|
 
 ### 5. 錯誤代碼說明
