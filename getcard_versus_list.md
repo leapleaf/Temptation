@@ -36,6 +36,7 @@ SVN版本:
 | err_desc | 回傳參數碼說明 | string | -- |--|
 |nickname|暱稱|string|--|--|
 |alliance_name|聯盟|string|--|--|
+|alliance_short_name|聯盟|string|--|--|
 |lv|等級|int|--|--|
 |power|戰力|int|--|--|
 |victory_rate|勝率|int|--|--|
