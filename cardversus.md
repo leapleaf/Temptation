@@ -72,12 +72,17 @@ SVN版本:
 ### 6.回傳格式範例
 
 ```
-array (size=5)
+array (size=10)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
   'attacker' => 
-    array (size=13)
-      'score' => int 65
+    array (size=16)
+      'alliance_name' => string 'ere' (length=3)
+      'alliance_short_name' => string 'ewr' (length=3)
+      'nickname' => string '吃飯了' (length=9)
+      'model' => int 6
+      'pet_id' => int 100101
+      'score' => int 86904
       'lv' => int 100
       'duty' => int 3
       'theology' => int 0
@@ -87,8 +92,6 @@ array (size=5)
       'hp' => int 270
       'def' => int 385
       'atk' => int 415
-      'skill_rate' => float 1.25
-      'skill_power' => int 0
       'equip_plus' => 
         array (size=5)
           'hp' => int 0
@@ -97,7 +100,12 @@ array (size=5)
           'theology' => int 0
           'belief' => int 0
   'deffender' => 
-    array (size=13)
+    array (size=16)
+      'alliance_name' => string '""' (length=2)
+      'alliance_short_name' => string '""' (length=2)
+      'nickname' => string 'wade' (length=4)
+      'model' => int 1
+      'pet_id' => int 0
       'score' => int 33
       'lv' => int 24
       'duty' => int 1
@@ -108,8 +116,6 @@ array (size=5)
       'hp' => int 310
       'def' => int 25
       'atk' => int 5
-      'skill_rate' => float 0
-      'skill_power' => int 0
       'equip_plus' => 
         array (size=5)
           'hp' => int 300
@@ -118,5 +124,10 @@ array (size=5)
           'theology' => int 0
           'belief' => int 0
   'win' => int 1
+  'win_count' => int 1
+  'win_gold' => int 0
+  'surplus' => int 18
+  'total_win' => int 81
+  'total_lose' => int 128
 ```
 
