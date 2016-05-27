@@ -43,6 +43,7 @@ SVN版本:
 |total_pk|總場次|int|不含平手|--|
 |avert_endtime|免戰剩餘時間|int|秒數|--|
 |rank|排名|int|--|--|
+|score|個人積分|int|--|--|
 |model|模型|int|--|--|
 |duty|職能|int|--|--|
 
@@ -66,59 +67,120 @@ array (size=4)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
   'result' => 
-    array (size=7)
+    array (size=18)
       0 => 
-        array (size=11)
-          'nickname' => string 'QAQ' (length=3)
-          'alliance_name' => string 'QAQQ' (length=4)
-          'alliance_short_name' => string 'QAQ' (length=3)
-          'lv' => int 6
-          'power' => int 59594
-          'victory_rate' => float 1
-          'total_pk' => int 32
-          'avert_endtime' => int 0
-          'rank' => int 1
-          'model' => int 6
-          'duty' => int 1
-      5 => 
-        array (size=11)
+        array (size=12)
           'nickname' => string '吃飯了' (length=9)
           'alliance_name' => string 'ere' (length=3)
           'alliance_short_name' => string 'ewr' (length=3)
           'lv' => int 100
           'power' => int 12542
-          'victory_rate' => float 0.26086956521739
-          'total_pk' => int 92
+          'victory_rate' => float 0.39047619047619
+          'total_pk' => int 210
           'avert_endtime' => int 0
-          'rank' => int 6
+          'rank' => int 1
+          'score' => int 180
           'model' => int 6
           'duty' => int 3
-      6 => 
-        array (size=11)
-          'nickname' => string 'wade' (length=4)
+      1 => 
+        array (size=12)
+          'nickname' => string 'yee' (length=3)
+          'alliance_name' => string 'QAQQ' (length=4)
+          'alliance_short_name' => string 'QAQ' (length=3)
+          'lv' => int 51
+          'power' => int 49361
+          'victory_rate' => float 0.77692307692308
+          'total_pk' => int 130
+          'avert_endtime' => int 0
+          'rank' => int 2
+          'score' => int 130
+          'model' => int 1
+          'duty' => int 3
+      2 => 
+        array (size=12)
+          'nickname' => string 'QQ30號' (length=7)
+          'alliance_name' => string 'TEST4' (length=5)
+          'alliance_short_name' => string 'TS4' (length=3)
+          'lv' => int 57
+          'power' => int 83309
+          'victory_rate' => float 1
+          'total_pk' => int 67
+          'avert_endtime' => int 0
+          'rank' => int 3
+          'score' => int 110
+          'model' => int 0
+          'duty' => int 1
+      3 => 
+        array (size=12)
+          'nickname' => string 'Iori' (length=4)
           'alliance_name' => string '' (length=0)
           'alliance_short_name' => string '' (length=0)
           'lv' => int 24
-          'power' => int 67462
-          'victory_rate' => float 0
-          'total_pk' => int 40
-          'avert_endtime' => int 2202665
-          'rank' => int 7
+          'power' => int 1385
+          'victory_rate' => float 0.75
+          'total_pk' => int 8
+          'avert_endtime' => int 0
+          'rank' => int 4
+          'score' => int 0
           'model' => int 1
           'duty' => int 1
+      4 => 
+        array (size=12)
+          'nickname' => string 'QQ26號' (length=7)
+          'alliance_name' => string '' (length=0)
+          'alliance_short_name' => string '' (length=0)
+          'lv' => int 22
+          'power' => int 84317
+          'victory_rate' => float 0
+          'total_pk' => int 2
+          'avert_endtime' => int 0
+          'rank' => int 4
+          'score' => int 0
+          'model' => int 0
+          'duty' => int 1
+      5 => 
+        array (size=12)
+          'nickname' => string 'QQ37號' (length=7)
+          'alliance_name' => string '' (length=0)
+          'alliance_short_name' => string '' (length=0)
+          'lv' => int 55
+          'power' => int 82662
+          'victory_rate' => float 0
+          'total_pk' => int 1
+          'avert_endtime' => int 0
+          'rank' => int 4
+          'score' => int 0
+          'model' => int 0
+          'duty' => int 1
+      6 => 
+        array (size=12)
+          'nickname' => string 'd' (length=1)
+          'alliance_name' => string '' (length=0)
+          'alliance_short_name' => string '' (length=0)
+          'lv' => int 50
+          'power' => int 9421
+          'victory_rate' => float 0
+          'total_pk' => int 1
+          'avert_endtime' => int 0
+          'rank' => int 4
+          'score' => int 0
+          'model' => int 0
+          'duty' => int 1
+
   'character' => 
     array (size=1)
       0 => 
-        array (size=11)
+        array (size=12)
           'nickname' => string 'wade' (length=4)
           'alliance_name' => string '' (length=0)
           'alliance_short_name' => string '' (length=0)
           'lv' => int 24
           'power' => int 67462
           'victory_rate' => float 0
-          'total_pk' => int 40
-          'avert_endtime' => int 2202665
-          'rank' => int 7
+          'total_pk' => int 99
+          'avert_endtime' => int 0
+          'rank' => int 4
+          'score' => int 0
           'model' => int 1
           'duty' => int 1
 ```
