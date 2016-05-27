@@ -66,7 +66,7 @@ SVN版本:
 |total_win|總勝場|int|--|--|
 |total_lose|總敗場|int|--|--|
 |personal_get_point|個人取得積分|int|--|--|
-|alliance_get_point|聯盟獲得積分|int|--|--\
+|alliance_get_point|聯盟獲得積分|int|--|--|
 
 
 ### 5. 錯誤代碼說明
