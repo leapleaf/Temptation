@@ -1,7 +1,7 @@
 #比牌 fight/card_versus
 
 
-
+###注意equip_value帶入pet_id要0
 
 
 API編碼:2.9.0
