@@ -71,7 +71,7 @@ SVN版本:
 array (size=5)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'character_exp_rank' => int 4
+  'character_rank' => int 4
   'card_vs_event' => 
     array (size=1)
       0 => 
@@ -80,11 +80,11 @@ array (size=5)
           'type' => int 1
           'description' => string '0' (length=1)
           'reward' => string '' (length=0)
-          'remaining_time' => int 24719
+          'remaining_time' => int 23368
   'result' => 
     array (size=10)
       0 => 
-        array (size=16)
+        array (size=17)
           'nickname' => string 'yee' (length=3)
           'alliance_name' => string 'QAQQ' (length=4)
           'alliance_short_name' => string 'QAQ' (length=3)
@@ -101,8 +101,9 @@ array (size=5)
           'duty' => int 3
           'rank' => int 2
           'fightable' => boolean true
+          'fought' => boolean false
       1 => 
-        array (size=16)
+        array (size=17)
           'nickname' => string 'A4455' (length=5)
           'alliance_name' => string '' (length=0)
           'alliance_short_name' => string '' (length=0)
@@ -119,41 +120,6 @@ array (size=5)
           'duty' => int 1
           'rank' => int 0
           'fightable' => boolean true
-      2 => 
-        array (size=16)
-          'nickname' => string 'QQQQQQQQQQQQ' (length=12)
-          'alliance_name' => string 'QAQQ' (length=4)
-          'alliance_short_name' => string 'QAQ' (length=3)
-          'lv' => int 2
-          'power' => int 1349
-          'victory_rate' => float 0
-          'total_pk' => int 0
-          'win_count' => int 0
-          'lose_count' => int 0
-          'online' => boolean false
-          'exclude_pk_count_down' => int 0
-          'exp' => int 256
-          'model' => int 3
-          'duty' => int 1
-          'rank' => int 0
-          'fightable' => boolean true
-      3 => 
-        array (size=16)
-          'nickname' => string 'A7788' (length=5)
-          'alliance_name' => string '' (length=0)
-          'alliance_short_name' => string '' (length=0)
-          'lv' => int 20
-          'power' => int 1347
-          'victory_rate' => float 0
-          'total_pk' => int 0
-          'win_count' => int 0
-          'lose_count' => int 0
-          'online' => boolean false
-          'exclude_pk_count_down' => int 0
-          'exp' => int 28
-          'model' => int 0
-          'duty' => int 1
-          'rank' => int 0
-          'fightable' => boolean true
+          'fought' => boolean false
       
 ```
