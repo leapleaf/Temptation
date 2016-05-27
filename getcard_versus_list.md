@@ -54,8 +54,8 @@ SVN版本:
 |exclude_pk_count_down|免戰剩餘時間|int|秒數|--|
 |exp|經驗值|int|--|--|
 |model|模型|int|--|--|
-|exp_rank|經驗值排名|int|--|--|
-|fightable|可否攻擊|int|-2沒打過 -1平手 勝利 失敗|--|
+|rank|排名|int|--|--|
+|fightable|可否攻擊|boolean|--|--|
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
@@ -71,8 +71,8 @@ SVN版本:
 array (size=5)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'character_exp_rank' => int 247
-  'event' => 
+  'character_exp_rank' => int 4
+  'card_vs_event' => 
     array (size=1)
       0 => 
         array (size=5)
@@ -80,12 +80,30 @@ array (size=5)
           'type' => int 1
           'description' => string '0' (length=1)
           'reward' => string '' (length=0)
-          'remaining_time' => int 23606
+          'remaining_time' => int 24719
   'result' => 
-    array (size=20)
+    array (size=10)
       0 => 
         array (size=16)
-          'nickname' => string 'eee000' (length=6)
+          'nickname' => string 'yee' (length=3)
+          'alliance_name' => string 'QAQQ' (length=4)
+          'alliance_short_name' => string 'QAQ' (length=3)
+          'lv' => int 51
+          'power' => int 49361
+          'victory_rate' => float 0.91549295774648
+          'total_pk' => int 71
+          'win_count' => int 65
+          'lose_count' => int 6
+          'online' => boolean false
+          'exclude_pk_count_down' => int 0
+          'exp' => int 149993
+          'model' => int 1
+          'duty' => int 3
+          'rank' => int 2
+          'fightable' => boolean true
+      1 => 
+        array (size=16)
+          'nickname' => string 'A4455' (length=5)
           'alliance_name' => string '' (length=0)
           'alliance_short_name' => string '' (length=0)
           'lv' => int 1
@@ -96,9 +114,46 @@ array (size=5)
           'lose_count' => int 0
           'online' => boolean false
           'exclude_pk_count_down' => int 0
-          'exp' => int 112
+          'exp' => int 84
+          'model' => int 3
+          'duty' => int 1
+          'rank' => int 0
+          'fightable' => boolean true
+      2 => 
+        array (size=16)
+          'nickname' => string 'QQQQQQQQQQQQ' (length=12)
+          'alliance_name' => string 'QAQQ' (length=4)
+          'alliance_short_name' => string 'QAQ' (length=3)
+          'lv' => int 2
+          'power' => int 1349
+          'victory_rate' => float 0
+          'total_pk' => int 0
+          'win_count' => int 0
+          'lose_count' => int 0
+          'online' => boolean false
+          'exclude_pk_count_down' => int 0
+          'exp' => int 256
+          'model' => int 3
+          'duty' => int 1
+          'rank' => int 0
+          'fightable' => boolean true
+      3 => 
+        array (size=16)
+          'nickname' => string 'A7788' (length=5)
+          'alliance_name' => string '' (length=0)
+          'alliance_short_name' => string '' (length=0)
+          'lv' => int 20
+          'power' => int 1347
+          'victory_rate' => float 0
+          'total_pk' => int 0
+          'win_count' => int 0
+          'lose_count' => int 0
+          'online' => boolean false
+          'exclude_pk_count_down' => int 0
+          'exp' => int 28
           'model' => int 0
           'duty' => int 1
-          'exp_rank' => int 237
-
+          'rank' => int 0
+          'fightable' => boolean true
+      
 ```
