@@ -65,6 +65,8 @@ SVN版本:
 |surplus|剩餘場次|int|--|--|
 |total_win|總勝場|int|--|--|
 |total_lose|總敗場|int|--|--|
+|personal_get_point|個人取得積分|int|--|--|
+|alliance_get_point|聯盟獲得積分|int|--|--\
 
 
 ### 5. 錯誤代碼說明
@@ -139,6 +141,8 @@ array (size=10)
   'win_gold' => int 0
   'surplus' => int 18
   'total_win' => int 81
-  'total_lose' => int 128
+  'total_lose' => int 128  
+              'personal_get_point'=> int 0
+            'alliance_get_point'=>$ int 0
 ```
 
