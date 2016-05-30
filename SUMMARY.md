@@ -65,6 +65,7 @@
        * [競技場](jing_ji_chang2.md)
            * [比牌 card_versus](cardversus.md)
            * [競技場排名 get_card_versus_record](jing_ji_chang_pai_ming_get_card_versus_record.md)
+               * 取得玩家個人排名
            * [get_card_versus_list](getcard_versus_list.md)
            * [更新競技場名單](geng_xin_jing_ji_chang_ming_dan.md)
    * [ver 2.0.0](ver_200.md)
