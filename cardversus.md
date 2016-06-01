@@ -88,6 +88,67 @@ ver2.0.3興曾比牌冷卻時間,每次比牌會增加設定表value1冷卻時�
 ### 6.回傳格式範例
 
 ```
+array (size=14)
+  'err_code' => string '000' (length=3)
+  'err_desc' => string 'success' (length=7)
+  'attacker' => 
+    array (size=16)
+      'alliance_name' => string 'qqqq' (length=4)
+      'alliance_short_name' => string 'qqq' (length=3)
+      'nickname' => string '吃飯了' (length=9)
+      'model' => int 6
+      'pet_id' => int 100109
+      'score' => int 1018918
+      'lv' => int 100
+      'duty' => int 1
+      'theology' => int 0
+      'belief' => int 0
+      'versus_rate' => float 1.25
+      'troop_rate' => float 1
+      'hp' => int 2350
+      'def' => int 2849
+      'atk' => int 4205
+      'equip_plus' => 
+        array (size=5)
+          'hp' => int 0
+          'atk' => int 0
+          'def' => int 0
+          'theology' => int 220
+          'belief' => int 240
+  'deffender' => 
+    array (size=16)
+      'alliance_name' => string '' (length=0)
+      'alliance_short_name' => string '' (length=0)
+      'nickname' => string 'lk' (length=2)
+      'model' => int 2
+      'pet_id' => int 0
+      'score' => int 1
+      'lv' => int 1
+      'duty' => int 1
+      'theology' => int 0
+      'belief' => int 0
+      'versus_rate' => float 1.25
+      'troop_rate' => float 0
+      'hp' => int 10
+      'def' => int 5
+      'atk' => int 5
+      'equip_plus' => 
+        array (size=5)
+          'hp' => int 0
+          'atk' => int 0
+          'def' => int 0
+          'theology' => int 0
+          'belief' => int 0
+  'win' => int 1
+  'win_count' => int 1
+  'win_gold' => int 0
+  'surplus' => int 29
+  'total_win' => int 86
+  'total_lose' => int 129
+  'personal_get_point' => int 10
+  'alliance_get_point' => int 5
+  'cvs_cd_time' => int 360
+  'cvs_lock' => boolean false
 
 ```
 
