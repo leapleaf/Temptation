@@ -56,6 +56,8 @@ SVN版本:
 |model|模型|int|--|--|
 |rank|排名|int|--|--|
 |fightable|可否攻擊|boolean|--|--|
+|cvs_cd_time|比牌CD累計時間|int|--|ver2.0.3|
+|cvs_lock|是否可比牌|int|--|ver2.0.3|
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
