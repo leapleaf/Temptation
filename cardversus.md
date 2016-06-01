@@ -17,7 +17,7 @@ SVN版本:
 
 > 
 
-發布版本:2.0.2
+發布版本:2.0.3
 ### 1.路徑:fight/card_versus
 
 ### 2. 說明
@@ -85,64 +85,81 @@ SVN版本:
 ### 6.回傳格式範例
 
 ```
-array (size=10)
+array (size=8)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'attacker' => 
-    array (size=16)
-      'alliance_name' => string 'ere' (length=3)
-      'alliance_short_name' => string 'ewr' (length=3)
-      'nickname' => string '吃飯了' (length=9)
-      'model' => int 6
-      'pet_id' => int 100101
-      'score' => int 86904
-      'lv' => int 100
-      'duty' => int 3
-      'theology' => int 0
-      'belief' => int 0
-      'versus_rate' => float 0.75
-      'troop_rate' => float 1.2
-      'hp' => int 270
-      'def' => int 385
-      'atk' => int 415
-      'equip_plus' => 
+  'character_rank' => int 1
+  'surplus' => int 11
+  'card_vs_event' => 
+    array (size=1)
+      0 => 
         array (size=5)
-          'hp' => int 0
-          'atk' => int 0
-          'def' => int 0
-          'theology' => int 0
-          'belief' => int 0
-  'deffender' => 
-    array (size=16)
-      'alliance_name' => string '""' (length=2)
-      'alliance_short_name' => string '""' (length=2)
-      'nickname' => string 'wade' (length=4)
-      'model' => int 1
-      'pet_id' => int 0
-      'score' => int 33
-      'lv' => int 24
-      'duty' => int 1
-      'theology' => int 20
-      'belief' => int 20
-      'versus_rate' => float 1.5
-      'troop_rate' => float 0
-      'hp' => int 310
-      'def' => int 25
-      'atk' => int 5
-      'equip_plus' => 
-        array (size=5)
-          'hp' => int 300
-          'atk' => int 0
-          'def' => int 20
-          'theology' => int 0
-          'belief' => int 0
-  'win' => int 1
-  'win_count' => int 1
-  'win_gold' => int 0
-  'surplus' => int 18
-  'total_win' => int 81
-  'total_lose' => int 128  
-              'personal_get_point'=> int 0
-            'alliance_get_point'=>$ int 0
+          'activity_id' => string '888' (length=3)
+          'type' => int 1
+          'description' => string '0' (length=1)
+          'reward' => string '' (length=0)
+          'remaining_time' => int 39159
+  'result' => 
+    array (size=20)
+      0 => 
+        array (size=17)
+          'nickname' => string 'QQ30號' (length=7)
+          'alliance_name' => string 'TEST4' (length=5)
+          'alliance_short_name' => string 'TS4' (length=3)
+          'lv' => int 57
+          'power' => int 79831
+          'victory_rate' => float 1
+          'total_pk' => int 1
+          'win_count' => int 1
+          'lose_count' => int 0
+          'online' => boolean false
+          'exclude_pk_count_down' => int 0
+          'exp' => int 265625
+          'model' => int 0
+          'duty' => int 3
+          'rank' => int 3
+          'fightable' => boolean true
+          'fought' => boolean true
+      1 => 
+        array (size=17)
+          'nickname' => string '吃飯了' (length=9)
+          'alliance_name' => string 'qqqq' (length=4)
+          'alliance_short_name' => string 'qqq' (length=3)
+          'lv' => int 100
+          'power' => int 13406
+          'victory_rate' => float 1
+          'total_pk' => int 1
+          'win_count' => int 1
+          'lose_count' => int 0
+          'online' => boolean false
+          'exclude_pk_count_down' => int 0
+          'exp' => int 224210
+          'model' => int 6
+          'duty' => int 1
+          'rank' => int 2
+          'fightable' => boolean true
+          'fought' => boolean true
+      2 => 
+        array (size=17)
+          'nickname' => string 'A2233' (length=5)
+          'alliance_name' => string '' (length=0)
+          'alliance_short_name' => string '' (length=0)
+          'lv' => int 2
+          'power' => int 5253
+          'victory_rate' => float 0
+          'total_pk' => int 0
+          'win_count' => int 0
+          'lose_count' => int 0
+          'online' => boolean false
+          'exclude_pk_count_down' => int 0
+          'exp' => int 280
+          'model' => int 2
+          'duty' => int 1
+          'rank' => int 0
+          'fightable' => boolean true
+          'fought' => boolean false
+
+  'cvs_cd_time' => int 2988
+  'cvs_lock' => boolean true
 ```
 
