@@ -68,10 +68,11 @@ SVN版本:
 
 
 ```
-array (size=5)
+array (size=8)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'character_rank' => int 4
+  'character_rank' => int 1
+  'surplus' => int 11
   'card_vs_event' => 
     array (size=1)
       0 => 
@@ -80,46 +81,68 @@ array (size=5)
           'type' => int 1
           'description' => string '0' (length=1)
           'reward' => string '' (length=0)
-          'remaining_time' => int 23368
+          'remaining_time' => int 39159
   'result' => 
-    array (size=10)
+    array (size=20)
       0 => 
         array (size=17)
-          'nickname' => string 'yee' (length=3)
-          'alliance_name' => string 'QAQQ' (length=4)
-          'alliance_short_name' => string 'QAQ' (length=3)
-          'lv' => int 51
-          'power' => int 49361
-          'victory_rate' => float 0.91549295774648
-          'total_pk' => int 71
-          'win_count' => int 65
-          'lose_count' => int 6
+          'nickname' => string 'QQ30號' (length=7)
+          'alliance_name' => string 'TEST4' (length=5)
+          'alliance_short_name' => string 'TS4' (length=3)
+          'lv' => int 57
+          'power' => int 79831
+          'victory_rate' => float 1
+          'total_pk' => int 1
+          'win_count' => int 1
+          'lose_count' => int 0
           'online' => boolean false
           'exclude_pk_count_down' => int 0
-          'exp' => int 149993
-          'model' => int 1
+          'exp' => int 265625
+          'model' => int 0
           'duty' => int 3
-          'rank' => int 2
+          'rank' => int 3
           'fightable' => boolean true
-          'fought' => boolean false
+          'fought' => boolean true
       1 => 
         array (size=17)
-          'nickname' => string 'A4455' (length=5)
+          'nickname' => string '吃飯了' (length=9)
+          'alliance_name' => string 'qqqq' (length=4)
+          'alliance_short_name' => string 'qqq' (length=3)
+          'lv' => int 100
+          'power' => int 13406
+          'victory_rate' => float 1
+          'total_pk' => int 1
+          'win_count' => int 1
+          'lose_count' => int 0
+          'online' => boolean false
+          'exclude_pk_count_down' => int 0
+          'exp' => int 224210
+          'model' => int 6
+          'duty' => int 1
+          'rank' => int 2
+          'fightable' => boolean true
+          'fought' => boolean true
+      2 => 
+        array (size=17)
+          'nickname' => string 'A2233' (length=5)
           'alliance_name' => string '' (length=0)
           'alliance_short_name' => string '' (length=0)
-          'lv' => int 1
-          'power' => int 2647
+          'lv' => int 2
+          'power' => int 5253
           'victory_rate' => float 0
           'total_pk' => int 0
           'win_count' => int 0
           'lose_count' => int 0
           'online' => boolean false
           'exclude_pk_count_down' => int 0
-          'exp' => int 84
-          'model' => int 3
+          'exp' => int 280
+          'model' => int 2
           'duty' => int 1
           'rank' => int 0
           'fightable' => boolean true
           'fought' => boolean false
+
+  'cvs_cd_time' => int 2988
+  'cvs_lock' => boolean true
       
 ```
