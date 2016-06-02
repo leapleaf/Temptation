@@ -73,5 +73,5 @@
        * [取得聯盟聊天 get_chat](get_chat.md)
        * [角色情報](get_character.md)
    * [ver 1.4.0](ver_140.md)
-   * ver 2.0.3
+   * [ver 2.0.3](ver_203.md)
 
