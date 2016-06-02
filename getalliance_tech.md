@@ -16,7 +16,7 @@ SVN版本:
 
 > 
 
-發布版本:2.0.0
+發布版本:2.0.0 2.0.3
 ### 1.路徑:alliance_tech/get_alliance_tech
 
 ### 2. 說明
@@ -55,6 +55,7 @@ SVN版本:
 |donate_lock|捐獻鎖定|boolean|true為鎖住|--|
 
 
+
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
 |--|--|
@@ -68,28 +69,31 @@ SVN版本:
 array (size=13)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'exp' => int 12999
-  'threshold' => int 13000
-  'benefit' => int 50
-  'next_benefit' => int 60
+  'exp' => int 0
+  'threshold' => int 1000
+  'benefit' => int 0
+  'next_benefit' => int 2
   'remaining_time' => int 0
   'can_levelup' => boolean false
   'donate_cdtime' => int 0
   'can_donate_item' => 
-    array (size=7)
-      'item_id1' => int 100014
-      'item_id1_can_donate' => boolean true
-      'quantity1' => int 10
-      'item_id2' => int 100014
-      'quantity2' => int 15
+    array (size=10)
+      'item_id1' => int 100001
+      'item_id1_can_donate' => boolean false
+      'item1_point' => int 10
+      'quantity1' => int 1
+      'item_id2' => int 100001
+      'quantity2' => int 2
+      'item2_point' => int 10
       'item_id2_can_donate' => boolean false
-      'goladleaf' => int 0
+      'goldleaf' => int 0
+      'gold_point' => int 0
   'character' => 
     array (size=3)
-      'in_stock1' => int 110
-      'in_stock2' => int 0
-      'goldleaf' => int 28
-  'open' => boolean true
+      'in_stock1' => int 9757
+      'in_stock2' => int 9757
+      'goldleaf' => int 9215080
+  'open' => boolean false
   'donate_lock' => boolean false
 ```
 
