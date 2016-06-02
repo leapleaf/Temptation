@@ -45,8 +45,13 @@ SVN版本:
 |donate_cdtime|個人捐獻cd|int|--|--|
 |can_donate_item|可捐獻物資|array|key|2.0.1|
 |item_id1|可捐獻道具id|int|--|2.0.1|
+|item_id1_can_donate|可否捐獻|boolean|--|2.0.1|
+|item1_point|可獲得積分|int|--|2.0.3|
 |item_id2|可捐獻道具id|int|--|2.0.1|
+|item_id2_can_donate|可否捐獻|boolean|--|2.0.1|
+|item2_point|可獲得積分|int|--|2.0.3|
 |goldleaf|可捐獻金葉|int|--|2.0.1|
+|gold_point|可獲得積分|int|--|2.0.3|
 |character|腳色資訊|array|key|2.0.1|
 |in_stock1|腳色所持item_id1數量|int|--|2.0.1|
 |in_stock2|腳色所持item_id2數量|int|--|2.0.1|
