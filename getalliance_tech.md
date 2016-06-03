@@ -47,11 +47,14 @@ SVN版本:
 |item_id1|可捐獻道具id|int|--|2.0.1|
 |item_id1_can_donate|可否捐獻|boolean|--|2.0.1|
 |item1_point|可獲得積分|int|--|2.0.3|
+|item1_al_point|聯盟可獲得積分|int|--|2.0.3|
 |item_id2|可捐獻道具id|int|--|2.0.1|
 |item_id2_can_donate|可否捐獻|boolean|--|2.0.1|
 |item2_point|可獲得積分|int|--|2.0.3|
+|item2_al_point|聯盟可獲得積分|int|--|2.0.3|
 |goldleaf|可捐獻金葉|int|--|2.0.1|
 |gold_point|可獲得積分|int|--|2.0.3|
+|gold_al_point|聯盟可獲得積分|int|--|2.0.3|
 |character|腳色資訊|array|key|2.0.1|
 |in_stock1|腳色所持item_id1數量|int|--|2.0.1|
 |in_stock2|腳色所持item_id2數量|int|--|2.0.1|
@@ -82,22 +85,25 @@ array (size=13)
   'can_levelup' => boolean false
   'donate_cdtime' => int 0
   'can_donate_item' => 
-    array (size=10)
+    array (size=13)
       'item_id1' => int 100001
       'item_id1_can_donate' => boolean false
       'item1_point' => int 10
+      'item1_al_point' => int 10
       'quantity1' => int 1
-      'item_id2' => int 100001
+      'item_id2' => int 100014
       'quantity2' => int 2
       'item2_point' => int 10
+      'item2_al_point' => int 10
       'item_id2_can_donate' => boolean false
       'goldleaf' => int 0
       'gold_point' => int 0
+      'gold_al_point' => int 0
   'character' => 
     array (size=3)
-      'in_stock1' => int 9757
-      'in_stock2' => int 9757
-      'goldleaf' => int 9215080
+      'in_stock1' => int 762
+      'in_stock2' => int 634
+      'goldleaf' => int 87612949
   'open' => boolean false
   'donate_lock' => boolean false
 ```
