@@ -47,12 +47,12 @@ SVN版本:
 |model|模型|int|--|--|
 |duty|職能|int|--|--|
 |rank|排名|int|--|--||
-|victory_rate|勝率|int|--|--|
 |win_count|勝場數|int|--|--|
 |lose_count|敗場數|int|--|--|
 |total_pk|總場次|int|不含平手|--|
 |power|戰力|int|--|--|
 |score|累計積分|int|--|--|
+|victory_rate|勝率|int|--|--|
 |avert_endtime|免戰剩餘時間|int|秒數|--|
 |alliance_name|聯盟名稱|string|--|--|
 |alliance_short_name|聯盟短名稱|string|--|--|
