@@ -75,4 +75,5 @@
    * [ver 1.4.0](ver_140.md)
    * [ver 2.0.3](ver_203.md)
    * [ver 2.0.5](ver_205.md)
+       * enter_card_versus_arena
 
