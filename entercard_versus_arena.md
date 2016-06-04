@@ -53,7 +53,7 @@ SVN版本:
 |total_pk|總場次|int|不含平手|--|
 |power|戰力|int|--|--|
 |score|累計積分|int|--|--|
-|exclude_pk_count_down|免戰剩餘時間|int|秒數|--|
+|avert_endtime|免戰剩餘時間|int|秒數|--|
 |alliance_name|聯盟名稱|string|--|--|
 |alliance_short_name|聯盟短名稱|string|--|--|
 
