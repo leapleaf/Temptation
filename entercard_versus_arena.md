@@ -43,21 +43,19 @@ SVN版本:
 |remaining_time|活動剩餘時間|--|--|
 |result|結果|array|key|--|
 |nickname|暱稱|string|--|--|
-|alliance_name|聯盟名稱|string|--|--|
-|alliance_short_name|聯盟短名稱|string|--|--|
 |lv|等級|int|--|--|
-|power|戰力|int|--|--|
+|model|模型|int|--|--|
+|duty|職能|int|--|--|
+|rank|排名|int|--|--||
 |victory_rate|勝率|int|--|--|
-|total_pk|總場次|int|不含平手|--|
 |win_count|勝場數|int|--|--|
 |lose_count|敗場數|int|--|--|
+|total_pk|總場次|int|不含平手|--|
+|power|戰力|int|--|--|
+|score|累計積分|int|--|--|
 |exclude_pk_count_down|免戰剩餘時間|int|秒數|--|
-|exp|經驗值|int|--|--|
-|model|模型|int|--|--|
-|rank|排名|int|--|--|
-|fightable|可否攻擊|boolean|--|--|
-|cvs_cd_time|比牌CD累計時間|int|--|ver2.0.3|
-|cvs_lock|是否可比牌|int|--|ver2.0.3|
+|alliance_name|聯盟名稱|string|--|--|
+|alliance_short_name|聯盟短名稱|string|--|--|
 
 
 ### 5. 錯誤代碼說明
