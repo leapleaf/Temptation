@@ -35,37 +35,27 @@ SVN版本:
 | -- | -- | -- | -- | -- |--|
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
-|attacker|挑戰者|array|key|--|
-|deffender|防禦者|array|key|--|
+|card_vs_event|card_versus活動資訊|array|key|--|
+|activity_id|活動id|string|--|--|
+|type|活動類型|int|--|--|
+|description|活動描述|string|--|--|
+|reward|活動獎勵|string|--|--|
+|remaining_time|活動剩餘時間|--|--|
+|result|結果|array|key|--|
+|nickname|暱稱|string|--|--|
 |alliance_name|聯盟名稱|string|--|--|
 |alliance_short_name|聯盟短名稱|string|--|--|
-|nickname|暱稱|string|--|--|
-|model|模組|int|--|--|
-|pet_id|寵物id|--|--|
-|score|分數|int|--|--|
 |lv|等級|int|--|--|
-|duty|職能|int|--|--|
-|theology|虔誠|int|--|--|
-|belief|信仰|int|--|--|
-|versus_rate|職能加成|float|--|--|
-|troop_rate|部隊加成|float|--|--|
-|hp|血量|int|--|--|
-|def|防禦|int|--|--|
-|atk|攻擊力|int|--|--|
-|equip_plus|裝備加成|array|key|--|
-|hp|血量|int|--|--|
-|def|防禦|int|--|--|
-|atk|攻擊力|int|--|--|
-|theology|虔誠|int|--|--|
-|belief|信仰|int|--|--|
-|win|挑戰結果|int|1:win,0:lose,-1:draw|--|
-|win_count|連勝次數|int|--|--|
-|win_gold|贏得金幣|int|--|--|
-|surplus|剩餘場次|int|--|--|
-|total_win|總勝場|int|--|--|
-|total_lose|總敗場|int|--|--|
-|personal_get_point|個人取得積分|int|--|--|
-|alliance_get_point|聯盟獲得積分|int|--|--|
+|power|戰力|int|--|--|
+|victory_rate|勝率|int|--|--|
+|total_pk|總場次|int|不含平手|--|
+|win_count|勝場數|int|--|--|
+|lose_count|敗場數|int|--|--|
+|exclude_pk_count_down|免戰剩餘時間|int|秒數|--|
+|exp|經驗值|int|--|--|
+|model|模型|int|--|--|
+|rank|排名|int|--|--|
+|fightable|可否攻擊|boolean|--|--|
 |cvs_cd_time|比牌CD累計時間|int|--|ver2.0.3|
 |cvs_lock|是否可比牌|int|--|ver2.0.3|
 
