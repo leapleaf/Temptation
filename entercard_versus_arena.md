@@ -56,6 +56,7 @@ SVN版本:
 |avert_endtime|免戰剩餘時間|int|秒數|--|
 |alliance_name|聯盟名稱|string|--|--|
 |alliance_short_name|聯盟短名稱|string|--|--|
+|skill_ids|技能組|array|key|--|
 
 
 ### 5. 錯誤代碼說明
