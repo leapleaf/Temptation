@@ -68,7 +68,7 @@ SVN版本:
 ### 6.回傳格式範例
 
 ```
-array (size=5)
+array (size=7)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
   'card_vs_event' => 
@@ -79,9 +79,9 @@ array (size=5)
           'type' => int 1
           'description' => string '0' (length=1)
           'reward' => string '' (length=0)
-          'remaining_time' => int 23997
+          'remaining_time' => int 37064
   'result' => 
-    array (size=8)
+    array (size=9)
       0 => 
         array (size=14)
           'nickname' => string 'yee' (length=3)
@@ -93,7 +93,7 @@ array (size=5)
           'lose_count' => int 5
           'total_pk' => int 40
           'power' => int 49361
-          'score' => int 420
+          'score' => int 840
           'victory_rate' => float 0
           'avert_endtime' => int 0
           'alliance_name' => string 'QAQQ' (length=4)
@@ -105,29 +105,140 @@ array (size=5)
           'model' => int 0
           'duty' => int 2
           'rank' => int 2
-          'win_count' => int 42
+          'win_count' => int 46
           'lose_count' => int 0
-          'total_pk' => int 42
+          'total_pk' => int 46
           'power' => int 82280
-          'score' => int 320
+          'score' => int 660
           'victory_rate' => float 0
           'avert_endtime' => int 0
           'alliance_name' => string 'TEST4' (length=5)
           'alliance_short_name' => string 'TS4' (length=3)
-
+      2 => 
+        array (size=14)
+          'nickname' => string '吃飯了' (length=9)
+          'lv' => int 42
+          'model' => int 6
+          'duty' => int 1
+          'rank' => int 3
+          'win_count' => int 10
+          'lose_count' => int 6
+          'total_pk' => int 16
+          'power' => int 4318
+          'score' => int 520
+          'victory_rate' => float 0
+          'avert_endtime' => int 0
+          'alliance_name' => string 'qqqq' (length=4)
+          'alliance_short_name' => string 'qqq' (length=3)
+      3 => 
+        array (size=14)
+          'nickname' => string 'gg no2' (length=6)
+          'lv' => int 22
+          'model' => int 0
+          'duty' => int 1
+          'rank' => int 4
+          'win_count' => int 0
+          'lose_count' => int 4
+          'total_pk' => int 4
+          'power' => int 33965
+          'score' => int 440
+          'victory_rate' => float 0
+          'avert_endtime' => int 0
+          'alliance_name' => string 'QAQQ' (length=4)
+          'alliance_short_name' => string 'QAQ' (length=3)
+      4 => 
+        array (size=14)
+          'nickname' => string 'clliu_' (length=6)
+          'lv' => int 13
+          'model' => int 6
+          'duty' => int 3
+          'rank' => int 5
+          'win_count' => int 8
+          'lose_count' => int 4
+          'total_pk' => int 12
+          'power' => int 32972
+          'score' => int 80
+          'victory_rate' => float 0
+          'avert_endtime' => int 0
+          'alliance_name' => string '' (length=0)
+          'alliance_short_name' => string '' (length=0)
+      5 => 
+        array (size=14)
+          'nickname' => string 's0602' (length=5)
+          'lv' => int 22
+          'model' => int 0
+          'duty' => int 1
+          'rank' => int 6
+          'win_count' => int 2
+          'lose_count' => int 0
+          'total_pk' => int 2
+          'power' => int 12064
+          'score' => int 60
+          'victory_rate' => float 0
+          'avert_endtime' => int 0
+          'alliance_name' => string '' (length=0)
+          'alliance_short_name' => string '' (length=0)
+      6 => 
+        array (size=14)
+          'nickname' => string 'qqqQ' (length=4)
+          'lv' => int 1
+          'model' => int 1
+          'duty' => int 3
+          'rank' => int 7
+          'win_count' => int 2
+          'lose_count' => int 0
+          'total_pk' => int 2
+          'power' => int 1363
+          'score' => int 20
+          'victory_rate' => float 0
+          'avert_endtime' => int 0
+          'alliance_name' => string '' (length=0)
+          'alliance_short_name' => string '' (length=0)
+      7 => 
+        array (size=14)
+          'nickname' => string 'QQ6號' (length=6)
+          'lv' => int 1
+          'model' => int 0
+          'duty' => int 3
+          'rank' => int 8
+          'win_count' => int 2
+          'lose_count' => int 0
+          'total_pk' => int 2
+          'power' => int 5034
+          'score' => int 20
+          'victory_rate' => float 0
+          'avert_endtime' => int 0
+          'alliance_name' => string '' (length=0)
+          'alliance_short_name' => string '' (length=0)
+      8 => 
+        array (size=14)
+          'nickname' => string 'A7744' (length=5)
+          'lv' => int 2
+          'model' => int 2
+          'duty' => int 1
+          'rank' => int 9
+          'win_count' => int 0
+          'lose_count' => int 0
+          'total_pk' => int 0
+          'power' => int 17167
+          'score' => int 10
+          'victory_rate' => float 0
+          'avert_endtime' => int 0
+          'alliance_name' => string '' (length=0)
+          'alliance_short_name' => string '' (length=0)
   'character' => 
     array (size=1)
       0 => 
         array (size=22)
-          'nickname' => string 'wade' (length=4)
+          'nickname' => string 'qqqQ' (length=4)
           'alliance_name' => string '' (length=0)
           'alliance_short_name' => string '' (length=0)
-          'lv' => int 24
-          'power' => int 67462
-          'victory_rate' => float 0
-          'total_pk' => int 110
-          'win_count' => int 0
-          'lose_count' => int 110
+          'lv' => int 1
+          'power' => int 1363
+          'victory_rate' => float 0.8
+          'total_pk' => int 10
+          'win_count' => int 8
+          'lose_count' => int 2
           'pet_id' => int 0
           'skill_ids' => 
             array (size=0)
@@ -135,14 +246,16 @@ array (size=5)
           'online' => boolean false
           'exclude_pk_count_down' => int 0
           'model' => int 1
-          'duty' => int 1
-          'rank' => int 0
-          'pet_hp' => int 310
-          'pet_atk' => int 15
-          'pet_def' => int 25
-          'pet_hp_equip' => int 300
-          'pet_atk_equip' => int 10
-          'pet_def_equip' => int 20
+          'duty' => int 3
+          'rank' => int 7
+          'pet_hp' => int 10
+          'pet_atk' => int 5
+          'pet_def' => int 5
+          'pet_hp_equip' => int 0
+          'pet_atk_equip' => int 0
+          'pet_def_equip' => int 0
+  'cvs_cd_time' => int 0
+  'cvs_lock' => boolean false
 
 ```
 
