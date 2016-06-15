@@ -22,10 +22,32 @@ SVN版本:
 ### 4. 回傳參數說明
 | 參數 | 意義 | 型別 | 說明 |
 | -- | -- | -- | -- | -- |
-|ORMobj|改變前boss狀態|ORM|--|
-|ORMobj|改變後boss狀態|ORM|--|
 | err_code | 回傳參數碼 | string |--|
 | err_desc | 回傳參數碼說明 | string | -- |
+|stage|當前boss資訊|array|key|
+|name|boss名稱|string|--|
+|description|boss描述|string|--|
+|alreadySignup|玩家本人是否報名|bool|開戰會變false|
+|bg_image_path|背景圖路徑|string|--|
+|boss_image_path|boss圖路徑|string|--|
+|boss_name_id|boss名稱id|int|--|
+|boss_hp|boss hp|int|--|
+|boss_atk|boss atk|int|--|
+|boss_def|boss def|int|--|
+|boss_skillBuildID|boss技能組id|int|--|
+|start_remaining_time|距離開戰剩餘時間|int|秒數|
+|signup_remaining_time|距離報名開始剩餘時間|int|秒數|
+|can_singup|可否報名|bool|--|
+|can_start|可否開戰|bool|--|
+|otherPlayers|其他玩家資訊|array|key|
+|nickname|玩家暱稱|string|--|
+|lv|等級|int|--|
+|model|模組|int|--|
+|duty|職能|int|--|
+|pet_id|主牌|int|--|
+|power|戰力|int|--|
+|alliance_short_name|聯盟短名稱|string|--|
+|
 
 
 
