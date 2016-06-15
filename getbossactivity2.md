@@ -1,22 +1,17 @@
-# get_boss_activity2
-
-# 設定Boss排程 boss_fight_set_schdule
-##client不用接
+# 取得當前boss資訊  get_boss_activity2
 
 
-API編碼:2.2.0
+API編碼:2.2.1
 
 更新日期:
 
 SVN版本:
 
 發布版本:2.0.6
-### 1.路徑:fight/boss_fight_set_schdule
+### 1.路徑:fight/get_boss_activity2
 
 ### 2. 說明
-設定boss排程,輸入boss_id,報名時間,開始時間,結束時間,會寫入boss_activity table,
-
-要注意每一筆boss_activity raw報名時間跟結束時間要完全錯開
+取得當前boss資訊,可取得當前報名玩家資訊
 ### 3. 輸入參數說明
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
@@ -43,9 +38,45 @@ SVN版本:
 
 ### 6.回傳格式範例
 
-```array (size=2)
-
+```
+array (size=3)
   'err_code' => string '000' (length=3)
-  
-  'err_desc' => string 'success' (length=7)```
+  'err_desc' => string 'success' (length=7)
+  'stage' => 
+    array (size=16)
+      'name' => string '推特西里' (length=12)
+      'description' => string '豹頭，獅身，熊腳，怒吼，龐大的怒氣在身上燃燒，攻擊方式是怒吼與熊腳。' (length=102)
+      'alreadySignup' => boolean false
+      'bg_image_path' => string '302004' (length=6)
+      'boss_image_path' => string '302004' (length=6)
+      'boss_name_id' => int 761074
+      'otherPlayers' => 
+  array (size=3)
+    0 => 
+      array (size=4)
+        'nickname' => string 'QQ30號' (length=7)
+        'lv' => string '65' (length=2)
+        'power' => int 82280
+        'alliance_short_name' => string 'TS4' (length=3)
+    1 => 
+      array (size=4)
+        'nickname' => string 'yee' (length=3)
+        'lv' => string '51' (length=2)
+        'power' => int 53525
+        'alliance_short_name' => string 'QAQ' (length=3)
+  2 => 
+      array (size=4)
+        'nickname' => string '吃飯了' (length=9)
+        'lv' => string '100' (length=3)
+      'power' => int 88580
+        'alliance_short_name' => string 'qqq' (length=3)
+      'boss_hp' => int 18500
+      'boss_atk' => int 9050
+      'boss_def' => int 3950
+      'boss_skillBuildID' => int 100405
+      'start_remaining_time' => int 0
+      'signup_remaining_time' => int 0
+      'can_singup' => boolean false
+      'can_start' => boolean true
+      ```
 
