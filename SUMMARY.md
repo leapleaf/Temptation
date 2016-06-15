@@ -79,4 +79,5 @@
    * [boss改版](bossgai_ban.md)
        * [設定Boss排程 boss_fight_set_schdule](boss_fight_set_schdule.md)
        * [取得當前boss資訊 get_boss_activity2](getbossactivity2.md)
+       * boss戰報名
 
