@@ -77,6 +77,6 @@
    * [ver 2.0.5](ver_205.md)
        * [enter_card_versus_arena](entercard_versus_arena.md)
    * [boss改版](bossgai_ban.md)
-       * [boss_fight_set_schdule](boss_fight_set_schdule.md)
+       * [設定Boss排程 boss_fight_set_schdule](boss_fight_set_schdule.md)
        * [取得當前boss資訊 get_boss_activity2](getbossactivity2.md)
 
