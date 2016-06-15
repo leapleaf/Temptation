@@ -1,5 +1,5 @@
 # 設定Boss排程 boss_fight_set_schdule
-
+##client不用接
 
 
 API編碼:2.2.0
