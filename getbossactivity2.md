@@ -15,10 +15,9 @@ SVN版本:
 ### 3. 輸入參數說明
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
-|boss_activity_id|boss_id|int|1|對應boss_id,目前只有1~4|
-|signup_time|報名開始時間|datetime|--|ex:2016-06-15 03:50:00|
-|start_time|boss戰開始時間|datetime|--|ex:2016-06-15 03:58:00|
-|end_time|boss戰結束時間|datetime|--|ex:2016-06-15 03:59:00|
+|lang|語系|string|2|--|
+|activity_id|目前boss活動id|int|2|與boss_id相同|
+
 
 ### 4. 回傳參數說明
 | 參數 | 意義 | 型別 | 說明 |
