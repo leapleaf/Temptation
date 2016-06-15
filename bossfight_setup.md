@@ -8,7 +8,7 @@ API編碼:2.2.1
 SVN版本:
 
 發布版本:2.0.6
-### 1.路徑:fight/boss_fight_signup
+### 1.路徑:fight/boss_fight_setup
 
 ### 2. 說明
 報名boss戰,目前開戰前5分鐘不能報名
