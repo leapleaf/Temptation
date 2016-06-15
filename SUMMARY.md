@@ -77,5 +77,5 @@
    * [ver 2.0.5](ver_205.md)
        * [enter_card_versus_arena](entercard_versus_arena.md)
    * [boss改版](bossgai_ban.md)
-       * boss_fight_set_schdule
+       * [boss_fight_set_schdule](boss_fight_set_schdule.md)
 
