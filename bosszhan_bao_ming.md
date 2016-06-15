@@ -11,11 +11,10 @@ SVN版本:
 ### 1.路徑:fight/boss_fight_signup
 
 ### 2. 說明
-取得當前boss資訊,可取得當前報名玩家資訊
+報名boss戰,目前開戰前5分鐘不能報名
 ### 3. 輸入參數說明
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
-|lang|語系|string|2|--|
 |activity_id|目前boss活動id|int|2|與boss_id相同|
 
 
