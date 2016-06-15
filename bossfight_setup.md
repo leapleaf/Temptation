@@ -11,12 +11,13 @@ SVN版本:
 ### 1.路徑:fight/boss_fight_setup
 
 ### 2. 說明
-設置boss戰,開戰前5分鐘才可設置,最後1分鐘關閉設置,只能設一個部隊
+設置boss戰,開戰前5分鐘才可設置,最後1分鐘關閉設置,只能設一個部隊,
+call 這隻api前請先用set_skills設置 type=1(boss),若是未設置會自動抓type=2
 ### 3. 輸入參數說明
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
 |pet1|部隊|int|--|若玩家未設置,boss戰開始時|
-|items|道具|jsoncode|最大數量30 |ex:[{\"item_id\":1,\"num\":3},{\"item_id\":2,\"num\":3},{\"item_id\":3,\"num\":3}]|
+|items|道具|jsoncode|最大數量10 |ex:[{\"item_id\":1,\"num\":3},{\"item_id\":2,\"num\":3},{\"item_id\":3,\"num\":3}]|
 |
 
 
@@ -34,6 +35,8 @@ SVN版本:
 |123|You don't joined this activity|
 |195|開戰前1分鐘無法配置|
 |182|You can't use special pet in this fight mode|
+|181|配置物品數量超過10個|
+|131|The Pet1 is not exist|
 
 
 
