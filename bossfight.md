@@ -55,7 +55,7 @@ ex:total_dmg約1000時的狀態 pet hp==0(自動使用)
 ```
 total_dmg 會每次更新復活球,已物件型態存入mem,
 
-當ball_used ==false &&enegy_percent==100才會使用
+pet_hp == 0時,當ball_used ==false &&enegy_percent==100才會使用
 ### 3. 輸入參數說明
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
