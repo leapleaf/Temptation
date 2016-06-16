@@ -101,3 +101,5 @@ array (size=3)
       'can_start' => boolean true
       ```
 
+            "alreadySignup" => $alreadySignup,
+            "alreadyFight" => $alreadyFight,
