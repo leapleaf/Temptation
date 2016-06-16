@@ -1,7 +1,7 @@
 # boss戰報名 boss_fight_signup
 
 
-API編碼:2.2.1
+API編碼:2.2.2
 
 更新日期:
 
