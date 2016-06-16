@@ -13,6 +13,47 @@ SVN版本:
 ### 2. 說明
 新增復活球,攻擊間隔隨機5~10秒,爆擊判定,miss判定,回血
 
+復活球解說:目前固定三個,key為0,1,2;enegy_percent =-1不會累積復活球能量,
+
+當復活球enegy_percent達到100可開始使用,pet_hp在變為0時會自動使用,由最大用到最小
+
+ex:total_dmg約1000時的狀態 pet hp>0
+```
+      'revive_balls' => 
+        array (size=3)
+          0 => 
+            array (size=2)
+              'enegy_percent' => int 100
+              'ball_used' => boolean false
+          1 => 
+            array (size=2)
+              'enegy_percent' => int 4
+              'ball_used' => boolean false
+          2 => 
+            array (size=2)
+              'enegy_percent' => int -1
+              'ball_used' => boolean false     
+
+```
+ex:total_dmg約1000時的狀態 pet hp==0(自動使用)
+```
+      'revive_balls' => 
+        array (size=3)
+          0 => 
+            array (size=2)
+              'enegy_percent' => int 100
+              'ball_used' => boolean true
+          1 => 
+            array (size=2)
+              'enegy_percent' => int 4
+              'ball_used' => boolean false
+          2 => 
+            array (size=2)
+              'enegy_percent' => int -1
+              'ball_used' => boolean false     
+
+```
+total_dmg 會每次更新 當ball_used ==false &&enegy_percent==100才會使用
 ### 3. 輸入參數說明
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
