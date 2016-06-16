@@ -82,4 +82,5 @@
        * [boss戰報名](bosszhan_bao_ming.md)
        * [boss戰設置 boss_fight_setup](bossfight_setup.md)
        * [boss_fight](bossfight.md)
+   * ver 2.0.6
 
