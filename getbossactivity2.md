@@ -48,7 +48,6 @@ SVN版本:
 |pet_id|主牌|int|--|
 |power|戰力|int|--|
 |alliance_short_name|聯盟短名稱|string|--|
-|
 
 
 
