@@ -27,7 +27,8 @@ SVN版本:
 |stage|當前boss資訊|array|key|
 |name|boss名稱|string|--|
 |description|boss描述|string|--|
-|alreadySignup|玩家本人是否報名|bool|開戰會變false|
+|alreadySignup|玩家本人是否報名|bool|--|
+|alreadyFight|玩家本人是否已戰鬥過|bool|--|
 |bg_image_path|背景圖路徑|string|--|
 |boss_image_path|boss圖路徑|string|--|
 |boss_name_id|boss名稱id|int|--|
@@ -68,6 +69,7 @@ array (size=3)
       'name' => string '推特西里' (length=12)
       'description' => string '豹頭，獅身，熊腳，怒吼，龐大的怒氣在身上燃燒，攻擊方式是怒吼與熊腳。' (length=102)
       'alreadySignup' => boolean false
+      'alreadyFight' => boolean false
       'bg_image_path' => string '302004' (length=6)
       'boss_image_path' => string '302004' (length=6)
       'boss_name_id' => int 761074
