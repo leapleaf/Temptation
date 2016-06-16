@@ -33,7 +33,7 @@ call 這隻api前請先用set_skills設置 type=1(boss),若是未設置會自動
 |--|--|
 |910|版本已過期，需更新APP資料|
 |123|You don't joined this activity|
-|195|開戰前1分鐘無法配置|
+|195|不在BOSS戰可配置時間|
 |182|You can't use special pet in this fight mode|
 |181|配置物品數量超過10個|
 |131|The Pet1 is not exist|
@@ -44,7 +44,41 @@ call 這隻api前請先用set_skills設置 type=1(boss),若是未設置會自動
 ### 6.回傳格式範例
 
 ```
-
+array (size=4)
+  'err_code' => string '000' (length=3)
+  'err_desc' => string '' (length=0)
+  'petInfo1' => 
+    array (size=21)
+      'pet_id' => int 100101
+      'lv' => int 10
+      'series' => int 101
+      'max_hp' => int 16700
+      'hp' => int 16700
+      'attack' => int 551
+      'defense' => int 431
+      'act_skill_id1' => int 10000101
+      'act_skill_id2' => int 10000301
+      'act_skill_id3' => int 0
+      'pas_skill_id1' => int 10001101
+      'pas_skill_id2' => int 10000601
+      'pas_skill_id3' => int 10001401
+      'pas_skill_prb1' => int 15
+      'pas_skill_prb2' => int 20
+      'pas_skill_prb3' => int 20
+      'buffList' => 
+        array (size=0)
+          empty
+      'pas_skill_trigger' => int 0
+      'recover_hp' => int 0
+      'damage_hp' => int 0
+      'property' => string '3' (length=1)
+  'skills' => 
+    array (size=5)
+      0 => int 10000110
+      1 => int 10000207
+      2 => int 10000410
+      3 => int 10000803
+      4 => int 10001401
       ```
 
 
