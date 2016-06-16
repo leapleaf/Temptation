@@ -81,5 +81,5 @@
        * [取得當前boss資訊 get_boss_activity2](getbossactivity2.md)
        * [boss戰報名](bosszhan_bao_ming.md)
        * [boss戰設置 boss_fight_setup](bossfight_setup.md)
-       * boss_fight
+       * [boss_fight](bossfight.md)
 
