@@ -3,7 +3,7 @@
 # boss戰設置 boss_fight_setup
 
 
-API編碼:2.2.3
+API編碼:2.2.4
 
 更新日期:
 
