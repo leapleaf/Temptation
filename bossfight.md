@@ -12,6 +12,7 @@ SVN版本:
 
 ### 2. 說明
 新增復活球,攻擊間隔隨機5~10秒,爆擊判定,miss判定,回血
+
 ### 3. 輸入參數說明
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
@@ -53,7 +54,7 @@ SVN版本:
 |total_dmg|目前累計總傷害量|int|--|
 |have_init_revive_space|是否有復活球能量槽|boolean|revive_max = 0為false|
 |revive_balls|復活球|array|key(固定為陣列3個)|
-|enegy_percent|復活球能量槽|int|依total_dmg換算,值為0~100,-1表示不可使用此能量槽
+|enegy_percent|復活球能量槽|int|依total_dmg換算,值為0~100,-1表示不可累積此能量槽|
 |ball_used|此復活球是否用過|boolean|--|
 
 
