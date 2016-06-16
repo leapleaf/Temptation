@@ -1,7 +1,5 @@
 # boss_fight
 
-# boss戰設置 boss_fight_setup
-
 
 API編碼:2.2.4
 
@@ -13,8 +11,7 @@ SVN版本:
 ### 1.路徑:fight/boss_fight_setup
 
 ### 2. 說明
-設置boss戰,開戰前5分鐘才可設置,最後1分鐘關閉設置,只能設一個部隊,
-call 這隻api前請先用set_skills設置 type=1(boss),若是未設置會自動抓type=2
+
 ### 3. 輸入參數說明
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
