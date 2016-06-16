@@ -8,7 +8,7 @@ API編碼:2.2.4
 SVN版本:
 
 發布版本:2.0.6
-### 1.路徑:fight/boss_fight_setup
+### 1.路徑:fight/boss_fight
 
 ### 2. 說明
 
