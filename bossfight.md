@@ -64,6 +64,7 @@ pet_hp == 0時,當ball_used ==false &&enegy_percent==100才會使用
 |value|值|int|--|技能id或道具id|
 |energy|能量值|int|--|client算好丟上來同步,目前未用到|
 |boss_damage_hp|傷害boss hp|int|--|驗證非法傷害|
+|use_items|使用道具|json_code|--|ex:[{\"item_id\":100067,\"num\":1},{\"item_id\":100068,\"num\":2}]|
 
 
 
