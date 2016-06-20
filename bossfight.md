@@ -11,6 +11,8 @@ SVN版本:
 ### 1.路徑:fight/boss_fight
 
 ### 2. 說明
+新增輸入參數use_items,回傳參數:attack_rate
+
 新增復活球,攻擊間隔隨機5~10秒,爆擊判定,miss判定,回血
 
 復活球解說:目前固定三個,key為0,1,2;enegy_percent =-1不會累積復活球能量,
