@@ -57,14 +57,14 @@ total_dmg 會每次更新復活球,已物件型態存入mem,
 
 pet_hp == 0時,當ball_used ==false &&enegy_percent==100才會使用
 ### 3. 輸入參數說明
-| 參數 | 意義 | 型別 |長度限制| 說明 |
-| -- | -- | -- | -- | -- |
-|boss_activity_id|目前boss戰boss_id|int|--|--|
-|type|類型|int|--|0:普攻,1:技能,2:道具|
-|value|值|int|--|技能id或道具id|
-|energy|能量值|int|--|client算好丟上來同步,目前未用到|
-|boss_damage_hp|傷害boss hp|int|--|驗證非法傷害|
-|use_items|使用道具|json_code|--|ex:[{\"item_id\":100067,\"num\":1},{\"item_id\":100068,\"num\":2}]|
+| 參數 | 意義 | 型別 |長度限制| 說明 |版本
+| -- | -- | -- | -- | -- |--|
+|boss_activity_id|目前boss戰boss_id|int|--|--|--|
+|type|類型|int|--|0:普攻,1:技能,2:道具|--|
+|value|值|int|--|技能id或道具id|--|
+|energy|能量值|int|--|client算好丟上來同步,目前未用到|--|
+|boss_damage_hp|傷害boss hp|int|--|驗證非法傷害|--|
+|use_items|使用道具|json_code|--|ex:[{\"item_id\":100067,\"num\":1},{\"item_id\":100068,\"num\":2}]|2.0.7|
 
 
 
@@ -100,6 +100,7 @@ pet_hp == 0時,當ball_used ==false &&enegy_percent==100才會使用
 |revive_balls|復活球|array|key(固定為陣列3個)|
 |enegy_percent|復活球能量槽|int|依total_dmg換算,值為0~100,-1表示不可累積此能量槽|
 |ball_used|此復活球是否用過|boolean|--|
+|attack_rate|此次攻擊倍率|float|--|
 
 
 
