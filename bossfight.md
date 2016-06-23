@@ -80,7 +80,7 @@ pet_hp == 0時,當ball_used ==false &&enegy_percent==100才會使用
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |--|
 | err_desc | 回傳參數碼說明 | string | -- |
-|finish|boss戰是否結束|bool|--|
+|finish|boss戰是否結束|bool|boss hp==0或是在場所有玩家的部隊全部掛掉|
 |originPetHp|原始pet hp|int|call api前|
 |pet_hp|目前pet hp|int|call api後|
 |pet_damage|pet被傷害|int|被boss打|
