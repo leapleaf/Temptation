@@ -7,11 +7,16 @@ API編碼:2.2.4
 
 SVN版本:
 
-發布版本:2.0.6
+發布版本:2.0.6,2.0.8
 ### 1.路徑:fight/boss_fight
 
 ### 2. 說明
+新增輸入參數heal_hp,有最大限制
+新增部隊血量歸0,30秒復活機制
+
+
 新增輸入參數use_items,回傳參數:attack_rate
+#####移除復活球,以下不用看
 
 新增復活球,攻擊間隔隨機5~10秒,爆擊判定,miss判定,回血
 
@@ -66,12 +71,12 @@ pet_hp == 0時,當ball_used ==false &&enegy_percent==100才會使用
 |value|值|int|--|技能id或道具id|--|
 |energy|能量值|int|--|client算好丟上來同步,目前未用到|--|
 |boss_damage_hp|傷害boss hp|int|--|驗證非法傷害|--|
-|use_items|使用道具|json_code|--|ex:[{\"item_id\":100067,\"num\":1},{\"item_id\":100068,\"num\":2}]|2.0.7|
-
+|use_items|使用道具|json_code|--|ex:[{\"item_id\":100067,\"num\":1},{\"item_id\":100068,\"num\":2}]|2.0.8取消|
+|heal_hp|回復血量|int|--|2.0.8|
 
 
 ### 4. 回傳參數說明
-| 參數 | 意義 | 型別 | 說明 |
+| 參數 | 意義 | 型別 | 說明 |版本|
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |--|
 | err_desc | 回傳參數碼說明 | string | -- |
@@ -103,6 +108,7 @@ pet_hp == 0時,當ball_used ==false &&enegy_percent==100才會使用
 |enegy_percent|復活球能量槽|int|依total_dmg換算,值為0~100,-1表示不可累積此能量槽|
 |ball_used|此復活球是否用過|boolean|--|
 |attack_rate|此次攻擊倍率|float|--|
+|revive_remaingtime|復活CD|int|--|2.0.8|
 
 
 
@@ -171,24 +177,12 @@ array (size=21)
           2 => 
             array (size=2)
               'enegy_percent' => int -1
-              'ball_used' => boolean false              
+              'ball_used' => boolean false
+              
+              
+   'attack_rate'=> 1
+   'revive_remaingtime =>10
       ```
 
-#####部隊死亡
-```
-            "err_code" => "000",
-            "err_desc" => "",
-            "finish" => bool,
-            "originPetHp" => 0,
-            "pet_hp" => 0,
-            "pet_damage" => 0,
-            "pet_buff" => [],
-            "boss_buff" => [],
-            "originBossHp" => int,
-            "boss_damage" => 0,
-            "boss_hp" => int,
-            "boss_critical" => false,
-            "canFightAgain" => bool,
-            "hasAlivePet" => bool
 ```
 
