@@ -49,8 +49,7 @@ SVN版本:
 |121|Fight information don't initialize yet.|
 |123|You don't joined this activity|
 |121|Boss information don't initialize yet,This boss fight dosen't start yet.|
-|224|boss戰時間結束|
-|225|非法傷害(非法回復)|
+
 
 
 
