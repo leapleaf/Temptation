@@ -18,8 +18,8 @@ SVN版本:
 | 參數 | 意義 | 型別 |長度限制| 說明 |版本
 | -- | -- | -- | -- | -- |--|
 |storeitem_id|商店道具ID|int|--|--|--|
-|num|數量|int|--|--|--|
-|key_value|key_value|string|--|--|--|
+|pet_no|部隊號碼|int|--|第幾個部隊(pet)|--|
+|boss_activity_id|boss_activity_id|int|--|--|--|
 
 
 
@@ -28,9 +28,6 @@ SVN版本:
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |--|
 | err_desc | 回傳參數碼說明 | string | -- |
-|valid|--|bool|同buy_store_item|
-|goldleaf|gf|int|--|
-|total_goldleaf|--|int|--|
 
 
 
