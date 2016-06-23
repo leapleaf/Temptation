@@ -53,7 +53,6 @@ SVN版本:
 
 
 ### 6.回傳格式範例
-#####部隊活著
 ```
 array (size=12)
   'err_code' => string '000' (length=3)
