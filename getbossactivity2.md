@@ -7,7 +7,7 @@ API編碼:2.2.1
 
 SVN版本:
 
-發布版本:2.0.6
+發布版本:2.0.6,2.0.8
 ### 1.路徑:fight/get_boss_activity2
 
 ### 2. 說明
@@ -20,8 +20,8 @@ SVN版本:
 
 
 ### 4. 回傳參數說明
-| 參數 | 意義 | 型別 | 說明 |
-| -- | -- | -- | -- | -- |
+| 參數 | 意義 | 型別 | 說明 |版本
+| -- | -- | -- | -- | -- |--|
 | err_code | 回傳參數碼 | string |--|
 | err_desc | 回傳參數碼說明 | string | -- |
 |stage|當前boss資訊|array|key|
@@ -38,6 +38,7 @@ SVN版本:
 |boss_skillBuildID|boss技能組id|int|--|
 |start_remaining_time|距離開戰剩餘時間|int|秒數|
 |signup_remaining_time|距離報名開始剩餘時間|int|秒數|
+|end_remaining_time|Boss戰結束時間|int|秒數|2.0.8
 |can_singup|可否報名|bool|--|
 |can_start|可否開戰|bool|--|
 |otherPlayers|其他玩家資訊|array|key|
@@ -97,6 +98,7 @@ array (size=3)
       'boss_def' => int 3950
       'boss_skillBuildID' => int 100405
       'start_remaining_time' => int 0
+      'end_remaining_time' => int 20223
       'signup_remaining_time' => int 0
       'can_singup' => boolean false
       'can_start' => boolean true
