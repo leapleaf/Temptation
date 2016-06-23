@@ -28,6 +28,9 @@ SVN版本:
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |--|
 | err_desc | 回傳參數碼說明 | string | -- |
+|cost_gold|花費金幣|int|--|
+|remaining_gold|剩餘金幣|int--|
+
 
 
 
