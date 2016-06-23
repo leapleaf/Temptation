@@ -34,6 +34,7 @@ SVN版本:15004,15350.
 |world_map_id|世界地圖id|string|--|
 |leader|盟主|string|--|
 |alliance_name|聯盟名稱|string|--|
+|alliance_sname|聯盟短名稱|string|--|2.0.9|
 |flag|聯盟旗幟|string|--|
 |total_power|戰力|string|--|
 
