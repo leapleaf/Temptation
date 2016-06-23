@@ -87,5 +87,5 @@
        * [boss_fight_info](bossfight_info.md)
        * [boss_fight_rank2](bossfight_rank2.md)
    * [ver 2.0.6](ver_206.md)
-   * ver 2.0.8
+   * [ver 2.0.8](ver_208.md)
 
