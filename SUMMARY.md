@@ -85,6 +85,6 @@
        * [boss戰設置 boss_fight_setup](bossfight_setup.md)
        * [boss_fight](bossfight.md)
        * [boss_fight_info](bossfight_info.md)
-       * boss_fight_rank2
+       * [boss_fight_rank2](bossfight_rank2.md)
    * [ver 2.0.6](ver_206.md)
 
