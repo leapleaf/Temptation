@@ -1,7 +1,7 @@
 # boss_fight_supply
 
 
-API編碼:2.2.5
+API編碼:2.2.6
 
 更新日期:
 
@@ -19,7 +19,9 @@ SVN版本:
 ### 3. 輸入參數說明
 | 參數 | 意義 | 型別 |長度限制| 說明 |版本
 | -- | -- | -- | -- | -- |--|
-|boss_activity_id|目前boss戰boss_id|int|--|--|--|
+|storeitem_id|商店道具ID|int|--|--|--|
+|num|數量|int|--|--|--|
+|key_value|key_value|string|--|--|--|
 
 
 
@@ -28,16 +30,10 @@ SVN版本:
 | -- | -- | -- | -- | -- |
 | err_code | 回傳參數碼 | string |--|
 | err_desc | 回傳參數碼說明 | string | -- |
-|boss_hp|boss戰是否結束|bool|--|
-|boss_max_hp|原始pet hp|int|call api前|
-|pet_key|目前pet hp|int|call api後|
-|pet_id|pet被傷害|int|被boss打|
-|petMaxHp|pet 最大hp|int|--|
-|pet_hp|pet現在hp|int|--|
-|pet_attack|ATK|int|--|--|
-|pet_defense|DEF|int|--|--|
-|act_skill_id3|大絕|int|--|--|
-|revive_remaingtime|復活CD|int|--|2.0.8|
+|valid|--|bool|同buy_store_item|
+|goldleaf|gf|int|--|
+|total_goldleaf|--|int|--|
+
 
 
 
@@ -46,7 +42,8 @@ SVN版本:
 |--|--|
 |000|pet1 or ''|
 |910|版本已過期，需更新APP資料|
-|121|Fight information don't initialize yet.|
+|227|部隊血量不為0,無法購買|
+|224|boss戰時間結束|
 |123|You don't joined this activity|
 |121|Boss information don't initialize yet,This boss fight dosen't start yet.|
 
@@ -60,16 +57,10 @@ SVN版本:
 array (size=12)
   'err_code' => string '000' (length=3)
   'err_desc' => string '' (length=0)
-  'boss_hp' => int 234000
-  'boss_max_hp' => int 234000
-  'pet_key' => string '' (length=0)
-  'pet_id' => int 0
-  'petMaxHp' => int 0
-  'pet_hp' => int 0
-  'pet_attack' => int 0
-  'pet_defense' => int 0
-  'act_skill_id3' => int 0
-  'revive_remaingtime' => int 0
+  'valid' => int 234000
+  'goldleaf' => int 234000
+  'total_goldleaf' => string '' (length=0)
+
       ```
 
 ```
