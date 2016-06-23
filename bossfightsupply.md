@@ -54,9 +54,9 @@ SVN版本:
 array (size=12)
   'err_code' => string '000' (length=3)
   'err_desc' => string '' (length=0)
-  'valid' => int 234000
+  'valid' => bool true 
   'goldleaf' => int 234000
-  'total_goldleaf' => string '' (length=0)
+  'total_goldleaf' => int 0
 
       ```
 
