@@ -36,12 +36,12 @@ SVN版本:
 |錯誤代碼|意義|
 |--|--|
 |910|版本已過期，需更新APP資料|
-|227|部隊血量不為0,無法購買|
-|224|boss戰時間結束|
+|184|boss fight is disable|
+|223|目前boss戰非此id|
 |123|You don't joined this activity|
-|401|can not find item in store|
-|403|insufficient goldleaf|
-|917|unknown currency type|
+|224|boss戰時間結束|
+|226|部隊血量不為0,無法復活|
+|407|gold leaf is not enough|
 
 
 
@@ -52,9 +52,6 @@ SVN版本:
 array (size=12)
   'err_code' => string '000' (length=3)
   'err_desc' => string '' (length=0)
-  'valid' => bool true 
-  'goldleaf' => int 234000
-  'total_goldleaf' => int 0
 
       ```
 
