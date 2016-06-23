@@ -40,12 +40,13 @@ SVN版本:
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
 |--|--|
-|000|pet1 or ''|
 |910|版本已過期，需更新APP資料|
 |227|部隊血量不為0,無法購買|
 |224|boss戰時間結束|
 |123|You don't joined this activity|
-|121|Boss information don't initialize yet,This boss fight dosen't start yet.|
+|401|can not find item in store|
+|403|insufficient goldleaf|
+|917|unknown currency type|
 
 
 
