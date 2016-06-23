@@ -55,7 +55,8 @@ SVN版本:
 array (size=12)
   'err_code' => string '000' (length=3)
   'err_desc' => string '' (length=0)
-
+  'cost_gold'=> 243
+  'remaining_gold'=> 500
       ```
 
 ```
