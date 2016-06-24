@@ -90,4 +90,5 @@
    * [ver 2.0.8](ver_208.md)
        * [BossFightSupply](bossfightsupply.md)
        * [revive_by_goldleaf_in_boss](reviveby_goldleaf_in_boss.md)
+* 2.0.9後新API
 
