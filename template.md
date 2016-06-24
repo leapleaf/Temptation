@@ -25,10 +25,10 @@ SVN版本:
 ### 3. 輸入參數說明
 
 
-| 參數 | 意義 | 型別 | 長度限制 | 說明 |
+| 參數 | 意義 | 型別 | 長度限制 | 說明 |版本|
 | -- | -- | -- | -- | -- | -- |
-|character_id|聯盟名稱|int|12|取token,client不須輸入|
-|alliance_tech_id|聯盟科技id|int|--|請代入資料庫有的id|
+|character_id|聯盟名稱|int|12|取token,client不須輸入|--|
+|alliance_tech_id|聯盟科技id|int|--|請代入資料庫有的id|--|
 
 
 ### 4. 回傳參數說明
