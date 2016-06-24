@@ -22,15 +22,14 @@ SVN版本:
 
 ### 2. 說明
 
-取得現有活動關卡
+取得現有活動關卡,第一次call會初始1~5級
 
 ### 3. 輸入參數說明
 
 
 | 參數 | 意義 | 型別 | 長度限制 | 說明 |版本|
 | -- | -- | -- | -- | -- | -- |
-|character_id|聯盟名稱|int|12|取token,client不須輸入|--|
-|alliance_tech_id|聯盟科技id|int|--|請代入資料庫有的id|--|
+
 
 
 ### 4. 回傳參數說明
@@ -38,23 +37,13 @@ SVN版本:
 | -- | -- | -- | -- | -- |--|
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
-|exp|科技研究值|int|目前|--|
-|threshold|科技升級所需|int|--|--|
-|benefit|現在科技效果|int|Value1|--|
-|next_benefit|下一科技效果|int|若無則吐0|--|
-|remiaining_time|升級剩餘時間|int|低於0吐0|--|
-|can_levelup|可以升級|boolean|1可升級|--|
-|donate_cdtime|個人捐獻cd|int|--|--|
-|can_donate_item|可捐獻物資|array|key|2.0.1|
-|item_id1|可捐獻道具id|int|--|2.0.1|
-|item_id2|可捐獻道具id|int|--|2.0.1|
-|goldleaf|可捐獻金葉|int|--|2.0.1|
-|character|腳色資訊|array|key|2.0.1|
-|in_stock1|腳色所持item_id1數量|int|--|2.0.1|
-|in_stock2|腳色所持item_id2數量|int|--|2.0.1|
-|goldleaf|腳色金葉|int|--|2.0.1|
-|open|是否開啟|boolean|--|2.0.1|
-|donate_lock|捐獻鎖定|boolean|true為鎖住|--|
+|stages|活動關卡|array|key|--|
+|no|序列數|int|--|--|
+|pass_stage_no|已過關卡|int|0無過關,目前最高10|--|
+|stage_no|活動關卡|int|地上5關天上5關|--|
+|fought|是否打過|int|打過吐1|--|
+|reset_remainingtime|重製剩餘時間|int|低於0吐0|--|
+
 
 
 ### 5. 錯誤代碼說明
@@ -67,31 +56,131 @@ SVN版本:
 ### 6.回傳格式範例
 
 ```
-array (size=13)
+array (size=4)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'exp' => int 12999
-  'threshold' => int 13000
-  'benefit' => int 50
-  'next_benefit' => int 60
-  'remaining_time' => int 0
-  'can_levelup' => boolean false
-  'donate_cdtime' => int 0
-  'can_donate_item' => 
-    array (size=7)
-      'item_id1' => int 100014
-      'item_id1_can_donate' => boolean true
-      'quantity1' => int 10
-      'item_id2' => int 100014
-      'quantity2' => int 15
-      'item_id2_can_donate' => boolean false
-      'goladleaf' => int 0
-  'character' => 
-    array (size=3)
-      'in_stock1' => int 110
-      'in_stock2' => int 0
-      'goldleaf' => int 28
-  'open' => boolean true
-  'donate_lock' => boolean false
+  'pass_stage_no' => int 0
+  'stages' => 
+    array (size=20)
+      0 => 
+        array (size=4)
+          'no' => int 1
+          'stage_no' => int 2000002
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      1 => 
+        array (size=4)
+          'no' => int 2
+          'stage_no' => int 2000002
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      2 => 
+        array (size=4)
+          'no' => int 3
+          'stage_no' => int 2000002
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      3 => 
+        array (size=4)
+          'no' => int 4
+          'stage_no' => int 2000002
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      4 => 
+        array (size=4)
+          'no' => int 5
+          'stage_no' => int 2000001
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      5 => 
+        array (size=4)
+          'no' => int 6
+          'stage_no' => int 2000002
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      6 => 
+        array (size=4)
+          'no' => int 7
+          'stage_no' => int 2000002
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      7 => 
+        array (size=4)
+          'no' => int 8
+          'stage_no' => int 2000001
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      8 => 
+        array (size=4)
+          'no' => int 9
+          'stage_no' => int 2000002
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      9 => 
+        array (size=4)
+          'no' => int 10
+          'stage_no' => int 2000002
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      10 => 
+        array (size=4)
+          'no' => int 11
+          'stage_no' => int 2000001
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      11 => 
+        array (size=4)
+          'no' => int 12
+          'stage_no' => int 2000001
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      12 => 
+        array (size=4)
+          'no' => int 13
+          'stage_no' => int 2000001
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      13 => 
+        array (size=4)
+          'no' => int 14
+          'stage_no' => int 2000002
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      14 => 
+        array (size=4)
+          'no' => int 15
+          'stage_no' => int 2000001
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      15 => 
+        array (size=4)
+          'no' => int 16
+          'stage_no' => int 2000002
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      16 => 
+        array (size=4)
+          'no' => int 17
+          'stage_no' => int 2000002
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      17 => 
+        array (size=4)
+          'no' => int 18
+          'stage_no' => int 2000001
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      18 => 
+        array (size=4)
+          'no' => int 19
+          'stage_no' => int 2000002
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
+      19 => &
+        array (size=4)
+          'no' => int 20
+          'stage_no' => int 2000002
+          'fought' => boolean false
+          'reset_remainingtime' => int 41
 ```
 
