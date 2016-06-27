@@ -91,7 +91,7 @@
        * [BossFightSupply](bossfightsupply.md)
        * [revive_by_goldleaf_in_boss](reviveby_goldleaf_in_boss.md)
 * [2.0.9後舊API](209hou_jiu_api.md)
-   * choose_collect_gem
+   * [choose_collect_gem](choosecollect_gem.md)
 * [2.0.9後新API](209hou_xin_api.md)
    * [活動關卡](huo_dong_guan_qia.md)
 
