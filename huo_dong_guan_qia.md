@@ -42,7 +42,8 @@ SVN版本:
 |stages|活動關卡|array|key|--|
 |no|序列數|int|--|--|
 |pass_stage_no|已過關卡|int|0無過關,目前最高10|--|
-|stage_no|活動關卡|int|地上5關天上5關|--|
+|stage_no|活動關卡|int|地上5關天上15關|--|
+|lv|活動關卡等級|int|--|--|
 |fought|是否打過|int|打過吐1|--|
 |reset_remainingtime|重製剩餘時間|int|低於0吐0|--|
 
