@@ -91,6 +91,7 @@
        * [BossFightSupply](bossfightsupply.md)
        * [revive_by_goldleaf_in_boss](reviveby_goldleaf_in_boss.md)
    * [ver 2.1.0](ver_210.md)
+       * patch
 * [2.0.9後舊API](209hou_jiu_api.md)
    * [choose_collect_gem](choosecollect_gem.md)
    * [normal_fight_setup](normalfight_setup.md)
