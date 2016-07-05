@@ -40,7 +40,7 @@ SVN版本:
 |alliance_sname|聯盟短名稱|string|--|--|
 |lv|等級|int|--|--|
 |power|戰力|int|--|--|
-|win_count|勝場數|int|--|--|
+|lose_count|敗場數|int|--|--|
 |avert_endtime|免戰剩餘時間|int|秒數|--|
 |exp|經驗值|int|--|--|
 |model|模型|int|--|--|
@@ -62,7 +62,7 @@ SVN版本:
 array (size=8)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'loser_list' => 
+  'rival_list' => 
      0 => 
     array (size=14)
       'nickname' => string 'QQ30號' (length=7)
@@ -71,7 +71,7 @@ array (size=8)
       'model' => int 0
       'fightable' => boolean false
       'fought' => boolean false
-      'win_count' => int 1
+      'lose_count' => int 1
       'duty' => int 2
       'rank' => int 2
       'power' => int 83507
@@ -87,7 +87,7 @@ array (size=8)
       'model' => int 6
       'fightable' => boolean false
       'fought' => boolean true
-      'win_count' => int 1
+      'lose_count' => int 1
       'duty' => int 2
       'rank' => int 0
       'power' => int 65793
