@@ -34,7 +34,7 @@ SVN版本:
 | -- | -- | -- | -- | -- |--|
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
-|loser_list|結果|array|key|--|
+|rival_list|結果|array|key|--|
 |nickname|暱稱|string|--|--|
 |alliance_name|聯盟名稱|string|--|--|
 |alliance_sname|聯盟短名稱|string|--|--|
