@@ -99,5 +99,5 @@
    * [normal_fight_setup](normalfight_setup.md)
 * [2.0.9後新API](209hou_xin_api.md)
    * [活動關卡](huo_dong_guan_qia.md)
-   * 競技場
+   * [競技場](jing_ji_chang.md)
 
