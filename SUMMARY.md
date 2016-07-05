@@ -100,5 +100,5 @@
 * [2.0.9後新API](209hou_xin_api.md)
    * [活動關卡](huo_dong_guan_qia.md)
    * [競技場](jing_ji_chang.md)
-       * get_cvs_loser_list
+       * [get_cvs_loser_list](getcvs_loser_list.md)
 
