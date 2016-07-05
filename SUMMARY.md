@@ -101,4 +101,5 @@
    * [活動關卡](huo_dong_guan_qia.md)
    * [競技場](jing_ji_chang.md)
        * [get_cvs_loser_list](getcvs_loser_list.md)
+       * get_cvs_rival_list
 
