@@ -33,7 +33,7 @@ SVN版本:
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
 |extra_queue_num|採礦佇列|array|目前最多8組|--|
-|next_open_remaining_time|剩餘時間|int|--|--|
+|next_open_remaining_time|下一佇列開啟剩餘時間|int|--|--|
 
 
 
@@ -51,8 +51,8 @@ SVN版本:
 array (size=4)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'extra_queue_num' => 
-
- 
+  'extra_queue_num' => 4 int  
+  'next_open_remaining_time' => 4 int
+  
 ```
 
