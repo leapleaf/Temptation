@@ -107,4 +107,5 @@
 * [採礦](cai_kuang.md)
    * [choose_mining_troops](choosemining_troops.md)
    * [get_mining_troops_time](getmining_troops_time.md)
+   * harvest_mining_items
 
