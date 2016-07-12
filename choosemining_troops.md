@@ -1,2 +1,2 @@
-# choose_mining_troops
+# 採礦 choose_mining_troops
 
