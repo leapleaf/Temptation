@@ -21,9 +21,6 @@ SVN版本:
 ### 2. 說明
 取得現在採礦部隊時間
 
-
-以pass_stage_no +-2關卡等級
-
 ### 3. 輸入參數說明
 
 
@@ -37,7 +34,9 @@ SVN版本:
 | -- | -- | -- | -- | -- |--|
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
-|remaining_time|最後一支部隊的採集時間|int|--|--|
+|extra_queue_num|目前最多可採集的佇列數|int|--|--|
+|queue|採礦佇列|array|目前最多7組|--|
+|mining_items|採礦佇列詳細|array|目前最多7組|--|
 
 
 
@@ -47,7 +46,6 @@ SVN版本:
 |--|--|
 |905|輸入資料格式錯誤|
 |140|the character does not exist|
-|642|科技尚未開放|
 
 ### 6.回傳格式範例
 
@@ -60,75 +58,75 @@ array (size=4)
       0 => 
         array (size=3)
           'mining_items' => 
-    array (size=3)
-      0 => 
-        array (size=2)
-          'item_id' => int 100011
-          'num' => int 5
-      1 => 
-        array (size=2)
-          'item_id' => int 100131
-          'num' => int 4
-      2 => 
-        array (size=2)
-          'item_id' => int 100133
-          'num' => int 2
+          array (size=3)
+            0 => 
+              array (size=2)
+                'item_id' => int 100011
+                'num' => int 5
+            1 => 
+              array (size=2)
+                'item_id' => int 100131
+                'num' => int 4
+            2 => 
+              array (size=2)
+                'item_id' => int 100133
+                'num' => int 2
           'remaining_time' => int 0
           'rare_type' => int 3
       1 => 
-        array (size=3)
+         array (size=3)
           'mining_items' => 
-    array (size=3)
-      0 => 
-        array (size=2)
-          'item_id' => int 100011
-          'num' => int 5
-      1 => 
-        array (size=2)
-          'item_id' => int 100131
-          'num' => int 4
-      2 => 
-        array (size=2)
-          'item_id' => int 100133
-          'num' => int 2
+          array (size=3)
+            0 => 
+              array (size=2)
+                'item_id' => int 100011
+                'num' => int 5
+            1 => 
+              array (size=2)
+                'item_id' => int 100131
+                'num' => int 4
+            2 => 
+              array (size=2)
+                'item_id' => int 100133
+                'num' => int 2
           'remaining_time' => int 0
           'rare_type' => int 3
       2 => 
-        array (size=3)
+         array (size=3)
           'mining_items' => 
-    array (size=3)
-      0 => 
-        array (size=2)
-          'item_id' => int 100011
-          'num' => int 5
-      1 => 
-        array (size=2)
-          'item_id' => int 100131
-          'num' => int 4
-      2 => 
-        array (size=2)
-          'item_id' => int 100133
-          'num' => int 2
+          array (size=3)
+            0 => 
+              array (size=2)
+                'item_id' => int 100011
+                'num' => int 5
+            1 => 
+              array (size=2)
+                'item_id' => int 100131
+                'num' => int 4
+            2 => 
+              array (size=2)
+                'item_id' => int 100133
+                'num' => int 2
           'remaining_time' => int 0
           'rare_type' => int 3
       3 => 
-        array (size=3)
+         array (size=3)
           'mining_items' => 
-    array (size=3)
-      0 => 
-        array (size=2)
-          'item_id' => int 100011
-          'num' => int 5
-      1 => 
-        array (size=2)
-          'item_id' => int 100131
-          'num' => int 4
-      2 => 
-        array (size=2)
-          'item_id' => int 100133
-          'num' => int 2
+          array (size=3)
+            0 => 
+              array (size=2)
+                'item_id' => int 100011
+                'num' => int 5
+            1 => 
+              array (size=2)
+                'item_id' => int 100131
+                'num' => int 4
+            2 => 
+              array (size=2)
+                'item_id' => int 100133
+                'num' => int 2
           'remaining_time' => int 0
-          'rare_type' => int 2
+          'rare_type' => int 3
   'extra_queue_num' => int 8
  
 ```
