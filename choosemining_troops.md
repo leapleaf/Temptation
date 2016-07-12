@@ -1,4 +1,4 @@
-# 採礦 choose_mining_troops
+# 選取採礦 choose_mining_troops
 
 
 
@@ -20,8 +20,9 @@ SVN版本:
 ### 1.路徑:mining/choose_mining_troops
 
 ### 2. 說明
+選取採礦地點
 
-取得現有活動關卡,第一次call會初始1~5級,之後會在超過重製時間時call api重製該關卡,
+
 
 以pass_stage_no +-2關卡等級
 
@@ -30,6 +31,7 @@ SVN版本:
 
 | 參數 | 意義 | 型別 | 長度限制 | 說明 |版本|
 | -- | -- | -- | -- | -- | -- |
+|mining_sites|採礦地點|int|--|值為1,2,3|--|
 
 
 
