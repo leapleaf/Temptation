@@ -1,4 +1,4 @@
-# 仇敵挑戰紀錄get_cvs_revenge_record
+# 仇敵挑戰紀錄 get_cvs_revenge_record
 
 
 API編碼:2.9.1
@@ -15,7 +15,7 @@ SVN版本:
 
 發布版本:2.0.2
 
-### 1.路徑:rank/get_card_versus_record
+### 1.路徑:card_versus/get_cvs_revenge_record
 
 ### 2. 說明
 查詢競技場排名,type==0為歷史,==1為今日,==2為本周
