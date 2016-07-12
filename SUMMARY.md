@@ -104,6 +104,7 @@
    * [競技場](jing_ji_chang.md)
        * [get_cvs_loser_list](getcvs_loser_list.md)
        * [get_cvs_rival_list](getcvs_rival_list.md)
+       * get_cvs_revenge_record
 * [採礦](cai_kuang.md)
    * [choose_mining_troops](choosemining_troops.md)
    * [get_mining_troops_time](getmining_troops_time.md)
