@@ -14,7 +14,7 @@ API編碼:2.9.4
 SVN版本:
 
 
-發布版本:2.0.2
+發布版本:2.2.0
 
 ### 1.路徑:card_versus/get_cvs_loser_list
 
