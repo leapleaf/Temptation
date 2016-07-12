@@ -49,7 +49,7 @@ SVN版本:
 |140|the character does not exist|
 
 ### 6.回傳格式範例
-
+####收成3個部隊,一個在佇列中
 ```
 array (size=4)
   'err_code' => string '000' (length=3)
