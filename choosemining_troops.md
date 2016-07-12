@@ -20,7 +20,7 @@ SVN版本:
 ### 1.路徑:mining/choose_mining_troops
 
 ### 2. 說明
-選取採礦地點
+選取採礦地點,分三種,3為最高級礦區
 
 
 
@@ -40,21 +40,16 @@ SVN版本:
 | -- | -- | -- | -- | -- |--|
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
-|stages|活動關卡|array|key|--|
-|no|序列數|int|--|--|
-|pass_stage_no|已過關卡|int|0無過關,目前最高10|--|
-|stage_no|活動關卡|int|地上5關天上15關|--|
-|lv|活動關卡等級|int|--|--|
-|fought|是否打過|int|打過吐1|--|
-|reset_remainingtime|重製剩餘時間|int|低於0吐0|--|
+|remaining_time|最後一支部隊的採集時間|int|--|--|
+
 
 
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
 |--|--|
-|601|權限不足|
-|602|不屬於任何聯盟|
+|905|輸入資料格式錯誤|
+|140|the character does not exist|
 |642|科技尚未開放|
 
 ### 6.回傳格式範例
