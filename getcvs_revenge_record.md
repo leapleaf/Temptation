@@ -18,8 +18,8 @@ SVN版本:
 ### 1.路徑:card_versus/get_cvs_revenge_record
 
 ### 2. 說明
-查詢競技場排名,type==0為歷史,==1為今日,==2為本周
-ver2.0.5 type ==1為今日;type==2為本次活動;type==3為歷史
+查詢仇敵挑戰紀錄
+
 ### 3. 輸入參數說明
 
 
