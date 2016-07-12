@@ -35,6 +35,7 @@ SVN版本:
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
 |extra_queue_num|目前最多可採集的佇列數|int|--|--|
+|next_open_remaining_time|下一佇列開啟剩餘時間|int|--|--|
 |queue|採礦佇列|array|目前最多8組|--|
 |remaining_time|剩餘時間|int|--|--|
 |rare_type|採礦類型|int|1~3|--|
@@ -132,6 +133,7 @@ array (size=4)
           'remaining_time' => int 0
           'rare_type' => int 3
   'extra_queue_num' => int 8
+  'next_open_remaining_time' => int 8
  
 ```
 
