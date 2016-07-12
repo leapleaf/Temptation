@@ -32,7 +32,7 @@ SVN版本:
 | -- | -- | -- | -- | -- |--|
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
-|extra_queue_num|採礦佇列|array|目前最多7組|--|
+|extra_queue_num|採礦佇列|array|目前最多8組|--|
 |next_open_remaining_time|剩餘時間|int|--|--|
 
 
@@ -51,31 +51,8 @@ SVN版本:
 array (size=4)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'harvest_report_mail' => 
-       array (size=3)
-        0=> 109858 int
-        1=> 109859 int
-        2=> 109860 int
-  'queue' => 
-    array (size=4)
-      0 => 
-        array (size=3)
-          'mining_items' => 
-          array (size=3)
-            0 => 
-              array (size=2)
-                'item_id' => int 100011
-                'num' => int 5
-            1 => 
-              array (size=2)
-                'item_id' => int 100131
-                'num' => int 4
-            2 => 
-              array (size=2)
-                'item_id' => int 100133
-                'num' => int 2
-          'remaining_time' => int 0
-          'rare_type' => int 3
+  'extra_queue_num' => 
+
  
 ```
 
