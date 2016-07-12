@@ -105,4 +105,5 @@
        * [get_cvs_loser_list](getcvs_loser_list.md)
        * [get_cvs_rival_list](getcvs_rival_list.md)
 * [採礦](cai_kuang.md)
+   * choose_mining_troops
 
