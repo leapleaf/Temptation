@@ -36,7 +36,11 @@ SVN版本:
 | err_desc | 回傳參數碼說明 | string | -- |--|
 |extra_queue_num|目前最多可採集的佇列數|int|--|--|
 |queue|採礦佇列|array|目前最多7組|--|
-|mining_items|採礦佇列詳細|array|目前最多7組|--|
+|remaining_time|剩餘時間|int|--|--|
+|rare_type|採礦類型|int|1~3|--|
+|mining_items|採礦佇列詳細|array|目前固定3組|--|
+|item_id|道具ID|int|--|--|
+|num|道具數量|int|--|--|
 
 
 
