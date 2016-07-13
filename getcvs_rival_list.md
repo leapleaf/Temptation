@@ -46,7 +46,10 @@ SVN版本:
 |model|模型|int|--|--|
 |rank|排名|int|--|競技場排名|
 |fightable|可否攻擊|boolean|--|--|
-
+|victory_rate|勝率|float|--|--|
+|total_win|總勝場次|int|--|--|
+|total_lose|總敗場次|int|--|--|
+|score|歷史積分|int|--|--|
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
