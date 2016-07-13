@@ -1,3 +1,4 @@
+
 # 仇敵挑戰紀錄 get_cvs_revenge_record
 
 
@@ -34,7 +35,6 @@ SVN版本:
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
 |record|紀錄|array|key|--|
-|character|腳色參數|array|key|--|
 |nickname|暱稱|string|--|--|
 |alliance_name|聯盟|string|--|--|
 |alliance_sname|聯盟|string|--|--|
@@ -43,7 +43,6 @@ SVN版本:
 |victory_rate|勝率|int|--|--|
 |total_pk|總場次|int|不含平手|--|
 |avert_endtime|免戰剩餘時間|int|秒數|--|
-|rank|排名|int|--|--|
 |score|個人積分|int|--|--|
 |model|模型|int|--|--|
 |exp|經驗值|int|--|--|
