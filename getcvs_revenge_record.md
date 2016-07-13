@@ -46,7 +46,7 @@ SVN版本:
 |model|模型|int|--|--|
 |exp|經驗值|int|--|--|
 |fought|今天是否打過|bool|--|--|
-|win|勝負|int|--|--|
+|win|勝負|int|1為贏|--|
 |rank|競技場排行|int|--|--|
 |power|戰力|int|--|--|
 |online|在線|bool|--|--|
