@@ -59,9 +59,11 @@ SVN版本:
 
 ### 6.回傳格式範例
 
-
-
+ {"err_code":"000","err_desc":"success","rival_list":[{"nickname":"QQ30\u865f","lv":68,"exp":431487,"model":0,"fightable":false,"fought":false,"lose_count":11,"duty":2,"rank":0,"power":120627,"online":false,"avert_endtime":0,"alliance_name":"GGGGG","victory_rate":1,"total_win":88,"total_lose":0,"score":660,"alliance_sname":"GGG"},{"nickname":"\u5510","lv":90,"exp":24319,"model":3,"fightable":false,"fought":false,"lose_count":2,"duty":1,"rank":0,"power":130539,"online":false,"avert_endtime":0,"alliance_name":"goddamn","victory_rate":0,"total_win":0,"total_lose":0,"score":0,"alliance_sname":"ABD"},{"nickname":"\u5403\u98ef\u4e86","lv":100,"exp":873075,"model":6,"fightable":false,"fought":false,"lose_count":1,"duty":1,"rank 
 ```
+
+
+
 array (size=8)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
