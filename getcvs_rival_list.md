@@ -31,7 +31,8 @@ SVN版本:
 
 ### 4. 回傳參數說明
 | 參數 | 意義 | 型別 | 說明 |版本|
-| -- | -- | -- | -- | -- |--|
+| -- | -- | -- | -- |
+ -- |--|
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
 |rival_list|結果|array|key|--|
@@ -50,6 +51,7 @@ SVN版本:
 |total_win|總勝場次|int|--|--|
 |total_lose|總敗場次|int|--|--|
 |score|歷史積分|int|--|--|
+|last_record_time|最後戰鬥時間|string|--|--|
 
 ### 5. 錯誤代碼說明
 |錯誤代碼|意義|
