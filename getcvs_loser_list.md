@@ -50,6 +50,7 @@ SVN版本:
 |total_win|總勝場次|int|--|--|
 |total_lose|總敗場次|int|--|--|
 |score|歷史積分|int|--|--|
+|last_record_time|最後戰鬥時間|string|--|--| 
 
 
 ### 5. 錯誤代碼說明
