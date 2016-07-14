@@ -2,7 +2,7 @@
 
 
 
-API編碼:2.9.4
+API編碼:3.0.0
 
 > 
 
@@ -19,7 +19,7 @@ SVN版本:
 ### 1.路徑:rank/guinnes_record_for_boss_damage
 
 ### 2. 說明
-取得敗者人員清單,
+取得Boss最高傷害
 
 
 ### 3. 輸入參數說明
@@ -34,23 +34,12 @@ SVN版本:
 | -- | -- | -- | -- | -- |--|
 | err_code | 回傳參數碼 | string |  |--|
 | err_desc | 回傳參數碼說明 | string | -- |--|
-|loser_list|結果|array|key|--|
 |nickname|暱稱|string|--|--|
-|alliance_name|聯盟名稱|string|--|--|
-|alliance_sname|聯盟短名稱|string|--|--|
-|lv|等級|int|--|--|
-|power|戰力|int|--|--|
-|win_count|勝場數|int|--|--|
-|avert_endtime|免戰剩餘時間|int|秒數|--|
-|exp|經驗值|int|--|--|
+|no|場次|int|--|--|
+|top_damage|總傷害量|int|--|--|
 |model|模型|int|--|--|
-|rank|排名|int|--|競技場排名|
-|fightable|可否攻擊|boolean|--|--|
-|victory_rate|勝率|float|--|--|
-|total_win|總勝場次|int|--|--|
-|total_lose|總敗場次|int|--|--|
-|score|歷史積分|int|--|--|
-|last_record_time|最後戰鬥時間|string|--|--| 
+|lv|等級|int|--|--|
+
 
 
 ### 5. 錯誤代碼說明
