@@ -56,37 +56,10 @@ SVN版本:
 array (size=8)
   'err_code' => string '000' (length=3)
   'err_desc' => string 'success' (length=7)
-  'loser_list' => 
-     0 => 
-    array (size=14)
-      'nickname' => string 'QQ30號' (length=7)
-      'lv' => int 68
-      'exp' => int 431487
-      'model' => int 0
-      'fightable' => boolean false
-      'fought' => boolean false
-      'win_count' => int 1
-      'duty' => int 2
-      'rank' => int 2
-      'power' => int 83507
-      'online' => boolean false
-      'avert_endtime' => int 0
-      'alliance_name' => string 'GGGGG' (length=5)
-      'alliance_sname' => string 'GGG' (length=3)
-  1 => &
-    array (size=14)
-      'nickname' => string 'QAQ' (length=3)
-      'lv' => int 13
-      'exp' => int 6960
-      'model' => int 6
-      'fightable' => boolean false
-      'fought' => boolean true
-      'win_count' => int 1
-      'duty' => int 2
-      'rank' => int 0
-      'power' => int 65793
-      'online' => boolean false
-      'avert_endtime' => int 0
-      'alliance_name' => string 'QAQQ' (length=4)
-      'alliance_sname' => string 'QAQ' (length=3)
+  'nickname' => string 'yee' (length=3)
+  'no' => int 201
+  'top_damage' => int 40029341
+  'model' => int 1
+  'duty' => int 3
+  'lv' => int 40
 ```
