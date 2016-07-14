@@ -83,5 +83,7 @@ array (size=6)
 ............          
   'member_score' => int 1460
   'donate_cdtime' => int 0
-  'donate_lock' => boolean false```
+  'donate_lock' => boolean false
+  'top'=>1;
+  ```
 
