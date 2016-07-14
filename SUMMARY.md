@@ -106,6 +106,7 @@
        * [get_cvs_rival_list](getcvs_rival_list.md)
        * [get_cvs_revenge_record](getcvs_revenge_record.md)
    * [Boss最高傷害](bosszui_gao_shang_hai.md)
+   * 升級獎勵
 * [採礦](cai_kuang.md)
    * [choose_mining_troops](choosemining_troops.md)
    * [get_mining_troops_time](getmining_troops_time.md)
