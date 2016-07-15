@@ -15,8 +15,13 @@ SVN版本:
 新增部隊血量歸0,30秒復活機制
 
 
-新增輸入參數use_items,回傳參數:attack_rate
+回傳參數:attack_rate
+
+v2.2.1:新增回傳參數can_attack,server不擋由client判斷是否要送攻擊
+
 #####移除復活球,以下不用看
+
+新增輸入參數use_items,
 
 新增復活球,攻擊間隔隨機5~10秒,爆擊判定,miss判定,回血
 
