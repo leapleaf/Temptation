@@ -46,7 +46,8 @@ SVN版本:
 |--|--|
 |905|輸入資料格式錯誤|
 |140|the character does not exist|
-|642|科技尚未開放|
+|271|mining troop num is over|
+|272|同一礦區不得超過4隊|
 
 ### 6.回傳格式範例
 
