@@ -4,7 +4,6 @@
    * [template](template.md)
    * [schdule](schdule.md)
    * 哈德斯塔排程
-   * 問題處理流程
 * [聯盟](chapter1.md)
    * [建立聯盟 create_alliance](1.md)
    * [設定聯盟名稱 set_alliance_name](2.md)
@@ -33,6 +32,7 @@
        * [alliance_application](allianceapplication.md)
        * [get_alliance_application](get_alliance_application.md)
        * [apply_alliance_application](apply_alliance_application.md)
+* 問題處理流程
 * [聯盟權限](alliance_position.md)
    * [聯盟提權 alliance_promote_position](alliance_promote_position.md)
    * [聯盟降權 alliance_demote_position](alliance_demote_position.md)
