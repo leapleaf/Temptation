@@ -7,7 +7,7 @@ API編碼:2.2.4
 
 SVN版本:
 
-發布版本:2.0.6,2.0.8
+發布版本:2.0.6,2.0.8,2.2.1
 ### 1.路徑:fight/boss_fight
 
 ### 2. 說明
@@ -109,6 +109,7 @@ pet_hp == 0時,當ball_used ==false &&enegy_percent==100才會使用
 |ball_used|此復活球是否用過|boolean|--|
 |attack_rate|此次攻擊倍率|float|--|
 |revive_remaingtime|復活CD|int|--|2.0.8|
+|can_attack|可否攻擊|bool|--|2.2.1|
 
 
 
