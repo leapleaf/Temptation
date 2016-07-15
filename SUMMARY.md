@@ -4,6 +4,7 @@
    * [template](template.md)
    * [schdule](schdule.md)
    * 哈德斯塔排程
+   * 問題處理流程
 * [聯盟](chapter1.md)
    * [建立聯盟 create_alliance](1.md)
    * [設定聯盟名稱 set_alliance_name](2.md)
@@ -83,14 +84,6 @@
        * [取得聯盟聊天 get_chat](get_chat.md)
        * [角色情報](get_character.md)
    * [ver 1.4.0](ver_140.md)
-   * [boss改版](bossgai_ban.md)
-       * [設定Boss排程 boss_fight_set_schdule](boss_fight_set_schdule.md)
-       * [取得當前boss資訊 get_boss_activity2](getbossactivity2.md)
-       * [boss戰報名](bosszhan_bao_ming.md)
-       * [boss戰設置 boss_fight_setup](bossfight_setup.md)
-       * [boss_fight](bossfight.md)
-       * [boss_fight_info](bossfight_info.md)
-       * [boss_fight_rank2](bossfight_rank2.md)
    * [ver 2.0.3](ver_203.md)
    * [ver 2.0.5](ver_205.md)
        * [enter_card_versus_arena](entercard_versus_arena.md)
