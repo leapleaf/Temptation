@@ -17,7 +17,13 @@ SVN版本:
 
 回傳參數:attack_rate
 
-v2.2.1:新增回傳參數can_attack,server不擋由client判斷是否要送攻擊
+v2.2.2:新增回傳參數can_attack,server不擋由client判斷是否要送攻擊
+
+新增satan_remaining_time,當can_attack為true時恆為0,
+
+當can_attack為false表示satan施放大絕,satan_remaining_time會從20開始倒數,boss不會攻擊
+
+此時若satan_remaining_time遞減至0時,boss攻擊會是3倍
 
 #####移除復活球,以下不用看
 
