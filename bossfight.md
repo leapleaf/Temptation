@@ -114,7 +114,8 @@ pet_hp == 0時,當ball_used ==false &&enegy_percent==100才會使用
 |ball_used|此復活球是否用過|boolean|--|
 |attack_rate|此次攻擊倍率|float|--|
 |revive_remaingtime|復活CD|int|--|2.0.8|
-|can_attack|可否攻擊|bool|--|2.2.1|
+|can_attack|可否攻擊|bool|--|2.2.2|
+|satan_remaining_time|撒旦攻擊時間|int|距離|2.2.2|
 
 
 
