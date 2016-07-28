@@ -18,6 +18,21 @@ SVN版本:15356.
 > 
 
 發布版本:2.0.0
+
+
+關聯資料庫:
+
+C:create;R:read;U:update;D:delete;
+
+|Table Name|行為|備註|
+|--|--|--|
+|alliance|R|--|
+|character|R,U|--|
+|alliance_member|R,C|--|
+|alliance_tech|C|--|
+|alliance_invitation|C|--|
+
+
 ### 1.路徑:alliance_member/join_alliance
 
 ### 2. 說明
