@@ -17,6 +17,22 @@ SVN版本:Committed revision 15054.15353.15372.
 > 
 
 發布版本:2.0.0
+
+
+關聯資料庫:
+
+C:create;R:read;U:update;D:delete;
+
+|Table Name|行為|備註|
+|--|--|--|
+|alliance|R|--|
+|character|R|--|
+|alliance_member|R|--|
+|world_map|R|--|
+|VIP_pet|R|--|
+|Rank_Power_list|R|--|
+
+
 ### 1.路徑:alliance_member/get_member_list
 
 ### 2. 說明
