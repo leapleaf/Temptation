@@ -14,6 +14,18 @@ SVN版本:15427.
 > 
 
 發布版本:2.0.0
+
+關聯資料庫:
+
+C:create;R:read;U:update;D:delete;
+
+|Table Name|行為|備註|
+|--|--|--|
+|alliance|R|--|
+|character|R|--|
+|alliance_member|R|--|
+|alliance_tech|C,R,U|--|
+|alliance_donate_history|C|--|
 ### 1.路徑:alliance_tech/alliance_tech_research
 
 ### 2. 說明
