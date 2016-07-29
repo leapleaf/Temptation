@@ -4,7 +4,7 @@ phpMyAdmin請育騰先生改;改好之後參考下列文件:
 
 https://www.evernote.com/shard/s167/sh/0b3e9fe5-eeca-4d16-afe4-b320e30439e7/427112e08be5daaf084ead14b5524edc
 
-設定Config.php 
+設定common/Config.php
 ```
 public static $DBSERVER = "127.0.0.1";
 /* Set the name of the database you wish to connect to /
