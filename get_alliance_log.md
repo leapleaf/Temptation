@@ -33,7 +33,7 @@ C:create;R:read;U:update;D:delete;
 |alliance|R|--|
 |character|R|--|
 |alliance_member|R|--|
-|alliance_log|C|--|
+|alliance_log|R|--|
 
 ### 1.路徑:alliance/get_alliance_log
 
