@@ -19,6 +19,17 @@ SVN版本:15501.
 > 
 
 發布版本:2.0.0
+
+關聯資料庫:
+
+C:create;R:read;U:update;D:delete;
+
+|Table Name|行為|備註|
+|--|--|--|
+|alliance|R|--|
+|character|R|--|
+|alliance_member|R|--|
+|alliance_donate_history|R|--|
 ### 1.路徑:rank/get_alliance_donate_rank
 
 ### 2. 說明
