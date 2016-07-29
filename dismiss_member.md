@@ -16,9 +16,23 @@ API編碼:2.0.10
 
 SVN版本:15358.
 
-> 
+
 
 發布版本:2.0.0
+
+
+關聯資料庫:
+
+C:create;R:read;U:update;D:delete;
+
+|Table Name|行為|備註|
+|--|--|--|
+|alliance|R|--|
+|character|R|--|
+|alliance_member|R,D|--|
+|alliance_donate_history|D|--|
+
+
 ### 1.路徑:alliance/dismiss_member
 
 ### 2. 說明
