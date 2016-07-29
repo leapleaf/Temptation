@@ -23,7 +23,7 @@ C:create;R:read;U:update;D:delete;
 
 |Table Name|行為|備註|
 |--|--|--|
-|alliance|R,U|--|
+|alliance|R|--|
 |character|R|--|
 |alliance_member|R,C|--|
 |character_mail|U,D|--|
