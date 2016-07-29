@@ -4,9 +4,8 @@
 
 
 
-### sendMailAlliance($ValueControl, $Localization, $character_id, $findid->id, $reward, 640024, 630014, 8, 0)[下午 06:21:59] Magus: //640024 630014 為好友邀請 聯盟要換
 
-type = 8 subtype = 2
+
 
 
 API編碼:2.0.13
@@ -24,10 +23,25 @@ SVN版本:15359.
 > 
 
 發布版本:2.0.0
+
+
+關聯資料庫:
+
+C:create;R:read;U:update;D:delete;
+
+|Table Name|行為|備註|
+|--|--|--|
+|alliance|R,D|--|
+|world_map|D|--|
+|alliance_tech|D|--|
+|character|R|--|
+|alliance_member|R,D|--|
+|alliance_donate_history|D|--|
+|alliance_log|D|--|
 ### 1.路徑:alliance/send_alliance_invitation
 
 ### 2. 說明
-寄出邀請信，目前只有新人不能寄出
+寄出邀請信，目前只有新人不能寄出,mail格式:type = 8 subtype = 2
 ### 3. 輸入參數說明
 | 參數 | 意義 | 型別 |長度限制| 說明 |
 | -- | -- | -- | -- | -- |
