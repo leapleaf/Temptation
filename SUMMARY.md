@@ -25,7 +25,7 @@
    * [聯盟廣播 send_msg_to_all_member](send_msg_to_all_member.md)
    * [接受聯盟邀請 accept_alliance_invitation](accept_alliance_invitation.md)
    * [取得聯盟日誌 get_alliance_log](get_alliance_log.md)
-   * [*記錄聯盟日誌 add_alliance_log](add_alliance_log.md)
+   * [記錄聯盟日誌 add_alliance_log](add_alliance_log.md)
    * [公開聯盟輪播 alliance_carousel_recruit](alliancecarousel_recruit.md)
    * [聯盟變更內部布告 alliance_change_bulletin](alliancechange_bulletin.md)
    * [聯盟變更公開宣言 alliance_change_intro](alliancechange_intro.md)
