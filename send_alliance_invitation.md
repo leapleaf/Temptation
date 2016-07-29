@@ -31,13 +31,11 @@ C:create;R:read;U:update;D:delete;
 
 |Table Name|行為|備註|
 |--|--|--|
-|alliance|R,D|--|
-|world_map|D|--|
-|alliance_tech|D|--|
+|alliance|R|--|
 |character|R|--|
-|alliance_member|R,D|--|
-|alliance_donate_history|D|--|
-|alliance_log|D|--|
+|account|R|--|
+|character_mail|C,R|--|
+|alliance_member|R|--|
 ### 1.路徑:alliance/send_alliance_invitation
 
 ### 2. 說明
