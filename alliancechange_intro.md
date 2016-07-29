@@ -20,6 +20,17 @@ SVN版本:153??.
 > 
 
 發布版本:2.0.0
+
+
+關聯資料庫:
+
+C:create;R:read;U:update;D:delete;
+
+|Table Name|行為|備註|
+|--|--|--|
+|alliance|R,U|--|
+|character|R|--|
+|alliance_member|R|--|
 ### 1.路徑:alliance/alliance_change_intro
 
 ### 2. 說明
