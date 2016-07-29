@@ -25,9 +25,8 @@ C:create;R:read;U:update;D:delete;
 |--|--|--|
 |alliance|R|--|
 |character|R|--|
-|alliance_member|R,C|--|
-|character_mail|U,D|--|
-|alliance_invitation|R,D|--|
+|alliance_member|R|--|
+|alliance_invitation|R|--|
 ### 1.路徑:alliance_member/get_alliance_application
 
 ### 2. 說明
