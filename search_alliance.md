@@ -30,7 +30,7 @@ C:create;R:read;U:update;D:delete;
 |alliance|R|--|
 |character|R|--|
 |alliance_member|R|--|
-|alliance|R--|
+|alliance|RL--|
 
 ### 1.路徑:alliance/search_alliance
 
