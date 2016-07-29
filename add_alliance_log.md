@@ -15,6 +15,19 @@ SVN版本:15358.15506,15515.
 > 
 
 發布版本:2.0.0
+
+
+關聯資料庫:
+
+C:create;R:read;U:update;D:delete;
+
+|Table Name|行為|備註|
+|--|--|--|
+|alliance|R|--|
+|character|R|--|
+|alliance_member|R|--|
+|alliance_log|C|--|
+
 ### 1.路徑:alliance/add_alliance_log
 
 ### 2. 說明
