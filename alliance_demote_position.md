@@ -16,6 +16,17 @@ SVN版本:15458.
 > 
 
 發布版本:2.0.0
+
+關聯資料庫:
+
+C:create;R:read;U:update;D:delete;
+
+|Table Name|行為|備註|
+|--|--|--|
+|alliance|R|--|
+|character|R|--|
+|alliance_member|R,U|--|
+|character_mail|C|--|
 ### 1.路徑:alliance/alliance_demote_position
 
 ### 2. 說明
