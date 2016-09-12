@@ -115,6 +115,7 @@
     * [get\_mining\_troops\_time](getmining_troops_time.md)
     * [harvest\_mining\_items](harvestmining_items.md)
     * [open\_mining\_by\_gold](openmining_by_gold.md)
-* [哈德斯塔 - 入塔](哈德斯塔 - 入塔.md)
 * [哈德斯塔](哈德斯塔.md)
+    * [哈德斯塔 - 樓層移動](哈德斯塔 - 樓層移動.md)
+    * [哈德斯塔 - 入塔](哈德斯塔 - 入塔.md)
 
