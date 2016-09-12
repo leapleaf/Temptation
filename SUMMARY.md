@@ -116,9 +116,10 @@
     * [harvest\_mining\_items](harvestmining_items.md)
     * [open\_mining\_by\_gold](openmining_by_gold.md)
 * [哈德斯塔](哈德斯塔.md)
-    * [哈德斯塔－樓層移動](哈德斯塔 - 樓層移動.md)
     * [哈德斯塔－進塔](哈德斯塔 - 入塔.md)
+    * [哈德斯塔－檢查是否在塔中](哈德斯塔－檢查是否在塔中.md)
+    * [哈德斯塔－樓層移動](哈德斯塔 - 樓層移動.md)
     * [哈德斯塔－退塔](哈德斯塔－退塔.md)
     * [Template](template.md)
-    * [哈德斯塔－檢查是否在塔中](哈德斯塔－檢查是否在塔中.md)
+    * [哈德斯塔－清塔](哈德斯塔－清塔.md)
 
