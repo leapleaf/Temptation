@@ -122,4 +122,6 @@
     * [哈德斯塔－退塔](哈德斯塔－退塔.md)
     * [Template](template.md)
     * [哈德斯塔－清塔](哈德斯塔－清塔.md)
+* [成就系統\(Achievement\)](成就系統achievement.md)
+    * [成就－取得成就項目](成就－取得成就項目.md)
 
